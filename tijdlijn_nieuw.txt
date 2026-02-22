@@ -1,0 +1,71 @@
+TIJDLIJN NIEUW (op basis van documenten in dossiermap)
+Laatste update: 2026-02-22
+
+Bronnen gebruikt (geen wav/mp4):
+- /home/peter/Documents/keerbergen/mama/dossier/website/documents/voorlopig_deskundig_verslag.html
+- /home/peter/Documents/keerbergen/mama/dossier/website/documents/afspraak_spoedgevallen.html
+- /home/peter/Documents/keerbergen/mama/dossier/website/documents/aanvraag_iv_datum_omschrijving_schade.html
+- /home/peter/Documents/keerbergen/mama/dossier/website/documents/202411n002_tse_overlijden_opdracht_dr_dubois.html
+- /home/peter/Documents/keerbergen/mama/dossier/website/mails/mail0.txt
+- /home/peter/Documents/keerbergen/mama/dossier/website/mails/mail_rossenbacker.txt
+- /home/peter/Documents/keerbergen/mama/dossier/website/mails/vraag_imalda.txt
+- /home/peter/Documents/keerbergen/mama/dossier/website/mails/antwoord_imalda.txt
+- /home/peter/Documents/keerbergen/mama/dossier/website/mails/reactie_hoorzitting_simon.txt
+- /home/peter/Documents/keerbergen/mama/dossier/website/mails/anke_vier_vragen_tendentieuze_verslaggving.txt
+- /home/peter/Documents/keerbergen/mama/dossier/website/mails/fmo_uitbreiding.txt
+- /home/peter/Documents/keerbergen/mama/dossier/transcript_tel.txt
+- /home/peter/Documents/keerbergen/mama/dossier/transcript_peter_dokter_timestamps.txt
+- /home/peter/Documents/keerbergen/mama/dossier/mijndoc.org
+
+======================================================================
+1) CHRONOLOGIE (bron-gebaseerd)
+======================================================================
+2023-03-26  Spoed AZ Sint-Maarten (duizelig/syncopaal, VKF gedocumenteerd).
+2023-04-04  Raadpleging cardiologie Imelda; traject naar ablatie besproken.
+2023-05-03  Raadpleging cardiologie Imelda; informed consent voor VKF-ablatie.
+2023-07-31  Opname + ablatie (isolatie vier pulmonale venen) door dr. Rossenbacker.
+2023-08-15  Spoed Imelda (13:12): thoracale pijn; CRP 9.7; advies: controle bloedname na 2 dagen + dringende cardiologie-afspraak.
+2023-08-18  Tweede bloedname/laboresultaten Somedi (volgens dossier en latere verwijzingen).
+2023-08-19  Telefonisch consult wachtpost Heist (dr. Gerlo): malaise/duizelig; CRP 84 vermeld op staal 18/08.
+2023-08-21  Contactverslag dr. Hugo De Greef (thoracale pijn).
+
+2023-08-22  Telefonisch contact met dr. Rossenbacker (inhoud later betwist tussen partijen).
+
+2023-08-22  Mail van Mieke Brasseur aan kinderen (18:01), met beschrijving van 15-22 augustus en "Hopelijk gaat die infectie vlug voorbij zijn."
+2023-08-27  Opname via spoed naar cardiologie (in verslag ook opmerking: ambulance na val in keuken).
+2023-08-29  Respiratoir arrest, intubatie, transfer IZ (volgens voorlopig deskundig verslag).
+2023-08-30  Overlijden in bijzijn van familie (volgens voorlopig deskundig verslag).
+2023-10-27  Gesprek familie met dr. Rossenbacker (gerefereerd in mail van 08-11-2023).
+2023-11-08  Mail dr. Rossenbacker aan familie (toelichting dossier/communicatie).
+2023-11-12  Mail familie aan Imelda (vraag naar rechten/klachtkanalen).
+2023-11-21  Validatiedatum spoedverslag 15/08 in document "Afspraak spoedgevallen".
+2023-12-18  Antwoord ombudsdienst Imelda.
+2024-12-20  Adviesaanvraag bij FMO ingediend (vermeld in FMO-document).
+2025-06-16  Brief FMO aan dr. Dubois (opdracht tegensprekelijke expertise).
+2025-11-27  Expertisezitting (Antwerpen, Hazelarenstraat 7).
+2026-01-23  Voorlopig deskundig verslag (Antwerpen, datum in document).
+2026-02-06  Reactie van dr. Simon Daenen op voorlopig verslag.
+2026-02-10  Reactie van Anke Helsen (4 vragen / kritiek op voorlopig verslag).
+2026-02-17  FMO breidt expertise uit met bijkomende zorgverleners en kondigt nieuwe zitting aan.
+
+======================================================================
+2) BETWISTE / INCONSISTENTE PUNTEN TUSSEN BRONNEN
+======================================================================
+- Overlijdensdatum: in meerdere medische stukken 30-08-2023; in mail van 06-02-2026 staat "overlijden ... op 29 augustus".
+- Inhoud telefonisch contact 22-08-2023 met dr. Rossenbacker: verklaringen lopen uiteen tussen familie en arts.
+- Beschikbaarheid/zichtbaarheid spoedverslag van 15-08-2023: in bronnen tegenstrijdige verklaringen.
+- Oorzaakformulering overlijden: in bronnen "sepsis" en "etiologie niet met zekerheid vastgesteld"; dus causale duiding blijft deels onzeker.
+- Portaaldatum document "202411N002 TSE overlijden opdracht Dr. Dubois": index toont 16 jun 2026, maar documenttekst vermeldt Brussel 16-06-2025.
+
+======================================================================
+3) WAAR OORSPRONKELIJKE TIJDLIJN MOGELIJK FOUT IS
+   (vergelijking met /home/peter/Documents/keerbergen/mama/dossier/tijdlijn.txt)
+======================================================================
+1. Regel 1 bevat typfout: "jmaandag".
+2. Regel 2 zet ook op 01/08 "ablatie"; in de documenten staat de ablatie op 31/07/2023.
+3. Regel 33 "bezwijkt aan infectie -> naar spoed" is te stellig geformuleerd voor het moment van opname; bronstukken beschrijven presentatie via spoed met vervolgens snelle achteruitgang.
+4. Regel 36 bevat "17h"; dit exacte uur is niet teruggevonden in de geraadpleegde documenten.
+5. Regel 36 "sterft aan bacteriële INFECTIE" is inhoudelijk te hard geformuleerd: meerdere stukken spreken over sepsis met etiologie niet zeker vastgesteld.
+6. De oude tijdlijn bevat enkel een venster 31/07-30/08 en mist de relevante voor- en nageschiedenis (26/03/2023 t.e.m. 17/02/2026).
+
+Einde.

@@ -113,6 +113,43 @@ td {
   border-color: var(--valerie-line);
 }
 
+.rossenbacker {
+  background: #eaf0f7;
+  color: #29405a;
+  border-color: #cad8e7;
+}
+
+.anke {
+  background: #eaf8ef;
+  color: #285136;
+  border-color: #cae7d3;
+}
+
+.simon {
+  background: #eff2f5;
+  color: #3d4a59;
+  border-color: #d6dde5;
+}
+
+.greet {
+  background: #f7eee6;
+  color: #644834;
+  border-color: #e5d3c3;
+}
+
+.note {
+  background: #f4f6f8;
+  color: #4d5968;
+  border-color: #dce3ea;
+  font-style: italic;
+}
+
+.unclear {
+  background: #fff5df;
+  color: #7b5b1d;
+  border-color: #f1dfb1;
+}
+
 @media (max-width: 760px) {
   td {
     font-size: 14px;
