@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zoeken - Dossier</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/search.css" />
+    <script src="scripts/search.js" defer></script>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <header class="header">
+          <div class="page-links">
+            <a class="page-link" href="index.html">Portaal</a>
+          </div>
+          <h1 class="title">Zoeken in mails, documenten en transcripten</h1>
+          <p class="subtitle">Resultaten op basis van de links in het portaal.</p>
+        </header>
+
+        <section class="search-panel" aria-label="Zoekformulier">
+          <form id="search-form" class="search-form" action="search.html" method="get">
+            <label class="sr-only" for="query">Zoekterm</label>
+            <input
+              id="query"
+              name="q"
+              class="search-input"
+              type="search"
+              placeholder="Zoek op naam, onderwerp, inhoud..."
+              autocomplete="off"
+            />
+            <button class="search-button" type="submit">Zoek</button>
+          </form>
+          <p id="search-status" class="search-status">Indexeren van documenten...</p>
+        </section>
+
+        <ul id="search-results" class="search-results" aria-live="polite"></ul>
+      </section>
+    </main>
+  </body>
+</html>

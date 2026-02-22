@@ -1,0 +1,835 @@
+[
+  {
+    "start": 39.92,
+    "end": 42.92,
+    "text": "Ja, goeiendag, ik had net de oploep gemist, denk ik.",
+    "db": -16.040279778240773,
+    "speaker": "peter"
+  },
+  {
+    "start": 42.92,
+    "end": 51.84,
+    "text": "Ah, prima. Oké.",
+    "db": -26.95314057655805,
+    "speaker": "dokter"
+  },
+  {
+    "start": 51.84,
+    "end": 63.39,
+    "text": "Ja, dus ja, mijn mama is bij jou genomen groen gekomen toen voor een bloedafname.",
+    "db": -17.661403141620166,
+    "speaker": "peter"
+  },
+  {
+    "start": 63.39,
+    "end": 66.39,
+    "text": "En ik had daar wat vragen over het eerste was.",
+    "db": -17.027763103619698,
+    "speaker": "peter"
+  },
+  {
+    "start": 66.39,
+    "end": 72.12,
+    "text": "Of dat jij u dan ook herinnerd, toevallig.",
+    "db": -18.8181344427606,
+    "speaker": "peter"
+  },
+  {
+    "start": 72.12,
+    "end": 75.12,
+    "text": "Ja, en weet jij ook nog?",
+    "db": -18.28888284634412,
+    "speaker": "peter"
+  },
+  {
+    "start": 75.12,
+    "end": 78.12,
+    "text": "Met welke vragen dat zij toen kwam ofzo?",
+    "db": -15.606432751498982,
+    "speaker": "peter"
+  },
+  {
+    "start": 78.12,
+    "end": 99.42,
+    "text": "Wat is dat?",
+    "db": -30.620970571976006,
+    "speaker": "dokter"
+  },
+  {
+    "start": 99.42,
+    "end": 107.59,
+    "text": "Ja, ja.",
+    "db": -27.38768391466524,
+    "speaker": "dokter"
+  },
+  {
+    "start": 107.59,
+    "end": 118.42,
+    "text": "Omnodigd?",
+    "db": -33.45129788873638,
+    "speaker": "dokter"
+  },
+  {
+    "start": 118.42,
+    "end": 137.61,
+    "text": "Ja, ja.",
+    "db": -28.559280173713454,
+    "speaker": "dokter"
+  },
+  {
+    "start": 137.61,
+    "end": 159.48,
+    "text": "Ja, ja.",
+    "db": -30.995919022933798,
+    "speaker": "dokter"
+  },
+  {
+    "start": 159.48,
+    "end": 162.73,
+    "text": "Oké, zo.",
+    "db": -23.325371589804927,
+    "speaker": "dokter"
+  },
+  {
+    "start": 162.73,
+    "end": 164.73,
+    "text": "Maar ja...",
+    "db": -19.136542080180952,
+    "speaker": "peter"
+  },
+  {
+    "start": 164.73,
+    "end": 168.73,
+    "text": "Nee, nee, maar zeg het jij maar, want...",
+    "db": -18.767037095176985,
+    "speaker": "peter"
+  },
+  {
+    "start": 168.73,
+    "end": 171.73,
+    "text": "Ik vind het wel goed dat we allemaal nog eens horen.",
+    "db": -24.500431278132105,
+    "speaker": "dokter"
+  },
+  {
+    "start": 171.73,
+    "end": 182.75,
+    "text": "Ja, ik hoor dat.",
+    "db": -31.308320837094282,
+    "speaker": "dokter"
+  },
+  {
+    "start": 182.75,
+    "end": 187.98,
+    "text": "Ja, oké.",
+    "db": -26.93160861154451,
+    "speaker": "dokter"
+  },
+  {
+    "start": 187.98,
+    "end": 191.98,
+    "text": "Ja, oké.",
+    "db": -15.978737013407404,
+    "speaker": "peter"
+  },
+  {
+    "start": 191.98,
+    "end": 203.47,
+    "text": "En de greef was dan uit vakantie terug.",
+    "db": -23.941895233838196,
+    "speaker": "dokter"
+  },
+  {
+    "start": 203.47,
+    "end": 209.47,
+    "text": "Ze heeft dan de 27e toen op een feestbewaarde net toevallig,",
+    "db": -17.785959078146696,
+    "speaker": "peter"
+  },
+  {
+    "start": 209.47,
+    "end": 212.47,
+    "text": "is ze zo flauw gevallen eigenlijk.",
+    "db": -19.58125797077873,
+    "speaker": "peter"
+  },
+  {
+    "start": 212.47,
+    "end": 214.47,
+    "text": "En dan heel kort daarna in komen.",
+    "db": -20.031134946865524,
+    "speaker": "peter"
+  },
+  {
+    "start": 214.47,
+    "end": 224.62,
+    "text": "En dan is het eindelijk de 30e augustus overleden.",
+    "db": -28.398029441369847,
+    "speaker": "dokter"
+  },
+  {
+    "start": 224.62,
+    "end": 229.62,
+    "text": "Ja, de nacht tiende was die bloedafname denk ik dan.",
+    "db": -16.17252273269592,
+    "speaker": "peter"
+  },
+  {
+    "start": 229.62,
+    "end": 242.41,
+    "text": "Ja, in de 27e, ja, in de 27e, de 27e, dus ja, een week en een dag later is het dus vlaaggevallen en was het eigenlijk al te laat toen.",
+    "db": -18.6365478103873,
+    "speaker": "peter"
+  },
+  {
+    "start": 242.41,
+    "end": 246.41,
+    "text": "Om maar nog te rijden, dus het is wel heel rap gegaan.",
+    "db": -23.09853748179318,
+    "speaker": "dokter"
+  },
+  {
+    "start": 246.41,
+    "end": 254.41,
+    "text": "Ja, we zitten ook wel met vragen, met de communicatie, inderdaad tussen de verschillende mensen enzo,",
+    "db": -16.97387275051515,
+    "speaker": "peter"
+  },
+  {
+    "start": 254.41,
+    "end": 273.65,
+    "text": "Ze heeft dan zelf gebeld naar de cardioloog, ze heeft dan zelf gebeld naar de cardioloog, maar de cardioloog heeft dan gezegd dat het niet dringend was omdat het spijtig natuurlijk.",
+    "db": -17.889208723077605,
+    "speaker": "peter"
+  },
+  {
+    "start": 273.65,
+    "end": 283.65,
+    "text": "Maar de cardioloog bleek ook het moment van telefoongesprek niet te beschikken over geen één of twee bloedafname waarde.",
+    "db": -17.786524829525817,
+    "speaker": "peter"
+  },
+  {
+    "start": 283.65,
+    "end": 289.05,
+    "text": "En daar zijn we nu zo'n beetje naar het opzoek waar het daar misgelopen is.",
+    "db": -17.915396295379253,
+    "speaker": "peter"
+  },
+  {
+    "start": 289.05,
+    "end": 296.45,
+    "text": "Hij zei ook wel, in zijn mail hier, waar ga je even zijn mail erbij halen, hè.",
+    "db": -17.074047001062308,
+    "speaker": "peter"
+  },
+  {
+    "start": 296.45,
+    "end": 299.05,
+    "text": "Wacht, dat is een dezen.",
+    "db": -31.10344947714987,
+    "speaker": "dokter"
+  },
+  {
+    "start": 299.05,
+    "end": 308.02,
+    "text": "Hij zei toen, toen we zijn daar mee gaan spreken allen en hij heeft toen gezegd",
+    "db": -19.986258824893234,
+    "speaker": "peter"
+  },
+  {
+    "start": 308.02,
+    "end": 311.82,
+    "text": "dat hij geen verslag kon vinden van de eerste loedafname toe.",
+    "db": -17.26519505540715,
+    "speaker": "peter"
+  },
+  {
+    "start": 311.82,
+    "end": 317.82,
+    "text": "En u zegt nu dat u ook geen verslag had, eigenlijk, he.",
+    "db": -18.325763837609095,
+    "speaker": "peter"
+  },
+  {
+    "start": 317.82,
+    "end": 320.82,
+    "text": "Van die een en een meld.",
+    "db": -18.964289843195466,
+    "speaker": "peter"
+  },
+  {
+    "start": 320.82,
+    "end": 324.82,
+    "text": "Maar in de mails schrijft het dan dat hij ondertussen toch een verslag heeft gevonden.",
+    "db": -16.203035166071416,
+    "speaker": "peter"
+  },
+  {
+    "start": 324.82,
+    "end": 327.82,
+    "text": "Dit is er echter.",
+    "db": -19.99420076137901,
+    "speaker": "peter"
+  },
+  {
+    "start": 327.82,
+    "end": 332.82,
+    "text": "Het is een ongevalideerd verslag van Dr. de Laus Naie of zoiets.",
+    "db": -17.00355869288134,
+    "speaker": "peter"
+  },
+  {
+    "start": 332.82,
+    "end": 334.82,
+    "text": "Organsigenis kunnen.",
+    "db": -23.970851559821682,
+    "speaker": "dokter"
+  },
+  {
+    "start": 334.82,
+    "end": 346.97,
+    "text": "Weet u wat dat betekent een ongevalideerd verslag?",
+    "db": -21.600867842167197,
+    "speaker": "peter"
+  },
+  {
+    "start": 346.97,
+    "end": 350.97,
+    "text": "Ja, vandaar dat u dat niet heeft en zij wel dan, oké.",
+    "db": -16.779781419114357,
+    "speaker": "peter"
+  },
+  {
+    "start": 350.97,
+    "end": 357.47,
+    "text": "Maar dan, ja, dan zegt hij ook als het dan gaat over de tweede bloedafname,",
+    "db": -15.613114580766352,
+    "speaker": "peter"
+  },
+  {
+    "start": 357.47,
+    "end": 362.77,
+    "text": "staat er maar één zinneke, de art die de bloedafname dan uitvoert,",
+    "db": -17.04611461219869,
+    "speaker": "peter"
+  },
+  {
+    "start": 362.77,
+    "end": 367.97,
+    "text": "volgt de resultaat op en onderneemt al de niet-verdere actieschrift die dan in zijn mail.",
+    "db": -19.009535686392695,
+    "speaker": "peter"
+  },
+  {
+    "start": 367.97,
+    "end": 371.47,
+    "text": "Maar eigenlijk dus u heeft dat bij een laboratorium laten doen",
+    "db": -13.961789477613955,
+    "speaker": "peter"
+  },
+  {
+    "start": 371.47,
+    "end": 374.47,
+    "text": "en dan gebeld naar Dr. de Greef.",
+    "db": -16.848742640503314,
+    "speaker": "peter"
+  },
+  {
+    "start": 374.47,
+    "end": 390.47,
+    "text": "Dr. de Grijf heeft dan geprobeerd contact op te nemen met de cardioloog, wat dat aangelukt is uiteindelijk, en dan heeft de cardioloog mijn mama teruggebeld.",
+    "db": -16.95576515711303,
+    "speaker": "peter"
+  },
+  {
+    "start": 390.47,
+    "end": 400.47,
+    "text": "En dan gezegd, er is niks reent, maar hij heeft met geneem van die twee bloedafnamensrekening gehouden.",
+    "db": -18.511276932057903,
+    "speaker": "peter"
+  },
+  {
+    "start": 400.47,
+    "end": 402.47,
+    "text": "Niet de eerste, niet de tweede.",
+    "db": -18.51465901755368,
+    "speaker": "peter"
+  },
+  {
+    "start": 402.47,
+    "end": 414.47,
+    "text": "En nu zitten wij er dus wel mee, er zijn twee bloedafnames gebeurd die super relevant waren, dat was de CRP 1-9, denk ik als ik dat niet vergis.",
+    "db": -17.718275334245483,
+    "speaker": "peter"
+  },
+  {
+    "start": 414.47,
+    "end": 420.47,
+    "text": "Dat dat praktisch niks is naar 85 bij de GNDU heeft afgenomen, als ik denk dat het al juist op is.",
+    "db": -19.2181141693616,
+    "speaker": "peter"
+  },
+  {
+    "start": 420.47,
+    "end": 426.47,
+    "text": "En vooral ook, niet alleen het getal, maar vooral ook de progressie op die korte tijd.",
+    "db": -16.485121593311987,
+    "speaker": "peter"
+  },
+  {
+    "start": 426.47,
+    "end": 431.47,
+    "text": "En we konden er tussen door dat dat toch moet alarmbellen doen af gaan.",
+    "db": -18.621390738711618,
+    "speaker": "peter"
+  },
+  {
+    "start": 431.47,
+    "end": 448.47,
+    "text": "Maar dan is mijn vraag hier, er is ergens duidelijk een fout in communicatie en ik denk, ja, je hebt dan gebeld naar dokter Degreve, dus ik vermoed dat jij je werk prima gedaan hebt en het is daarom dat ik het ook verder aan u vragen dan, waar zitten volgens u hier de fout in de communicatie?",
+    "db": -16.668380289907766,
+    "speaker": "peter"
+  },
+  {
+    "start": 448.47,
+    "end": 465.21,
+    "text": "Ja, want de greef bellt dan wel naar die endokter, maar die endokter bekijkt dan die bloedwaardes niet en heeft dan ook op dat moment niet eens beschikking,",
+    "db": -18.086396694003604,
+    "speaker": "peter"
+  },
+  {
+    "start": 465.21,
+    "end": 468.21,
+    "text": "zoals ik het goed begrijp, tot die tweede bloed afnamen.",
+    "db": -19.775040858221573,
+    "speaker": "peter"
+  },
+  {
+    "start": 468.21,
+    "end": 476.21,
+    "text": "Ik weet zelfs nog niet of dat die zelfs nu beschikbaar is in melda, dat heb ik nog geen idee, want ik vermoed van die zelfs.",
+    "db": -18.802853658140744,
+    "speaker": "peter"
+  },
+  {
+    "start": 476.21,
+    "end": 516.22,
+    "text": "En nu heeft de grieft aan het telefoon gehad. Echt, heeft hij me gesproken dan?",
+    "db": -23.84295136788433,
+    "speaker": "dokter"
+  },
+  {
+    "start": 516.22,
+    "end": 520.22,
+    "text": "Hij heeft gesproken met de grieft aan die maandag.",
+    "db": -16.069293923175454,
+    "speaker": "peter"
+  },
+  {
+    "start": 520.22,
+    "end": 568.98,
+    "text": "Maar volgens ons zit er iets fout, want wat wij nu aan het doen zijn,",
+    "db": -23.163556181853757,
+    "speaker": "dokter"
+  },
+  {
+    "start": 568.98,
+    "end": 573.98,
+    "text": "we hebben ook die dokter al aangepakt op dingen die wij echt heel fout vinden.",
+    "db": -14.932109210148319,
+    "speaker": "peter"
+  },
+  {
+    "start": 573.98,
+    "end": 578.02,
+    "text": "En gezegd wij willen daar verandering zien eigenlijk en op de hoogte gehouden worden.",
+    "db": -15.82516112778551,
+    "speaker": "peter"
+  },
+  {
+    "start": 578.02,
+    "end": 581.84,
+    "text": "Die heeft ook al teruggemeeld met een hele loop dingen die ze nu gaan veranderen in en melden.",
+    "db": -16.73238366064934,
+    "speaker": "peter"
+  },
+  {
+    "start": 581.84,
+    "end": 584.42,
+    "text": "Protocolen die vanaf nu anders gaan lopen.",
+    "db": -21.38036785025067,
+    "speaker": "peter"
+  },
+  {
+    "start": 584.42,
+    "end": 587.86,
+    "text": "Dankzij om het zo te zeggen de dood van mijn moeder.",
+    "db": -17.819662422326715,
+    "speaker": "peter"
+  },
+  {
+    "start": 587.86,
+    "end": 589.3,
+    "text": "Maar dat is wel waar we naar op zoek zijn.",
+    "db": -11.498801294490043,
+    "speaker": "peter"
+  },
+  {
+    "start": 589.3,
+    "end": 592.18,
+    "text": "We zijn niet op zoek naar juridische stappen, maar wel.",
+    "db": -18.04307228950568,
+    "speaker": "peter"
+  },
+  {
+    "start": 592.18,
+    "end": 596.5,
+    "text": "Ik ben wel echt op zoek naar waar loopt de communicatie in manken en ook aan dat vermeden worden.",
+    "db": -15.577871643085041,
+    "speaker": "peter"
+  },
+  {
+    "start": 596.5,
+    "end": 598.62,
+    "text": "Ja, in de toekomst gewoon omdat op die manier,",
+    "db": -14.86156522790736,
+    "speaker": "peter"
+  },
+  {
+    "start": 598.62,
+    "end": 604.54,
+    "text": "Als je moeder dood is, dan heeft dat nog ergens gezien. Wie weet, redden we een toekomstig iemand.",
+    "db": -17.524536938557205,
+    "speaker": "peter"
+  },
+  {
+    "start": 604.54,
+    "end": 611.34,
+    "text": "Maar daar ook, als je zegt, je hebt je gebeld naar mijn mama geworden en die doet er zelf niet direct iets mee.",
+    "db": -15.486019063222853,
+    "speaker": "peter"
+  },
+  {
+    "start": 611.34,
+    "end": 613.98,
+    "text": "Of zowel flauw en ze kan ik ze meer zeggen, ik zeg maar iets.",
+    "db": -20.35092368298298,
+    "speaker": "peter"
+  },
+  {
+    "start": 613.98,
+    "end": 617.26,
+    "text": "Waar zit die info dan op de momenten? Die hangt er zo ergens.",
+    "db": -17.415518674485185,
+    "speaker": "peter"
+  },
+  {
+    "start": 617.26,
+    "end": 619.1,
+    "text": "En die melda krijgt hij niet.",
+    "db": -16.499078366039736,
+    "speaker": "peter"
+  },
+  {
+    "start": 619.1,
+    "end": 623.5,
+    "text": "Die melda heeft wel in de eerste plaats zelf gevraagd naar die twee bloedafnames en dat niet opgevoeligd.",
+    "db": -17.109017370850797,
+    "speaker": "peter"
+  },
+  {
+    "start": 623.5,
+    "end": 628.14,
+    "text": "Ik vind ik sowieso al een hele grote fout daar, dat er zoveel bij de patiënt wordt gelegd.",
+    "db": -18.66217031120512,
+    "speaker": "peter"
+  },
+  {
+    "start": 628.14,
+    "end": 631.14,
+    "text": "dat de informatie niet doorstroomt.",
+    "db": -19.987034210965557,
+    "speaker": "peter"
+  },
+  {
+    "start": 632.14,
+    "end": 634.14,
+    "text": "Daar ben ik dus naar op zoek.",
+    "db": -17.721299541556235,
+    "speaker": "peter"
+  },
+  {
+    "start": 634.14,
+    "end": 637.78,
+    "text": "Dat is daarom dat ik bel, ja.",
+    "db": -24.990112676303163,
+    "speaker": "dokter"
+  },
+  {
+    "start": 637.78,
+    "end": 655.52,
+    "text": "Of zelfs al is die wel goed.",
+    "db": -22.927019032892616,
+    "speaker": "dokter"
+  },
+  {
+    "start": 655.52,
+    "end": 659.52,
+    "text": "Is die gewoon niet handig genoeg of I don't know of slim genoeg of...",
+    "db": -16.421807283610434,
+    "speaker": "peter"
+  },
+  {
+    "start": 659.52,
+    "end": 662.52,
+    "text": "Het staat gewoon dat er echt is geweest.",
+    "db": -15.546532675224789,
+    "speaker": "peter"
+  },
+  {
+    "start": 662.52,
+    "end": 667.52,
+    "text": "Er is er van negen naar vijf en tajentig waarde gegaan van infectie.",
+    "db": -18.54952940310521,
+    "speaker": "peter"
+  },
+  {
+    "start": 667.52,
+    "end": 670.52,
+    "text": "En blijkbaar heeft niemand daar iets mee gedaan.",
+    "db": -17.678382438910646,
+    "speaker": "peter"
+  },
+  {
+    "start": 670.52,
+    "end": 673.52,
+    "text": "En in dit geval heeft dat echt wel een doodige kost.",
+    "db": -18.136825595990818,
+    "speaker": "peter"
+  },
+  {
+    "start": 673.52,
+    "end": 681.32,
+    "text": "en de persoon die daarvoor heel gezond was gekost, een dood gekost en waar moeten we hier nu aan de",
+    "db": -20.55145773312234,
+    "speaker": "peter"
+  },
+  {
+    "start": 681.32,
+    "end": 687.84,
+    "text": "bel trekken om te zeggen wat er moet veranderen, want de eerste keer dat ik belde, want ik heb",
+    "db": -16.334718349315438,
+    "speaker": "peter"
+  },
+  {
+    "start": 687.84,
+    "end": 691.92,
+    "text": "ondertussen denk ik al de drie dokters van de praktijk aan de lijn gehad, de eerste keer",
+    "db": -19.003698919593546,
+    "speaker": "peter"
+  },
+  {
+    "start": 691.92,
+    "end": 696.96,
+    "text": "dat ik belde hoorde en ik ook dat die dossiers worden blijkbaar niet automatisch gedeeld of",
+    "db": -16.26139698663063,
+    "speaker": "peter"
+  },
+  {
+    "start": 696.96,
+    "end": 742.42,
+    "text": "Dat heeft dan weer te maken met al dat niet medisch geheim, maar je weet ook niet meer zeker dat u de greef heeft gebeld dan die maandag.",
+    "db": -21.758843061450893,
+    "speaker": "peter"
+  },
+  {
+    "start": 742.42,
+    "end": 763.66,
+    "text": "Ja, aan en mocht je altijd zeker doen, maar ik ga met de greef zullen, ik heb daar wel al iets mee gebeld erover.",
+    "db": -21.22544236522316,
+    "speaker": "peter"
+  },
+  {
+    "start": 763.66,
+    "end": 768.66,
+    "text": "Maar ik vraag altijd maar fragmentarische dingen en ik kom weer een nieuwe info te weten.",
+    "db": -15.114079724844467,
+    "speaker": "peter"
+  },
+  {
+    "start": 768.66,
+    "end": 771.66,
+    "text": "Dus het kan zijn dat ik ook nog iets ga truwen dan als dat goed is.",
+    "db": -18.31998104983073,
+    "speaker": "peter"
+  },
+  {
+    "start": 771.66,
+    "end": 779.66,
+    "text": "Want haar mail kunnen we nu sinds kort in, maar daar heb ik nog nieuwe keken en nog niet de moed voor gehad.",
+    "db": -20.003012225149828,
+    "speaker": "peter"
+  },
+  {
+    "start": 779.66,
+    "end": 786.66,
+    "text": "En daar wil ik ook nog eens gaan kijken of we daar nog informatie vinden die we misschien niet hebben.",
+    "db": -19.882804537808347,
+    "speaker": "peter"
+  },
+  {
+    "start": 786.66,
+    "end": 795.66,
+    "text": "Ik ga eens heel even nog overlopen als dat mij goed is, want ik had op voorraad een paar dingen opgeschreven of ik dat nu gevraagd had.",
+    "db": -17.291392335965465,
+    "speaker": "peter"
+  },
+  {
+    "start": 795.66,
+    "end": 801.66,
+    "text": "Dus ja, of ik het zich herinnerde en dat vond ik wel fijn dat het geval was.",
+    "db": -21.21536780391817,
+    "speaker": "peter"
+  },
+  {
+    "start": 801.66,
+    "end": 805.66,
+    "text": "Dan ja, ik heb hier ook staan, maar ik denk dat dat misschien van geen belang is.",
+    "db": -15.692840005204454,
+    "speaker": "peter"
+  },
+  {
+    "start": 805.66,
+    "end": 823.48,
+    "text": "Naar welk labo wordt dat dan gestuurd, maar ik weet niet of dat hiervan belangrijk is, want hij heeft misschien altijd dezelfde rol en moet er misschien nooit verder actieën om dat mee in mezelf te nemen.",
+    "db": -20.332822583518116,
+    "speaker": "peter"
+  },
+  {
+    "start": 823.48,
+    "end": 836.17,
+    "text": "Ja, oké, die naam heb ik al eens tegengekomen.",
+    "db": -25.768775764601003,
+    "speaker": "dokter"
+  },
+  {
+    "start": 836.17,
+    "end": 848.17,
+    "text": "En dan is er iets afgesproken toen ze weg ging, maar toen hadden die nog niet te waarde natuurlijk.",
+    "db": -18.787535545828895,
+    "speaker": "peter"
+  },
+  {
+    "start": 848.17,
+    "end": 858.35,
+    "text": "Dan, ja, wat is het, ja, zich maar, ja, onder bloedwaarde, ja.",
+    "db": -23.882797105494493,
+    "speaker": "dokter"
+  },
+  {
+    "start": 858.35,
+    "end": 865.35,
+    "text": "En dan, ja, hier nog de vraag, wat is het algemeen op protocol, heb ik hier nog gestaan.",
+    "db": -20.496938152083747,
+    "speaker": "peter"
+  },
+  {
+    "start": 865.35,
+    "end": 871.35,
+    "text": "Ja, maar dan ben ik ondertussen wel ongeveer achter.",
+    "db": -19.551924717561427,
+    "speaker": "peter"
+  },
+  {
+    "start": 871.35,
+    "end": 876.35,
+    "text": "Het is gewoon zo, op dit moment is er gewoon aan de patiënt gebeld eigenlijk.",
+    "db": -20.260590337017547,
+    "speaker": "peter"
+  },
+  {
+    "start": 876.35,
+    "end": 880.35,
+    "text": "Of misschien aan de huisdokters, maar jullie waren ook altijd ervangende huisdokters.",
+    "db": -23.00058183343371,
+    "speaker": "dokter"
+  },
+  {
+    "start": 880.35,
+    "end": 887.35,
+    "text": "Tweede bloed afnamen was er info van de eerste, maar dat had jij geen info van, denk ik.",
+    "db": -21.39285911904377,
+    "speaker": "peter"
+  },
+  {
+    "start": 887.35,
+    "end": 892.35,
+    "text": "Niet gevalideerd verslag, ja. Dat heb ik al gevraagd.",
+    "db": -20.553074921408104,
+    "speaker": "peter"
+  },
+  {
+    "start": 892.35,
+    "end": 899.35,
+    "text": "Oké, je dacht al sinds voor de tijd. Ik denk dat ik al was gevraagd heb waar ik voorlopig op kan komen.",
+    "db": -17.850784214559866,
+    "speaker": "peter"
+  },
+  {
+    "start": 899.35,
+    "end": 903.35,
+    "text": "Het zou kunnen dat ik je nog terug wil binnenkort en dat het goed is.",
+    "db": -19.62180923607127,
+    "speaker": "peter"
+  },
+  {
+    "start": 903.35,
+    "end": 908.35,
+    "text": "Als er nog nieuwe vragen naar boven komt en wanneer bereik ik u best?",
+    "db": -21.470799905492292,
+    "speaker": "peter"
+  },
+  {
+    "start": 908.35,
+    "end": 914.97,
+    "text": "Nou ja, ze wachten gewoon, uren van de website.",
+    "db": -26.63783229201347,
+    "speaker": "dokter"
+  },
+  {
+    "start": 915.97,
+    "end": 916.97,
+    "text": "Oké.",
+    "db": -26.824488796262717,
+    "speaker": "dokter"
+  },
+  {
+    "start": 916.97,
+    "end": 918.97,
+    "text": "Allee dan, hartelijk dank.",
+    "db": -14.685286008533751,
+    "speaker": "peter"
+  },
+  {
+    "start": 918.97,
+    "end": 921.97,
+    "text": "En misschien nog iets dan, bedankt hè.",
+    "db": -21.519324872602546,
+    "speaker": "peter"
+  },
+  {
+    "start": 921.97,
+    "end": 922.97,
+    "text": "Dank je wel.",
+    "db": -31.065713625379814,
+    "speaker": "peter"
+  },
+  {
+    "start": 922.97,
+    "end": 923.97,
+    "text": "Dag.",
+    "db": -17.080189144270115,
+    "speaker": "peter"
+  }
+]

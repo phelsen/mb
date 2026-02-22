@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dossier Portaal</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <div class="catalog">
+          <section class="catalog-block" aria-labelledby="mails-heading">
+            <h1 id="mails-heading" class="catalog-title">mails
+
+              <br/>
+                          NOOT : alle samenvattingen door AI, klik op mail lijn voor volledige mail
+            </h1>
+
+            <div class="mail-table-wrap">
+              <table class="mail-table">
+                <thead>
+                  <tr>
+                    <th>Datum</th>
+                    <th>Mail</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>22 aug 2023</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/mail0.html">Mail mieke bbq </a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>08 nov 2023</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/mail_rossenbacker.html">Mail Tom Rossenbacker</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>Dr. Rossenbacker bedankt voor de bezorgde brief en geeft bijkomende toelichting over het dossier van Mieke Brasseur. Hij bespreekt het spoedverslag, de opvolging na bloedafname en waarom toen geen dringende afspraak tot stand kwam. Daarnaast erkent hij problemen in bereikbaarheid van de dienst en somt hij concrete organisatorische verbeteringen op. Hij geeft ook een medische hypothese voor het overlijden, maar benadrukt dat de exacte oorzaak onzeker blijft. Tot slot biedt hij opnieuw zijn deelneming aan en stelt hij zich beschikbaar voor verdere vragen.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>12 nov 2023</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/vraag_imalda.html">Vraag aan Imelda over overlijden</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>De kinderen van Mieke Brasseur melden aan Imelda dat hun moeder overleed na complicaties en dat zij fouten vermoeden in de opvolging. Ze verwijzen naar het spoedbezoek, de vraag om zelf dringend cardiologiecontact te regelen en een tweede bloedafname met verontrustende waarden. Volgens hen werd beschikbare informatie onvoldoende meegenomen bij telefonisch overleg met de cardioloog. Ze vinden de genomen verbeteracties onvoldoende als antwoord op het overlijden. Daarom vragen ze welke rechten en officiële kanalen voor hen openstaan.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>18 dec 2023</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/antwoord_imalda.html">Antwoord Ombudsdienst Imelda</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>De ombudsdienst reageert op het dossier en verwijst naar eerdere communicatie met de betrokken zorgverleners. Ze leggen uit dat hun rol bemiddelend is en dat ze geen medische fouten kunnen vaststellen of sancties kunnen opleggen. Ook geven ze aan dat ze geen toegang hebben tot patiëntendossiers en dus geen eigen onderzoek kunnen voeren. Voor een officiële klacht verwijzen ze naar de rechtbank en de ledenverdediging van de mutualiteit. Ze sluiten af met de uitnodiging om verdere vragen te stellen.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>06 feb 2026</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/reactie_hoorzitting_simon.html">Reactie hoorzitting Simon Daenen</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>Dr. Simon Daenen reageert namens de familie op het voorlopig FMO-verslag en noemt de conclusie voorbarig en naast de kernvraag. Hij stelt dat de familie niet focust op schuld van de ablatie zelf, maar op gebrekkige nabehandeling en communicatie in de periode erna. Volgens hem ging er cruciale tijd verloren door slechte opvolging van bloedresultaten en uitblijvend cardiologisch contact. Ook uit hij stevige kritiek op het verloop en de neutraliteit van de hoorzitting en de manier waarop familiedocumenten zijn beoordeeld. De mail vraagt uiteindelijk een rectificatie van de voorlopige conclusies.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>10 feb 2026</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/anke_vier_vragen_tendentieuze_verslaggving.html">Reactie hoorzitting (4 vragen/ motie wantrouwen) Anke Helsen)</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>Anke Helsen reageert kritisch op het voorlopig verslag van de hoorzitting en noemt de verslaggeving selectief en tendentieus. Ze herneemt vier kernvragen over spoedopvolging, ontbrekende of laattijdige verslaggeving en het niet opvragen van laboresultaten. Volgens haar zijn belangrijke elementen uit het dossier genegeerd of fout gekaderd, waardoor conclusies te eenzijdig zijn. Ze vraagt daarom een nieuwe hoorzitting met inhoudelijke antwoorden op die vier vragen. Als het dossier zonder die antwoorden wordt afgesloten, wil ze andere kanalen aanspreken.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="catalog-block" aria-labelledby="transcript-heading">
+            <h1 id="transcript-heading" class="catalog-title">transcript</h1>
+            <ul class="catalog-list">
+              <li><a href="transcript_call_peter_duscart.html">Telefoongesprek dussart</a></li>
+            </ul>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dossier Portaal</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <div class="catalog">
+          <section class="catalog-block" aria-labelledby="search-heading">
+            <h1 id="search-heading" class="catalog-title">zoeken</h1>
+            <form class="search-shortcut" action="search.html" method="get">
+              <label class="sr-only" for="portal-search">Zoekterm</label>
+              <input
+                id="portal-search"
+                name="q"
+                class="search-shortcut-input"
+                type="search"
+                placeholder="Zoek in mails, documenten en transcripten..."
+                autocomplete="off"
+              />
+              <button class="search-shortcut-button" type="submit">Zoek</button>
+            </form>
+            <p class="search-shortcut-hint">Resultaten openen op een aparte pagina.</p>
+          </section>
+
+          <section class="catalog-block" aria-labelledby="mails-heading">
+            <h1 id="mails-heading" class="catalog-title">mails</h1>
+            <p class="catalog-note">NOOT : alle samenvattingen door AI, klik op mail lijn voor volledige mail</p>
+
+            <div class="mail-table-wrap">
+              <table class="mail-table">
+                <thead>
+                  <tr>
+                    <th>Datum</th>
+                    <th>Mail</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>22 aug 2023</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/mail0.html">Mail mieke bbq </a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>08 nov 2023</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/mail_rossenbacker.html">Mail Tom Rossenbacker</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>Dr. Rossenbacker bedankt voor de bezorgde brief en geeft bijkomende toelichting over het dossier van Mieke Brasseur. Hij bespreekt het spoedverslag, de opvolging na bloedafname en waarom toen geen dringende afspraak tot stand kwam. Daarnaast erkent hij problemen in bereikbaarheid van de dienst en somt hij concrete organisatorische verbeteringen op. Hij geeft ook een medische hypothese voor het overlijden, maar benadrukt dat de exacte oorzaak onzeker blijft. Tot slot biedt hij opnieuw zijn deelneming aan en stelt hij zich beschikbaar voor verdere vragen.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>12 nov 2023</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/vraag_imalda.html">Vraag aan Imelda over overlijden</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>De kinderen van Mieke Brasseur melden aan Imelda dat hun moeder overleed na complicaties en dat zij fouten vermoeden in de opvolging. Ze verwijzen naar het spoedbezoek, de vraag om zelf dringend cardiologiecontact te regelen en een tweede bloedafname met verontrustende waarden. Volgens hen werd beschikbare informatie onvoldoende meegenomen bij telefonisch overleg met de cardioloog. Ze vinden de genomen verbeteracties onvoldoende als antwoord op het overlijden. Daarom vragen ze welke rechten en officiële kanalen voor hen openstaan.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>18 dec 2023</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/antwoord_imalda.html">Antwoord Ombudsdienst Imelda</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>De ombudsdienst reageert op het dossier en verwijst naar eerdere communicatie met de betrokken zorgverleners. Ze leggen uit dat hun rol bemiddelend is en dat ze geen medische fouten kunnen vaststellen of sancties kunnen opleggen. Ook geven ze aan dat ze geen toegang hebben tot patiëntendossiers en dus geen eigen onderzoek kunnen voeren. Voor een officiële klacht verwijzen ze naar de rechtbank en de ledenverdediging van de mutualiteit. Ze sluiten af met de uitnodiging om verdere vragen te stellen.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>06 feb 2026</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/reactie_hoorzitting_simon.html">Reactie hoorzitting Simon Daenen</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>Dr. Simon Daenen reageert namens de familie op het voorlopig FMO-verslag en noemt de conclusie voorbarig en naast de kernvraag. Hij stelt dat de familie niet focust op schuld van de ablatie zelf, maar op gebrekkige nabehandeling en communicatie in de periode erna. Volgens hem ging er cruciale tijd verloren door slechte opvolging van bloedresultaten en uitblijvend cardiologisch contact. Ook uit hij stevige kritiek op het verloop en de neutraliteit van de hoorzitting en de manier waarop familiedocumenten zijn beoordeeld. De mail vraagt uiteindelijk een rectificatie van de voorlopige conclusies.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>10 feb 2026</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/anke_vier_vragen_tendentieuze_verslaggving.html">Reactie hoorzitting (4 vragen/ motie wantrouwen) Anke Helsen)</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>Anke Helsen reageert kritisch op het voorlopig verslag van de hoorzitting en noemt de verslaggeving selectief en tendentieus. Ze herneemt vier kernvragen over spoedopvolging, ontbrekende of laattijdige verslaggeving en het niet opvragen van laboresultaten. Volgens haar zijn belangrijke elementen uit het dossier genegeerd of fout gekaderd, waardoor conclusies te eenzijdig zijn. Ze vraagt daarom een nieuwe hoorzitting met inhoudelijke antwoorden op die vier vragen. Als het dossier zonder die antwoorden wordt afgesloten, wil ze andere kanalen aanspreken.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>17 feb 2026</td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/fmo_uitbreiding.html">FMO: uitbreiding expertise met bijkomende zorgverleners</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>Het Fonds voor Medische Ongevallen meldt een uitbreiding van de expertise in dossier 202411N002 met vier bijkomende zorgverleners: Dr. Loranne De Lausnay, Dr. Marc Gillis, Dr. Hugo De Greef en Dr. Valerie Discart. Hun rol en handelen worden expliciet mee opgenomen in de verdere beoordeling. Volgens het FMO is dit nodig om een vollediger en objectiever beeld van de verstrekte zorg te krijgen. In dat kader volgt er een nieuwe zitting.</p>
+                        </details>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="catalog-block" aria-labelledby="documenten-heading">
+            <h1 id="documenten-heading" class="catalog-title">documenten</h1>
+
+            <div class="mail-table-wrap">
+              <table class="mail-table">
+                <thead>
+                  <tr>
+                    <th>Datum</th>
+                    <th>Document</th>
+                    <th>Links</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>23 jan 2026</td>
+                    <td>Voorlopig deskundig verslag (Ref FMO 202411N002)</td>
+                    <td>
+                      <a class="document-html-link" href="documents/voorlopig_deskundig_verslag.html">html</a>
+                      <span aria-hidden="true"> | </span>
+                      <a href="documents/voorlopig_deskundig_verslag.pdf">pdf</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>16 jun 2026</td>
+                    <td>202411N002 TSE overlijden opdracht Dr. Dubois</td>
+                    <td>
+                      <a class="document-html-link" href="documents/202411n002_tse_overlijden_opdracht_dr_dubois.html">html</a>
+                      <span aria-hidden="true"> | </span>
+                      <a href="documents/202411n002_tse_overlijden_opdracht_dr_dubois.pdf">pdf</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>22 feb 2026</td>
+                    <td>Afspraak spoedgevallen</td>
+                    <td>
+                      <a class="document-html-link" href="documents/afspraak_spoedgevallen.html">html</a>
+                      <span aria-hidden="true"> | </span>
+                      <a href="documents/afspraak_spoedgevallen.pdf">pdf</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="catalog-block" aria-labelledby="transcript-heading">
+            <h1 id="transcript-heading" class="catalog-title">transcript</h1>
+            <ul class="catalog-list">
+              <li><a href="transcript_call_peter_duscart.html">Telefoongesprek dussart</a></li>
+            </ul>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

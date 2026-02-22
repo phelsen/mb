@@ -1,0 +1,138 @@
+.search-panel {
+  padding: 16px 22px;
+  border-bottom: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 1 1 360px;
+  min-width: 220px;
+  padding: 10px 12px;
+  border: 1px solid #cdd8e3;
+  border-radius: 10px;
+  font-size: 14px;
+  color: var(--text);
+  background: #ffffff;
+}
+
+.search-input:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-color: #9cb8d8;
+}
+
+.search-button {
+  border: 1px solid #c6d5e6;
+  background: #f4f8fc;
+  color: #28486e;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background: #e9f1fa;
+  border-color: #b4c9e0;
+}
+
+.search-status {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.search-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search-result-item {
+  padding: 14px 22px;
+  border-bottom: 1px solid #e9eef4;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-link {
+  color: #28486e;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.search-result-link:hover {
+  border-bottom-color: #6f8fb3;
+}
+
+.search-result-link:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.search-result-meta {
+  margin: 6px 0 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.search-chip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #d7e2ee;
+  background: #f6f9fc;
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+
+.search-result-snippet {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.58;
+  color: #334455;
+}
+
+.search-result-snippet mark {
+  background: #fff2b8;
+  color: inherit;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 760px) {
+  .search-panel,
+  .search-result-item {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .search-button {
+    width: 100%;
+  }
+}
