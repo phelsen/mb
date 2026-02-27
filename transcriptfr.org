@@ -142,9 +142,9 @@
 [Dus we hebben?? gezien.  Dan wordt er altijd, na ontslag… dat is eigenlijk , wat ergens op die tijdlijn komt, de eerste of de tweede dag na de ingreep….]
 
 p
-Wel ik ben met de tijdlijn begonnen, ik denk veertien dagen na de ingreep en ik heb daarstraks al gezegd over de voorbespreking,
-dat de bacteriele infectie opgelopen is tijdens de ablatie of ni, dat maakt voor mij eigenlijk niet zo veel uit.  Das ook de vraag niet.  euhm..
-En dat er daar geen fout gemaakt is geloof ik graag.  
+{Wel ik ben met de tijdlijn begonnen, ik denk veertien dagen na de ingreep en ik heb daarstraks al gezegd over de voorbespreking,}
+{dat de bacteriele infectie opgelopen is tijdens de ablatie of ni, dat maakt voor mij eigenlijk niet zo veel uit.  Das ook de vraag niet.  euhm..}
+{En dat er daar geen fout gemaakt is geloof ik graag.  }
 
 [Ja ik zeg maar, zoals de tijdlijn schetste, ja , ik wil ook ff kijken, voor mij, de tijdslijn is hetzelfde, ja een tijdslijn is een tijdslijn hé.]
 [Het zou maar raar zijn als daar afwijkingen op zijn.  Maar dan komen we, natuurlijk, die zaken dat ik hoor, ja, één van de meeste, het pijnlijkste is,]
@@ -183,288 +183,295 @@ En dat er daar geen fout gemaakt is geloof ik graag.
 30:08 [Ik ga het op een andere manier nog eens proberen….  hier (stilte) … Nee. 15 augustus zijn er geen kweken gebeurd. ]
 
 S:
-Ze hebben klaarblijkelijk wel afwijkende bevindingen.
-En dan - is het niet zo dat u als behandelaar - of uw team, gewaarschuwd wordt, we hebben die patient van u gezien, en daar zien we deze afwijkingen?
+|Ze hebben klaarblijkelijk wel afwijkende bevindingen.|
+|En dan - is het niet zo dat u als behandelaar - of uw team, gewaarschuwd wordt, we hebben die patient van u gezien, en daar zien we deze afwijkingen?|
 
 R:
-Ik heb genen telefoon gekregen, er is geen nota gemaakt,ik ben daar ni over bericht, de afwijkingen, van dat crp, was heel lichtjes gestegen.
-Als we de waarden noemen, 9, ge hebt dat waarschijnlijk voor u ook al uitgeprint… Een normale waarde is 5.  Dat is lichtjes… zeer lichtjes 
+[Ik heb genen telefoon gekregen, er is geen nota gemaakt,ik ben daar ni over bericht, de afwijkingen, van dat crp, was heel lichtjes gestegen.]
+[Als we de waarden noemen, 9, ge hebt dat waarschijnlijk voor u ook al uitgeprint… Een normale waarde is 5.  Dat is lichtjes… zeer lichtjes ]
 
 P:
-Ze sturen haar wel weg met in de ontslagbrief “dringende afspraak”.
+{Ze sturen haar wel weg met in de ontslagbrief “dringende afspraak”.}
 
 R:
-ehem
+[ehem]
 
 P:
-Das toch…
+{Das toch…}
 
 A:
-Ja hoe kan dat? En waarop heeft u zich gebaseerd om te zeggen…
+--Ja hoe kan dat? En waarop heeft u zich gebaseerd om te zeggen…--
 
 P:
-hij heeft die informatie ni eens doorgekregen
+{hij heeft die informatie ni eens doorgekregen}
 
 A:
-“Alles is veilig”, vlak voor ze doodging, allez dat is gewoon iets dat ik niet kan…
+--“Alles is veilig”, vlak voor ze doodging, allez dat is gewoon iets dat ik niet kan…--
 
 R:
-Ja… 15 augustus denk ik
+[Ja… 15 augustus denk ik]
 
 P:
-Nee da was later, dat was 22 augustus
+{Nee da was later, dat was 22 augustus}
 
-(onverstaanbaar)
+{(onverstaanbaar)}
 
 R:
-Ja. Goe, het is zoals het is. Die telefoon kan ik mij niet meer herinneren, ik denk dat dat ook , zoals jullie waarschijnlijk ook, een telefoon van een maand geleden…
-dus ik weet niet meer toen wat ze mij toen… ja… 
+[Ja. Goe, het is zoals het is. Die telefoon kan ik mij niet meer herinneren, ik denk dat dat ook , zoals jullie waarschijnlijk ook, een telefoon van een maand geleden…]
+[dus ik weet niet meer toen wat ze mij toen… ja… ]
 
 P:
-Haar concrete vraag, was toen, ze wilde graag een afspraak, want ik voel mij niet veilig, dat heeft ze aan ons ook nog herhaald, euh … maar u heeft toen gezegd, euh..; alles is okee
+{Haar concrete vraag, was toen, ze wilde graag een afspraak, want ik voel mij niet veilig, dat heeft ze aan ons ook nog herhaald, euh …}
+{maar u heeft toen gezegd, euh..; alles is okee}
 
 S:
-U heeft toen ook expliciet gezegd, volgens de mail van haarzelf toch, dat er infectiewaarden waren
+|U heeft toen ook expliciet gezegd, volgens de mail van haarzelf toch, dat er infectiewaarden waren|
 
 P:
-Ja, en gelijk ik zei, laatste mail, haar laatste woorden waren: Hopelijk gaat die infectie vlug voorbij, ze was zeker dat ze die infectie had, maar dat ze volgens u niet erg genoeg was of zo, 
+{Ja, en gelijk ik zei, laatste mail, haar laatste woorden waren: Hopelijk gaat die infectie vlug voorbij,}
+{ze was zeker dat ze die infectie had, maar dat ze volgens u niet erg genoeg was of zo, }
 
 A:
-maar een afspraak was niet nodig
+--maar een afspraak was niet nodig--
 
 P:
-“Maar ik mocht gerust zijn, ze hebben een scan genomen van de longen, alles was okee, een dringende afspraak is niet nodig”
+{“Maar ik mocht gerust zijn, ze hebben een scan genomen van de longen, alles was okee, een dringende afspraak is niet nodig”}
 
-A: ja
+A: --ja--
 
 P:
-en dat is… want heel veel van die andere dingen dat ik zeg hier zijn fouten gebeurd, in het ziekenhuis ook, het is zeker niet alleen u die daar…
-Maar dat lijkt me ergens, ja wel een fout, of iets dat je niet had kunnen weten op die moment.  Dat is ook waardoor we graag u gesproken hadden natuurlijk,
-euh.. dat we denken, natuurlijk, zo’n fout maak je niet expres, maar das tenminste in mijn ogen, ik ben geen dokter, in mijn ogen tenminste een vergissing
+{en dat is… want heel veel van die andere dingen dat ik zeg hier zijn fouten gebeurd, in het ziekenhuis ook, het is zeker niet alleen u die daar…}
+{Maar dat lijkt me ergens, ja wel een fout, of iets dat je niet had kunnen weten op die moment.  Dat is ook waardoor we graag u gesproken hadden natuurlijk,}
+{euh.. dat we denken, natuurlijk, zo’n fout maak je niet expres, maar das tenminste in mijn ogen, ik ben geen dokter, in mijn ogen tenminste een vergissing}
 
 R:
-(neemt telefoon op) Ik ga subiet moeten terugbellen, ik ben in een gesprek.
+[(neemt telefoon op) Ik ga subiet moeten terugbellen, ik ben in een gesprek.]
 
 G:
-Maar die scan van de longen, die wordt meteen post-operatief na de ablatie gedaan? Of is die ook in het midden van de maand gedaan
+~Maar die scan van de longen, die wordt meteen post-operatief na de ablatie gedaan? Of is die ook in het midden van de maand gedaan~
 
 R:
-nee die scan, we maken een scan voor de ablatie
+[nee die scan, we maken een scan voor de ablatie]
 
 G:
-Voor de ablatie?
+~Voor de ablatie?~
 
 R:
-Ja
+[Ja]
 
 G:
-En waar kijkt u dan naar?
+~En waar kijkt u dan naar?~
 
 R:
-Voor de ablatie kijken we, omdat we aan de linkervoorkamer werken kijken we naar de linkervoorkamer, om die driedimensioneel te reconstrueren tijdens de ingreep.  Dus das eigenlijk een 33:18  te leiden, maar, tijdens dat onderzoek, ja, is er een contrastgebruik en kunt ge kijken naar de bloedvaten, naar de coronaire kijken, de kroonslagaders zien rond de???  En ik ga is kijken, ik zal daar vermoed ik naar verwezen hebben hé…. (onverstaanbaar) Ja, we zien hier, de scan is gebeurd 26 juli. Das dezelfde scan waar ik naar verwijs.  Denk ik he, (onverstaanbaar)
+[Voor de ablatie kijken we, omdat we aan de linkervoorkamer werken kijken we naar de linkervoorkamer, om die driedimensioneel te reconstrueren tijdens de ingreep.]
+[Dus das eigenlijk een 33:18  te leiden, maar, tijdens dat onderzoek, ja, is er een contrastgebruik en kunt ge kijken naar de bloedvaten,]
+[naar de coronaire kijken, de kroonslagaders zien rond de???  En ik ga is kijken, ik zal daar vermoed ik naar verwezen hebben hé…. (onverstaanbaar)]
+[Ja, we zien hier, de scan is gebeurd 26 juli. Das dezelfde scan waar ik naar verwijs.  Denk ik he, (onverstaanbaar)]
 
 A:
-Dat is toch heel onlogisch.  Waarom zou een scan van 26 juli u geruststellen? absurd
+--Dat is toch heel onlogisch.  Waarom zou een scan van 26 juli u geruststellen? absurd--
 
 R:
-Als er pijn is, dus wat we soms horen na zo’n ingreep, tis ook logisch hé, omdat er brandwonden zijn die gemaakt zijn in het hart, dat er nadien soms ongerustheid is rond pijn op de borst,
-denkt men vaak, het zal een probleem zijn aan de bloedvaten die rond het hart liggen.  En dat kunnen we dan onmiddellijk uitsluiten omdat we zeggen Ja maar nee,
-dat kan niet dat dat ligt aan de bloedvaten hierrond, dat kan niks te maken hebben met een hartinfarct, omdat we voordien een scan hebben gedaan - voor een andere reden,
-maar, op die scanner, ja, wordt nog meer bekeken dan de vraagstelling die ge daarvoor, eum, weet..
-Dan wordt uiteindelijk inderdaad ook beschreven dat die kroonslagaders volledig normaal waren. Dus in dat opzicht is dat dan meegenomen, als ge mensen hebt die
+[Als er pijn is, dus wat we soms horen na zo’n ingreep, tis ook logisch hé, omdat er brandwonden zijn die gemaakt zijn in het hart,]
+[dat er nadien soms ongerustheid is rond pijn op de borst,]
+[denkt men vaak, het zal een probleem zijn aan de bloedvaten die rond het hart liggen.  En dat kunnen we dan onmiddellijk uitsluiten omdat we zeggen Ja maar nee,]
+[dat kan niet dat dat ligt aan de bloedvaten hierrond, dat kan niks te maken hebben met een hartinfarct, omdat we voordien een scan hebben gedaan - voor een andere reden,]
+[maar, op die scanner, ja, wordt nog meer bekeken dan de vraagstelling die ge daarvoor, eum, weet..]
+[Dan wordt uiteindelijk inderdaad ook beschreven dat die kroonslagaders volledig normaal waren. Dus in dat opzicht is dat dan meegenomen, als ge mensen hebt die]
 
 G:
-Kloeg zij van pijn op de borst?
+~Kloeg zij van pijn op de borst?~
 
 P:
-Ook, maar ook schokkende bewegingen van de ledematen, lage hartslag, 42, en…
+{Ook, maar ook schokkende bewegingen van de ledematen, lage hartslag, 42, en…}
 
 A:
-Ja gewoon algemeen… onwel
+--Ja gewoon algemeen… onwel--
 
 P:
-Algemeen heel slecht, onwel, en ze wist dat ze een infectie had, dat werd ook gezegd, ze had gewoon een infectie
+{Algemeen heel slecht, onwel, en ze wist dat ze een infectie had, dat werd ook gezegd, ze had gewoon een infectie}
 
 R:
-dat ? verwijst naar het ziekenhuis, .??? al een paar keer gezegd, dat juridische, als
+[dat ? verwijst naar het ziekenhuis, .??? al een paar keer gezegd, dat juridische, als]
 
 P:
-Maar juridisch doen wij zowiezo niks
+{Maar juridisch doen wij zowiezo niks}
 
 R:
-Nee, maar ik wil maar zeggen, ge moogt alle stappen nemen, allez.  Maar ik heb haar niet gezien hé, en das heel… 
+[Nee, maar ik wil maar zeggen, ge moogt alle stappen nemen, allez.  Maar ik heb haar niet gezien hé, en das heel… ]
 
 P:
-Maar de vraag was OM u te zien, omdat ze ongerust was.  Het erge is DAT ge haar niet gezien heb, snap je?  Sorry ik ben een beetje emotioneel maar eh…
+{Maar de vraag was OM u te zien, omdat ze ongerust was.  Het erge is DAT ge haar niet gezien heb, snap je?  Sorry ik ben een beetje emotioneel maar eh…}
 
 P:
-Nee nee, ik begrijp dat
+{Nee nee, ik begrijp dat}
 
 G:
-??? een collega?
+~??? een collega?~
 
 R:
-het is dat waar ge naar verwijst, het ziekenhuis ?? ik doe niet anders als met de raadpleging overvol boeken van mensen…
-het minste dat ik telefoon krijg van een huisdokter of van een patient, ik zeg nooit
+[het is dat waar ge naar verwijst, het ziekenhuis ?? ik doe niet anders als met de raadpleging overvol boeken van mensen…]
+[het minste dat ik telefoon krijg van een huisdokter of van een patient, ik zeg nooit]
 
 P:
-daar zijn we wel blij, we zijn blij dat we hier kunnen ontvangen worden, daar zijn we heel blij mee
+{daar zijn we wel blij, we zijn blij dat we hier kunnen ontvangen worden, daar zijn we heel blij mee}
 
 R:
-… ook al weet ik…ja… soms weet ge op voorhand… ni goe..  Ja tis altijd iets als mensen klagen, ja dan is er er iets hé, maar…
-Ik weet vaak op voorhand dat ik met die raadpleging niet iets wezenlijk ga doen, en toch…
+[… ook al weet ik…ja… soms weet ge op voorhand… ni goe..  Ja tis altijd iets als mensen klagen, ja dan is er er iets hé, maar…]
+[Ik weet vaak op voorhand dat ik met die raadpleging niet iets wezenlijk ga doen, en toch…]
 
 P:
-Daar wou ik nog één klein ding van zeggen, ons moeder was iemand die heel veel zeurde en kloeg, en ik weet niet of ge ze kent,
-maar als ge ze kent wil ik u dat zeker geven, ge dacht na een tijd: Daar is ze weer… denk ik… Maar dat is volgens mij ook iets dat ge kunt meenemen:
-dat mensen die altijd klagen soms ook terecht kunnen klagen.
+{Daar wou ik nog één klein ding van zeggen, ons moeder was iemand die heel veel zeurde en kloeg, en ik weet niet of ge ze kent,}
+{maar als ge ze kent wil ik u dat zeker geven, ge dacht na een tijd: Daar is ze weer… denk ik… Maar dat is volgens mij ook iets dat ge kunt meenemen:}
+{dat mensen die altijd klagen soms ook terecht kunnen klagen.}
 
 R:
-ja tuurlijk, maar ik ken haar natuurlijk niet goed, ik heb haar maar een keer gezien, een afspraak voor de ablatie, tijdens de ablatie is niet dat ge een babbel doet
-want de mensen zijn onder narcose, en de dag nadien gaan de mensen naar huis, dus ik kende haar helemaal niet goed, ik heb haar nadien nog één keer aan de telefoon gehad.
-Maar dat is, ik kan, natuurlijk ik ben ook diensthoofd van de dienst hier hé.  Dus ik kijk…
+[ja tuurlijk, maar ik ken haar natuurlijk niet goed, ik heb haar maar een keer gezien, een afspraak voor de ablatie, tijdens de ablatie is niet dat ge een babbel doet]
+[want de mensen zijn onder narcose, en de dag nadien gaan de mensen naar huis, dus ik kende haar helemaal niet goed, ik heb haar nadien nog één keer aan de telefoon gehad.]
+[Maar dat is, ik kan, natuurlijk ik ben ook diensthoofd van de dienst hier hé.  Dus ik kijk…]
 
 P:
-das zeker belangrijk voor u ook om te weten
+{das zeker belangrijk voor u ook om te weten}
 
 R:
-ik kijk nu naar wat ik zelf hoorde van wat er over mij gezegd wordt, ik hoor hier natuurlijk heel veel over dienst zelf hé, dus als tgaat over mijzelf,
-en dan kom ik subiet terug op de dienst, dan vind ik één: dat lachen, dat vind ik verschrikkelijk erg, en twee dat ik blijkbaar toch niet, op die dag, aan iemand die vraagt aan mij
-“Mag ik dringend op raadpleging komen?” dat ik toen blijkbaar gezegd hebt: Nee.
+[ik kijk nu naar wat ik zelf hoorde van wat er over mij gezegd wordt, ik hoor hier natuurlijk heel veel over dienst zelf hé, dus als tgaat over mijzelf,]
+[en dan kom ik subiet terug op de dienst, dan vind ik één: dat lachen, dat vind ik verschrikkelijk erg, en twee dat ik blijkbaar toch niet,]
+[op die dag, aan iemand die vraagt aan mij]
+[“Mag ik dringend op raadpleging komen?” dat ik toen blijkbaar gezegd hebt: Nee.]
 
 P:
-Dus subjectief hé, dat lachen, sorry, dat zal wel zo zijn, dat zal wel belangrijk zijn
+{Dus subjectief hé, dat lachen, sorry, dat zal wel zo zijn, dat zal wel belangrijk zijn}
 
 A:
-Das haar aanvoelen geweest hé
+--Das haar aanvoelen geweest hé--
 
 P:
-Das haar aanvoelen geweest, maar er zijn ook genoeg objectieve zaken
+{Das haar aanvoelen geweest, maar er zijn ook genoeg objectieve zaken}
 
 R:
-Goed, dat is gezegd he, ze gaat dat niet verzinnen, ze heeft dat zo ervaren…
+[Goed, dat is gezegd he, ze gaat dat niet verzinnen, ze heeft dat zo ervaren…]
 
 A:
-Dat is iets subjectief
+--Dat is iets subjectief--
 
-(onverstaanbaar)
+--(onverstaanbaar)--
 
 A:
-Wat ik niet subjectief vind is, dat ge op die moment, en daar kan ik met mijn verstand niet helemaal bij, een opsomming krijgt van wat er allemaal misloopt
-en u dan baseert op een scan van voor de ablatie en zegt… euh… Wees maar gerust, alles is okee, dat snap ik niet
+--Wat ik niet subjectief vind is, dat ge op die moment, en daar kan ik met mijn verstand niet helemaal bij, een opsomming krijgt van wat er allemaal misloopt--
+--en u dan baseert op een scan van voor de ablatie en zegt… euh… Wees maar gerust, alles is okee, dat snap ik niet--
 
 R:
-Wees maar gerust, als het gaat over de bloedvaten rond het hart
+[Wees maar gerust, als het gaat over de bloedvaten rond het hart]
 
 A:
-Maar das niet haar vraag, haar vraag is: wat is er mis?
+--Maar das niet haar vraag, haar vraag is: wat is er mis?--
 
 P:
-Haar vraag is,” kijk, kijk.. geef mij een consultatie.  Een dringende consultatie”
+{Haar vraag is,” kijk, kijk.. geef mij een consultatie.  Een dringende consultatie”}
 
 R:
-Kijk, er zijn drie dingen … of misschien nog meer… ik herinner mij die telefoon niet meer maar ik kan mij.. allez…
-ik kan mij echt niet inbeelden dat ik zeg van “er is niks”, allez, die ??? telefoon en luistern? gebeurt heel veel, ik ga gezegd hebben:
-“Ge moet gene schrik hebben voor een infarct.” Daar heb ik het ? over.  Okee, naar die bloedvaten rond het hart gekeken, dus voor een infarct moet ge geen schrik hebben,
-want dat KAN niet, hé, want die bloedvaten die zijn??  dus dat kan niet dat daar nu een…  ???
-Twee: Ja heel vervelend, ja ongelofelijk maar toch gebeurd, blijkbaar is er aan mij een vraag gesteld om een dringende raadpleging,
-rechtstreeks bij mij aan de telefoon en ik heb daar blijkbaar nee op gezegd.
+[Kijk, er zijn drie dingen … of misschien nog meer… ik herinner mij die telefoon niet meer maar ik kan mij.. allez…]
+[ik kan mij echt niet inbeelden dat ik zeg van “er is niks”, allez, die ??? telefoon en luistern? gebeurt heel veel, ik ga gezegd hebben:]
+[“Ge moet gene schrik hebben voor een infarct.” Daar heb ik het ? over.  Okee, naar die bloedvaten rond het hart gekeken, dus voor een infarct moet ge geen schrik hebben,]
+[want dat KAN niet, hé, want die bloedvaten die zijn??  dus dat kan niet dat daar nu een…  ???]
+[Twee: Ja heel vervelend, ja ongelofelijk maar toch gebeurd, blijkbaar is er aan mij een vraag gesteld om een dringende raadpleging,]
+[rechtstreeks bij mij aan de telefoon en ik heb daar blijkbaar nee op gezegd.]
 
 P:
-Ja, en het tweede is, die vraag naar dringende.. komt, in the first place, al uit dees ziekenhuis hé
+{Ja, en het tweede is, die vraag naar dringende.. komt, in the first place, al uit dees ziekenhuis hé}
 
 R:
-Ja. ja. 
+[Ja. ja. ]
 
 P:
-Zij geeft een vraag door van uw eigen ziekenhuis, aan u eigenlijk hé, en dat is
+{Zij geeft een vraag door van uw eigen ziekenhuis, aan u eigenlijk hé, en dat is}
 
 R:
-We gaan het subiet over het team en het ziekenhuis hebben, maar ik heb het nu, heel specifiek naar mij, twee, dus ik heb daar nee gezegd tegen iemand die vraagt aan mij
-om dringend op consultatie te komen… das bijzonder vervelend, want, ja… goe.  Ik krijg feedback hier nu maar ik vind dat… ja inderdaad..;
-Die raadpleging hier, ontploft, Eigenlijk wordt er tegen mij gezegd: “Doe dat niet”. Probeert een beetje aan de telefoon, maar ik laat gewoon iedereen komen… Soit
-En ten derde… dan is het aan den telefoon, ja.. dan kun je niet meer, je kan dan zeggen, ja die bloedvaten zijn normaal, een klinische evaluatie maken
-dat gaat gij even goed weten als ik, dat kun je niet aan de telefoon.  En dan
+[We gaan het subiet over het team en het ziekenhuis hebben, maar ik heb het nu, heel specifiek naar mij, twee, dus ik heb daar nee gezegd tegen iemand die vraagt aan mij]
+[om dringend op consultatie te komen… das bijzonder vervelend, want, ja… goe.  Ik krijg feedback hier nu maar ik vind dat… ja inderdaad..;]
+[Die raadpleging hier, ontploft, Eigenlijk wordt er tegen mij gezegd: “Doe dat niet”. Probeert een beetje aan de telefoon, maar ik laat gewoon iedereen komen… Soit]
+[En ten derde… dan is het aan den telefoon, ja.. dan kun je niet meer, je kan dan zeggen, ja die bloedvaten zijn normaal, een klinische evaluatie maken]
+[dat gaat gij even goed weten als ik, dat kun je niet aan de telefoon.  En dan]
 
 A:
-En daarom moest ge haar zien
+--En daarom moest ge haar zien--
 
 R:
-En daarom moest ik haar zien, of moest de huisdokter
+[En daarom moest ik haar zien, of moest de huisdokter]
 
 S:
-Maar er is ook gezegd dat ze dus een infectie had hé,  dat is dus niet alleen pijn op de borst, maar ze heeft heel specifiek gezegd, want dat had ze gehoord van het lab,
-en van de spoedafdeling: ze had een infectie.
+|Maar er is ook gezegd dat ze dus een infectie had hé,  dat is dus niet alleen pijn op de borst, maar ze heeft heel specifiek gezegd, want dat had ze gehoord van het lab,|
+|en van de spoedafdeling: ze had een infectie.|
 
 R:
-Ja
+[Ja]
 
 S:
-Dat kan ik niet goed begrijpen.  Dat u dat naast u neergelegd hebt zomaar.
+|Dat kan ik niet goed begrijpen.  Dat u dat naast u neergelegd hebt zomaar.|
 
 G:
-Maar als u die uitslagen nu ziet, eum, 
+~Maar als u die uitslagen nu ziet, eum, ~
 
 R:
-Ik weet niet, ik hoor u zeggen dat ik dat naast mij neer heb gelegd
+[Ik weet niet, ik hoor u zeggen dat ik dat naast mij neer heb gelegd]
 
 S:
-De klacht toch in ieder geval hé.  Dit lijkt mij een systeemfout te zijn he
+|De klacht toch in ieder geval hé.  Dit lijkt mij een systeemfout te zijn he|
 
 R:
-Ik hoor hier heel veel terecht opmerkingen, absoluut, maar ja, sommige dingen…  nee, ik heb dat… ja… u zegt dat wij toen die moment niet naar die bloednamen aan het zien zijn,
-ik weet: misschien wel, maar evengoed misschien niet hé. Want ik misschien niet die bloedwaarden gezien
+[Ik hoor hier heel veel terecht opmerkingen, absoluut, maar ja, sommige dingen…  nee, ik heb dat… ja… u zegt dat wij toen die moment niet naar die bloednamen aan het zien zijn,]
+[ik weet: misschien wel, maar evengoed misschien niet hé. Want ik misschien niet die bloedwaarden gezien]
 
 S:
-Waarschijnlijk niet  nee, maar die waren wel afgenomen, dat vind ik dan een systeemfout.
+|Waarschijnlijk niet  nee, maar die waren wel afgenomen, dat vind ik dan een systeemfout.|
 
-(simon en rossenbacker praten tegelijk, onverstaanbaar)
+|(simon en rossenbacker praten tegelijk, onverstaanbaar)|
 
 R:
-Toen die 22e augustus… denk ik niet dat…dat ik toen van die 15e augustus een bloedname heb gezien en dat ik toen die CRP gestegen heb gezien
+[Toen die 22e augustus… denk ik niet dat…dat ik toen van die 15e augustus een bloedname heb gezien en dat ik toen die CRP gestegen heb gezien]
 
 P:
-Ik vind gewoon samengevat, allee ja, ik ga nog is herhalen, voor een stuk, dat maakt voor mij ook niet uit of het fouten zijn van het systeem of euh…van u.
-Mijn doel is wel echt hier, van dees gesprek, dat er hier binnen dit ziekenhuis iets mee gedaan wordt.  Dat is mijn enige doel, mijn moeder is inderdaad dood,
-allee ja niks gaat haar terugbengen.. Maar met het juridische wil ik zeggen, zelfs al zou ik daaraan beginnen, we gaan dat niet eens winnen want er zijn ??,
-and I dont care, ik wil er niet aan beginnen, ik kan dat niet af, dat is honderd procent zeker.  Ik zou gewoon graag ergens input hebben van:
-dat is hier gehoord in het ziekenhuis, en dit gaan we eraan doen.  Ik vind sommige dingen echt heel raar, dat ge zegt van: ze is daar blijkbaar al geweest,
-want er zijn bloedafnames, maar er is geen verslag van?  Ik vraag aan u, moet daar geen verslag zijn?
-“A jawel”, dan denk ik van… wat is dat hier?  Ik heb binnenkort iets… ik ben hier al eens geweest voor een ingreep, ik ging binnenkort ook een nieuwe ingreep laten doen,
-maar ik ga ze niet meer hier laten doen.
-Ik heb gewoon schrik van hoe dat het systeem hier functioneert, en gelijk ik zeg:
-het enige wat ik graag hoor - zou graag horen, binnenkort nog is van iemand… ik weet niet bij wie ge daarvoor moet zijn,
-misschien ga ik wel nog daarachter komen vragen: wat is er daar misgegaan en wat gaan jullie daaraan doen?
-En ik zou kei-kei-keiblij zijn als dat duidelijk is, en als mij gezegd wordt: Ja, dit is daarmee gebeurd.  Dan zou ik superblij zijn.
-En dat is alles wat ik wil.  Das euh… en ik heb eigenlijk ni veel meer andere vragen daarover, ik weet niet of jullie nog….?
-Ik moet eigenlijk ook niet weten tot de laatste komma waar het misgelopen is , wie wat gedaan heeft, I dont care… euh… 
+{Ik vind gewoon samengevat, allee ja, ik ga nog is herhalen, voor een stuk, dat maakt voor mij ook niet uit of het fouten zijn van het systeem of euh…van u.}
+{Mijn doel is wel echt hier, van dees gesprek, dat er hier binnen dit ziekenhuis iets mee gedaan wordt.  Dat is mijn enige doel, mijn moeder is inderdaad dood,}
+{allee ja niks gaat haar terugbengen.. Maar met het juridische wil ik zeggen, zelfs al zou ik daaraan beginnen, we gaan dat niet eens winnen want er zijn ??,}
+{and I dont care, ik wil er niet aan beginnen, ik kan dat niet af, dat is honderd procent zeker.  Ik zou gewoon graag ergens input hebben van:}
+{dat is hier gehoord in het ziekenhuis, en dit gaan we eraan doen.  Ik vind sommige dingen echt heel raar, dat ge zegt van: ze is daar blijkbaar al geweest,}
+{want er zijn bloedafnames, maar er is geen verslag van?  Ik vraag aan u, moet daar geen verslag zijn?}
+{“A jawel”, dan denk ik van… wat is dat hier?  Ik heb binnenkort iets… ik ben hier al eens geweest voor een ingreep, ik ging binnenkort ook een nieuwe ingreep laten doen,}
+{maar ik ga ze niet meer hier laten doen.}
+{Ik heb gewoon schrik van hoe dat het systeem hier functioneert, en gelijk ik zeg:}
+{het enige wat ik graag hoor - zou graag horen, binnenkort nog is van iemand… ik weet niet bij wie ge daarvoor moet zijn,}
+{misschien ga ik wel nog daarachter komen vragen: wat is er daar misgegaan en wat gaan jullie daaraan doen?}
+{En ik zou kei-kei-keiblij zijn als dat duidelijk is, en als mij gezegd wordt: Ja, dit is daarmee gebeurd.  Dan zou ik superblij zijn.}
+{En dat is alles wat ik wil.  Das euh… en ik heb eigenlijk ni veel meer andere vragen daarover, ik weet niet of jullie nog….?}
+{Ik moet eigenlijk ook niet weten tot de laatste komma waar het misgelopen is , wie wat gedaan heeft, I dont care… euh… }
 
 G:
-Zijn de bloedwaarden verontrustend, als u ze nu bekijkt?
+~Zijn de bloedwaarden verontrustend, als u ze nu bekijkt?~
 
 R:
-Van 15 augustus? Nee
+[Van 15 augustus? Nee]
 
 G:
-En die van drie dagen later, zit daar een progressie in?
+~En die van drie dagen later, zit daar een progressie in?~
 
 R:
-Ja toen ze opgenomen was was dat veel….
+[Ja toen ze opgenomen was was dat veel….]
 
 G:
-nee, 
+~nee, ~
 
 P:
-ja toen wel natuurlijk.
+{ja toen wel natuurlijk.}
 
 G:
-De 18e is ze bij de vervanger van de huisarts een tweede bloedonderzoek, waarvoor ze in het weekend zo hard gebeld heeft naar de huisartsenpost hé.  Heeft ze…
+~De 18e is ze bij de vervanger van de huisarts een tweede bloedonderzoek, waarvoor ze in het weekend zo hard gebeld heeft naar de huisartsenpost hé.  Heeft ze…~
 
 P:
-18/8 is bij dokter de Greef denk ik
+{18/8 is bij dokter de Greef denk ik}
 
 R:
-Nee, daar is geen bloedname hier.
+[Nee, daar is geen bloedname hier.]
 
 
 43:55 ~en, en, kon je die niet in beeld brengen ~
@@ -486,203 +493,233 @@ Nee, daar is geen bloedname hier.
 45:14 
 
 A:
-En het was haar verantwoordelijkheid om dringend een afspraak te maken, en dat is absurd.
+--En het was haar verantwoordelijkheid om dringend een afspraak te maken, en dat is absurd.--
 
 P:
-Ik ga dat bijvoorbeeld misschien wel opvolgen met de pers erbij.  Ik heb een gesprek nu, dat ik kan doen, en ik wil gewoon dat dat ergens… iets mee gebeurt.
+{Ik ga dat bijvoorbeeld misschien wel opvolgen met de pers erbij.  Ik heb een gesprek nu, dat ik kan doen, en ik wil gewoon dat dat ergens… iets mee gebeurt.}
 
 G:
-Is het gewoon dat als hier beginnende afwijkingen op de spoed waren, is het dan aan de patient om een afspraak maken?  Is het dan niet zo van: wij gaan die afspraak voor u maken, en het is zo ernstig, u blijft nu hier?  En dan zij misschien, ik ga naar huis want ik heb een man die ik moet verzorgen.. maar dat spoed dan wel zegt: dit is ernstig, dus u blijft hier?
-stilte
+~Is het gewoon dat als hier beginnende afwijkingen op de spoed waren, is het dan aan de patient om een afspraak maken?~
+~Is het dan niet zo van: wij gaan die afspraak voor u maken, en het is zo ernstig, u blijft nu hier?  En dan zij misschien,~
+~ik ga naar huis want ik heb een man die ik moet verzorgen.. maar dat spoed dan wel zegt: dit is ernstig, dus u blijft hier?~
+~stilte~
 
 G:
-??? antibiotica geven??? in het ziekenhuis dan.  Dus dat… Ik heb het ook van anderen gehoord.  Iemand stapt uit het vliegtuig, breekt haar knie.  Op het einde van haar vakantie. Dan gaat ze naar haar huisarts en dan zeggen ze: U moet nu een orhtopeed zoeken om u te opereren, dan denk ik… En dan vraagt ze aan haar vriendin… dan denk ik: het is toch aan de huisarts of aan de behandelende arts om te zeggen, goed, we gaan u, ik ga een operatiedatum voor u afspreken he.  Behalve als iemand dan zegt, Nee ik wil perse…??
+~??? antibiotica geven??? in het ziekenhuis dan.  Dus dat… Ik heb het ook van anderen gehoord.  Iemand stapt uit het vliegtuig, breekt haar knie.~
+~Op het einde van haar vakantie. Dan gaat ze naar haar huisarts en dan zeggen ze: U moet nu een orhtopeed zoeken om u te opereren, dan denk ik…~
+~En dan vraagt ze aan haar vriendin… dan denk ik: het is toch aan de huisarts of aan de behandelende arts om te zeggen, goed, we gaan u,~
+~ik ga een operatiedatum voor u afspreken he.  Behalve als iemand dan zegt, Nee ik wil perse…??~
 
-stilte
+~stilte~
 
 G:
-Dus er wordt veel initiatief ??? kijk als je een factuur hebt??
+~Dus er wordt veel initiatief ??? kijk als je een factuur hebt??~
 
 S:
-en dan ook nog weten dat de artsen dikwijls moeilijk bereikbaar zijn
+|en dan ook nog weten dat de artsen dikwijls moeilijk bereikbaar zijn|
 
 G:
-Het was vakantie.  Het was 15 augustus
+~Het was vakantie.  Het was 15 augustus~
 
 S:
-doen moet je het toch  niet aan de patient overlaten om te proberen een afspraak te maken, ..??? Dat is een systeemfout.  En als ze op de spoed komen, als daar afwijkingen zijn, dan moet de behandelaar aan u of uw team laten weten dat die afwijkingen er zijn.  In ernstige gevallen zouden ze een cardioloog erbij moeten halen… dat is allemaal niet gebeurd.  En dan inderdaad, ?? maak zelf maar een afspraak, ja??  dat vind ik een systeemfout.  En daar zou iets kunnen aan  gedaan worden lijkt mij.
+|doen moet je het toch  niet aan de patient overlaten om te proberen een afspraak te maken, ..??? Dat is een systeemfout.|
+|En als ze op de spoed komen, als daar afwijkingen zijn, dan moet de behandelaar aan u of uw team laten weten dat die afwijkingen er zijn.|
+|In ernstige gevallen zouden ze een cardioloog erbij moeten halen… dat is allemaal niet gebeurd.  En dan inderdaad, ?? maak zelf maar een afspraak, ja??|
+|dat vind ik een systeemfout.  En daar zou iets kunnen aan  gedaan worden lijkt mij.|
 
 A:
-Is dit verhaal iets wat teruggekoppeld wordt?
+--Is dit verhaal iets wat teruggekoppeld wordt?--
 
 P:
-ja ik wil ergens wel terugkoppeling..
+{ja ik wil ergens wel terugkoppeling..}
 
 A:
-Nee ik bedoel intern, van u uit, naar uw ploeg
+--Nee ik bedoel intern, van u uit, naar uw ploeg--
 
 P:
-Ja, dat zal wel;  hoop ik.
+{Ja, dat zal wel;  hoop ik.}
 
 R:
-Natuurlijk, jaja
+[Natuurlijk, jaja]
 
 P:
-Want het zou toch heel goed zijn als er een aantal dingen worden opgelost en als er misschien een nieuwe dode vermeden wordt… dan is er zo nog nut aan het verhaal weet ge, dan
-denkt ge van, ons moeder is wel dood, maar dan is er nog iets nuttig gebeurd of zo
+{Want het zou toch heel goed zijn als er een aantal dingen worden opgelost en als er misschien een nieuwe dode vermeden wordt…}
+{dan is er zo nog nut aan het verhaal weet ge, dan}
+{denkt ge van, ons moeder is wel dood, maar dan is er nog iets nuttig gebeurd of zo}
 
 G:
-We weten wel, dat zo’n endocarditis ??, dat dat een moeilijke diagnose is.  Want dat heeft ze toch gehad.
+~We weten wel, dat zo’n endocarditis ??, dat dat een moeilijke diagnose is.  Want dat heeft ze toch gehad.~
 
 R:
-Ik weet het niet, niemand weet wat ze gehad heeft hé
+[Ik weet het niet, niemand weet wat ze gehad heeft hé]
 
 G:
-Ze heeft toch echt, bacteriele embolen gehad..
+~Ze heeft toch echt, bacteriele embolen gehad..~
 
 R:
-Niemand wat wat ze heeft gehad
+[Niemand wat wat ze heeft gehad]
 
 A:
-Dat staat in Rik zijne brief
+--Dat staat in Rik zijne brief--
 
 R:
-nee nee, ??? als er gezegd wordt “alles is gezegd” maar als gij nog niet bij haar opname, we zijn nog niet bij het feit dat ik inderdaad er uiteindelijk, ja , van, maar dat is… die team… Wat da maakt dat je soms niet weet dat er mensen die ge inderdaad op de raadpleging, dat je ?? ge weet niet altijd van elke patient, die hier ligt, eum..
+[nee nee, ??? als er gezegd wordt “alles is gezegd” maar als gij nog niet bij haar opname, we zijn nog niet bij het feit dat ik inderdaad er uiteindelijk, ja ,]
+[van, maar dat is… die team… Wat da maakt dat je soms niet weet dat er mensen die ge inderdaad op de raadpleging, dat je ?? ge weet niet altijd van elke patient,]
+[die hier ligt, eum..]
 
 G:
-???
+~???~
 
 R:
-Ik ben daar bij geweest, maar toen was het al heel slecht.. maar goed, ik denk niet dat we iets vroeger, het is niet dat ikhad gezegd van  “hadden ze mij nu maar twee dagen vroeger” , absoluut ni hé, totaal niet, want het team, absoluut …dat zeg ik nu echt hé,  dat is zo een zeldzaam iets… Ik heb die collega’s gezegd: een maand na die ablatie, dat gaat.. misschien, wat dat daar aan verschenen is, ?? dus voorkamer fistel traject , tussen de voorkamer en de slokdarm.  Dat is wat dat er mogelijks aan de hand is.  Maar dat is zo zeldzaam dat men dat zelfs daar ja…ni echt naartoe trok
+[Ik ben daar bij geweest, maar toen was het al heel slecht.. maar goed, ik denk niet dat we iets vroeger, het is niet dat ik had gezegd van]
+[“hadden ze mij nu maar twee dagen vroeger” , absoluut ni hé, totaal niet, want het team, absoluut …dat zeg ik nu echt hé,  dat is zo een zeldzaam iets…]
+[Ik heb die collega’s gezegd: een maand na die ablatie, dat gaat.. misschien, wat dat daar aan verschenen is, ?? dus voorkamer fistel traject ,]
+[tussen de voorkamer en de slokdarm.  Dat is wat dat er mogelijks aan de hand is.  Maar dat is zo zeldzaam dat men dat zelfs daar ja…ni echt naartoe trok]
 
 G:
-en wat  ???
+~en wat  ???~
 
 R:
-Nee nee, door de ablatie hé.  
+[Nee nee, door de ablatie hé.  ]
 
 G:
-Ja ja ja.
+~Ja ja ja.~
 
 S:
-??
+|??|
 
 R:
-Maar daar is geen bewijs, daar moet ge beeld? voor hebben, dus dat is een mogelijke… euh…
+[Maar daar is geen bewijs, daar moet ge beeld? voor hebben, dus dat is een mogelijke… euh…]
 
 S:
-Het is wel….??? een complicatie, en één plus één is twee.  Dus .. een complicatie na een ingreep is waarschijnlijk gerelateerd aan die ingreep, tot bewijs van het tegendeel.  Maar blijkbaar heeft niemand die link gelegd.
+|Het is wel….??? een complicatie, en één plus één is twee.  Dus .. een complicatie na een ingreep is waarschijnlijk gerelateerd aan die ingreep,|
+|tot bewijs van het tegendeel.  Maar blijkbaar heeft niemand die link gelegd.|
 
 R:
-Ja maar wat ge nu zegt, complicatie maar ?? ja… 
+[Ja maar wat ge nu zegt, complicatie maar ?? ja… ]
 
 S:
-…??? uitlegt, mogelijke
+|…??? uitlegt, mogelijke|
 
 R:
-Mogelijk, ja, mogelijk, maar das ni absoluut, er is geen… dat kan dat dat de reden is ja, maar er is… dat is niet zeker dat dat dat geweest is hé
+[Mogelijk, ja, mogelijk, maar das ni absoluut, er is geen… dat kan dat dat de reden is ja, maar er is… dat is niet zeker dat dat dat geweest is hé]
 
 A:
-Ja ik hoor wel “hoogstwaarschijnlijk” als euh ?? en niet het woordje “mogelijk” he
+--Ja ik hoor wel “hoogstwaarschijnlijk” als euh ?? en niet het woordje “mogelijk” he--
 
 P:
-?? … gelle moogt uiteraard doorvragen maar…
+{?? … gelle moogt uiteraard doorvragen maar…}
 
 A:
-Ik ben eigenlijk, wat mij betreft, ik ben ook uitgepraat
+--Ik ben eigenlijk, wat mij betreft, ik ben ook uitgepraat--
 
 P:
-Zeg, euhm… willen jullie graag meer weten nog?  want anders (onverstaanbaar S.en G.)
+{Zeg, euhm… willen jullie graag meer weten nog?  want anders (onverstaanbaar S.en G.)}
 P:
-want ge moogt ook uw eigen.. 
+{want ge moogt ook uw eigen.. }
 
 G:
-.. nee nee
+~.. nee nee~
 
 P:
-… nieuwsgierigheid hebben hé
+{… nieuwsgierigheid hebben hé}
 
 P:
-Nu ga ik gewoon efkes samenvatten omdat ik denk ja, ..; Samengevat, euhm, ik ben niet eens kwaad op u, ik ben misschien wel kwaad omdat het systeem zo slecht werkt.  Ik hoop dat daar iets mee gebeurt…
+{Nu ga ik gewoon efkes samenvatten omdat ik denk ja, ..; Samengevat, euhm, ik ben niet eens kwaad op u, ik ben misschien wel kwaad omdat het systeem zo slecht werkt.}
+{Ik hoop dat daar iets mee gebeurt…}
 
 G:
-Dat is omdat jullie zo’n verstandige mensen zijn.
+~Dat is omdat jullie zo’n verstandige mensen zijn.~
 
 P:
-Nee, dat is omdat dat… nee, ik weet niet waarom dat dat is.  Het verandert niks.  En ook omdat ik weet, er is geen enkele dokter die denkt… Dokter zijt ge om goed te doen.  Niemand denkt van haha, we hebben weer iets mis gedaan, dat weet ik ook.  Maar ik zou gewoon graag, misschien ooit nog eens van u horen, binnen een maand of zo, of misschien nog eens met u mogen bellen. Ik ben heel dankbaar, want ik zag dat het heel moeilijk is om dokters te bereiken, dat we dit gesprek wel heel rap hebben kunnen doen, en dat gij komt opdagen direct zelf.  Ik vind dat wel knap, dat moet ik zeggen.  Want  dat zijn.. ge wordt hier aangevallen langs alle kanten, dus das ook logisch in a way… Maar.. bon ja.  Merci daarvoor alleszins.  En ik hoop gewoon dat er, gelijk als “waarom was die notitie daar niet?”, dat dat nu is echt zwaar wordt doorgelicht want dat wijst op een systeemfout, en dat er echt..; ja dat er iets mee gebeurt… Ik ga het nog eens zeggen, niet om zielig te doen of zo, maar ons leven is echt volledig verandert hé.  We zijn niet alleen ons moeder kwijt, we zorgen nu ook voor ons vader.  Dat is iets heel zwaar wat gebeurt.
+{Nee, dat is omdat dat… nee, ik weet niet waarom dat dat is.  Het verandert niks.  En ook omdat ik weet, er is geen enkele dokter die denkt… Dokter zijt ge om goed te doen.}
+{Niemand denkt van haha, we hebben weer iets mis gedaan, dat weet ik ook.  Maar ik zou gewoon graag, misschien ooit nog eens van u horen, binnen een maand of zo,}
+{of misschien nog eens met u mogen bellen. Ik ben heel dankbaar, want ik zag dat het heel moeilijk is om dokters te bereiken,}
+{dat we dit gesprek wel heel rap hebben kunnen doen, en dat gij komt opdagen direct zelf.  Ik vind dat wel knap, dat moet ik zeggen.}
+{Want  dat zijn.. ge wordt hier aangevallen langs alle kanten, dus das ook logisch in a way… Maar.. bon ja.  Merci daarvoor alleszins.}
+{En ik hoop gewoon dat er, gelijk als “waarom was die notitie daar niet?”, dat dat nu is echt zwaar wordt doorgelicht want dat wijst op een systeemfout,}
+{en dat er echt..; ja dat er iets mee gebeurt… Ik ga het nog eens zeggen, niet om zielig te doen of zo, maar ons leven is echt volledig verandert hé.}
+{We zijn niet alleen ons moeder kwijt, we zorgen nu ook voor ons vader.  Dat is iets heel zwaar wat gebeurt.}
 
 A:
-Want zij was heel jong en heel fit
+--Want zij was heel jong en heel fit--
 
 P:
-Ja. en elk
+{Ja. en elk}
 
 A:
-en de zorger voor mijn vader
+--en de zorger voor mijn vader--
 
 P:
-Het punt is, als ge dan voelt wat er had kunnen vermeden worden, en wat wij nu dus vragen: “Vermijd dit in de toekomst”.  Dat is echt alles.  Maar ik zou echt heel graag hebben dat daar heel serieus mee .. allee nagekeken wordt en weet ik veel… En als ik de moed zelf nog heb en de kracht nog heb dan ik zelf nog contact opnemen met het ziekenhuis, gewoon om is te horen hoe dat ‘t zit, en of er iemand nog een gesprek met mij wil hebben daarover. Misschien denk ik tegen dan ook “ik moet het van mij afzetten” maar dat is..wat dat mijn plan is.  Ik weet niet wat dat u…
+{Het punt is, als ge dan voelt wat er had kunnen vermeden worden, en wat wij nu dus vragen: “Vermijd dit in de toekomst”.  Dat is echt alles.}
+{Maar ik zou echt heel graag hebben dat daar heel serieus mee .. allee nagekeken wordt en weet ik veel…}
+{En als ik de moed zelf nog heb en de kracht nog heb dan ik zelf nog contact opnemen met het ziekenhuis, gewoon om is te horen hoe dat ‘t zit,}
+{en of er iemand nog een gesprek met mij wil hebben daarover. Misschien denk ik tegen dan ook “ik moet het van mij afzetten” maar dat is..wat dat mijn plan is.}
+{Ik weet niet wat dat u…}
 
 A:
-Voor mij is het gehoord worden en kunnen spreken de doelstelling geweest he
+--Voor mij is het gehoord worden en kunnen spreken de doelstelling geweest he--
 
 P:
-A okee, çava, dat is dan bij deze ook gebeurd
+{A okee, çava, dat is dan bij deze ook gebeurd}
 
 A:
-.. daarna heb ik geen ambitie…
+--.. daarna heb ik geen ambitie…--
 
 R:
-Het is ook heel acuur hé, ge kunt ni voorspellen hoe dat de volgende weken, maanden… en het lijkt me heel logisch… dat zijn fases en ge zit nu in een heel acute fase.  Dus denk ik wel dat je binnen een paar weken, maanden, een jaar, maakt niet uit, daar nog over wilt babbelen. ?? via die weg, zoals ge dat nu hebt gedaan, contacteren.  Absoluut.
+[Het is ook heel acuur hé, ge kunt ni voorspellen hoe dat de volgende weken, maanden… en het lijkt me heel logisch… dat zijn fases en ge zit nu in een heel acute fase.]
+[Dus denk ik wel dat je binnen een paar weken, maanden, een jaar, maakt niet uit, daar nog over wilt babbelen. ??]
+[via die weg, zoals ge dat nu hebt gedaan, contacteren.Absoluut.]
 
 P:
-Ja, okee. Ik denk dat ik dat dan, misschien binnen een jaar…
+{Ja, okee. Ik denk dat ik dat dan, misschien binnen een jaar…}
 
 G:
-(iets ivm brief van Rik)
+~(iets ivm brief van Rik)~
 
 P:
-A van Rik?  Ik wil die wel doormailen.  Er is nog een andere mens die ook een brief gestuurd had, we hadden die uitgeprint bij maar ik heb die ook op mail, ik ga die nog is doormailen waarschijnlijk.  Ik ga eerst nog is ???
+{A van Rik?  Ik wil die wel doormailen.  Er is nog een andere mens die ook een brief gestuurd had, we hadden die uitgeprint bij maar ik heb die ook op mail,}
+{ik ga die nog is doormailen waarschijnlijk.  Ik ga eerst nog is ???}
 
 G:
-Ja in die brief staat toch wat wij ook gezegd hebben
+~Ja in die brief staat toch wat wij ook gezegd hebben~
 
 P:
-Ja van mij mag hij die hebben.  Das ik denk hetzelfde als … dezelfde vragen.
-Rik das een chirurg ook.
+{Ja van mij mag hij die hebben.  Das ik denk hetzelfde als … dezelfde vragen.}
+{Rik das een chirurg ook.}
 
 S:
-Rik Sebrechts
+|Rik Sebrechts|
 
 A:
-Das de beste maat van mijn vader. 
+--Das de beste maat van mijn vader. --
 
 R:
-Wie?
+[Wie?]
 
 S:
-Sebrechts
+|Sebrechts|
 
 P:
-Ja, das ook (praten tegelijk)
+{Ja, das ook (praten tegelijk)}
 
 R:
-Rik Sebrechts?  Ik kan die heel goed van Herentals.
+[Rik Sebrechts?  Ik kan die heel goed van Herentals.]
 
 P:
-Ja hij kende uw vader zei hij, hij zei dat hij uw vader kende
+{Ja hij kende uw vader zei hij, hij zei dat hij uw vader kende}
 
 R:
-Rik Sebrechts
+[Rik Sebrechts]
 
 P:
-das de beste vriend van ons vader, die heeft ook een brief gestuurd
+{das de beste vriend van ons vader, die heeft ook een brief gestuurd}
 
 R:
-want zijn zoon, Hendrik, is ook een arts
+[want zijn zoon, Hendrik, is ook een arts]
 
 P:
-Jaja inderdaad, voila, kleine wereld
+{Jaja inderdaad, voila, kleine wereld}
 
 
 
