@@ -17,6 +17,26 @@
 
   const normalize = (text) => text.toLowerCase();
 
+  const parseTerms = (query) => {
+    const normalized = normalize(query);
+    const terms = [];
+    const tokenPattern = /"([^"]+)"|(\S+)/g;
+    let match;
+
+    while ((match = tokenPattern.exec(normalized)) !== null) {
+      const phrase = (match[1] || "")
+        .replace(/\s+/g, " ")
+        .trim();
+      const word = (match[2] || "")
+        .replace(/^"+|"+$/g, "")
+        .trim();
+      const value = phrase || word;
+      if (value) terms.push(value);
+    }
+
+    return terms;
+  };
+
   const escapeHtml = (text) =>
     text
       .replace(/&/g, "&amp;")
@@ -70,6 +90,53 @@
 
     const docs = [];
 
+    // New unified index table layout
+    const overviewTable = portal.querySelector("#overview-table");
+    if (overviewTable) {
+      overviewTable.querySelectorAll("tbody tr").forEach((row) => {
+        const cells = row.querySelectorAll("td");
+        if (cells.length < 4) return;
+
+        const date = cells[0] ? cells[0].textContent.trim() : "";
+        const typeChip = cells[1] ? cells[1].querySelector(".type-chip[data-type]") : null;
+        const typeText = typeChip ? typeChip.getAttribute("data-type") : cells[1].textContent;
+        const type = (typeText || "item").trim().toLowerCase();
+
+        const titleCell = cells[2];
+        const titleLink = titleCell ? titleCell.querySelector("a[href]") : null;
+
+        let title = "";
+        if (titleLink) {
+          title = titleLink.textContent.trim();
+        } else if (titleCell) {
+          const clone = titleCell.cloneNode(true);
+          clone.querySelectorAll("details").forEach((node) => node.remove());
+          title = clone.textContent.trim();
+        }
+
+        const linksCell = cells[3];
+        const htmlLink = linksCell
+          ? linksCell.querySelector("a[href$='.html'], a[href*='.html']")
+          : null;
+        const link = htmlLink || titleLink || (linksCell ? linksCell.querySelector("a[href]") : null);
+
+        if (!link) return;
+
+        const url = link.getAttribute("href");
+        if (!url || !/\.html($|[?#])/i.test(url)) return;
+
+        docs.push({
+          title: title || link.textContent.trim(),
+          url,
+          type,
+          date,
+        });
+      });
+
+      return dedupeByUrl(docs);
+    }
+
+    // Legacy layout (separate mails/documents/transcripts sections)
     const mailSection = portal.querySelector('[aria-labelledby="mails-heading"]');
     if (mailSection) {
       mailSection.querySelectorAll(".mail-table tbody tr").forEach((row) => {
@@ -164,7 +231,7 @@
     state.docs = loaded.filter(Boolean);
     state.ready = true;
 
-    status.textContent = "Index klaar. Zoek op trefwoord.";
+    status.textContent = "Index klaar (" + state.docs.length + " bronnen). Zoek op trefwoord.";
   };
 
   const makeSnippet = (doc, terms) => {
@@ -239,12 +306,14 @@
 
   const search = (rawQuery) => {
     if (!state.ready) return;
+    if (!state.docs.length) {
+      status.textContent = "Index bevat 0 bronnen. Vernieuw de pagina (Ctrl+F5).";
+      resultsContainer.innerHTML = "";
+      return;
+    }
 
     const query = rawQuery.trim();
-    const terms = normalize(query)
-      .split(/\s+/)
-      .map((term) => term.trim())
-      .filter(Boolean);
+    const terms = parseTerms(query);
 
     if (!terms.length) {
       renderResults(query, []);
@@ -296,10 +365,12 @@
 
     try {
       await buildIndex();
-      if (initialQuery.trim()) {
+      if (!state.docs.length) {
+        status.textContent = "Index bevat 0 bronnen. Vernieuw de pagina (Ctrl+F5).";
+      } else if (initialQuery.trim()) {
         search(initialQuery);
       } else {
-        status.textContent = "Index klaar. Typ een zoekterm en druk op Zoek.";
+        status.textContent = "Index klaar (" + state.docs.length + " bronnen). Typ een zoekterm en druk op Zoek.";
       }
     } catch (error) {
       status.textContent = "Zoeken kon niet opstarten: " + (error && error.message ? error.message : "onbekende fout");

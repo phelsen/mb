@@ -207,7 +207,11 @@ print {$out} <<'HTML_TAIL';
           }
         });
 
-        document.querySelectorAll("td.timestamp").forEach((cell) => {
+        const timestampRows = [];
+        document.querySelectorAll("tbody tr").forEach((row) => {
+          const cell = row.querySelector("td.timestamp");
+          if (!cell) return;
+
           const rawLabel = cell.textContent.trim();
           const seconds = parseTimestamp(rawLabel);
           if (seconds === null) return;
@@ -227,7 +231,71 @@ print {$out} <<'HTML_TAIL';
               jumpTo(seconds);
             }
           });
+
+          timestampRows.push({
+            row,
+            seconds,
+            index: timestampRows.length
+          });
         });
+
+        let activeRow = null;
+        let lastAutoScrollMs = 0;
+
+        const setActiveRow = (nextRow) => {
+          if (activeRow === nextRow) return;
+          if (activeRow) activeRow.classList.remove("is-active");
+          activeRow = nextRow;
+          if (activeRow) activeRow.classList.add("is-active");
+        };
+
+        const rowInView = (row) => {
+          const rect = row.getBoundingClientRect();
+          const topBound = 90;
+          const bottomBound = window.innerHeight - 48;
+          return rect.top >= topBound && rect.bottom <= bottomBound;
+        };
+
+        const findActiveRow = (currentSeconds) => {
+          let candidate = null;
+
+          for (const item of timestampRows) {
+            if (item.seconds > currentSeconds) continue;
+            if (
+              !candidate ||
+              item.seconds > candidate.seconds ||
+              (item.seconds === candidate.seconds && item.index > candidate.index)
+            ) {
+              candidate = item;
+            }
+          }
+
+          return candidate ? candidate.row : null;
+        };
+
+        const syncTranscriptWithAudio = (allowScroll) => {
+          if (!timestampRows.length) return;
+          const nextRow = findActiveRow(audio.currentTime || 0);
+          if (!audio.paused) {
+            setActiveRow(nextRow);
+          } else {
+            setActiveRow(null);
+          }
+
+          if (!allowScroll || audio.paused || !nextRow) return;
+          if (rowInView(nextRow)) return;
+
+          const now = Date.now();
+          if (now - lastAutoScrollMs < 450) return;
+          lastAutoScrollMs = now;
+          nextRow.scrollIntoView({ behavior: "smooth", block: "center" });
+        };
+
+        audio.addEventListener("timeupdate", () => syncTranscriptWithAudio(true));
+        audio.addEventListener("play", () => syncTranscriptWithAudio(true));
+        audio.addEventListener("seeked", () => syncTranscriptWithAudio(true));
+        audio.addEventListener("pause", () => setActiveRow(null));
+        audio.addEventListener("ended", () => setActiveRow(null));
 
         document.addEventListener("click", (event) => {
           if (event.target.closest("td.timestamp.is-seekable")) return;

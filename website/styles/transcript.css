@@ -133,6 +133,9 @@ thead th {
 
 tbody tr {
   border-bottom: 1px solid var(--line);
+  scroll-margin-top: 140px;
+  scroll-margin-bottom: 90px;
+  transition: background-color 0.16s ease, box-shadow 0.16s ease;
 }
 
 tbody tr:nth-child(even) {
@@ -141,6 +144,36 @@ tbody tr:nth-child(even) {
 
 tbody tr:hover {
   background: #f8fbff;
+}
+
+tbody tr.is-active {
+  background: #eaf3ff;
+  box-shadow: inset 4px 0 0 #2f6fb4;
+}
+
+tbody tr.is-active:nth-child(even) {
+  background: #eaf3ff;
+}
+
+tbody tr.is-active:hover {
+  background: #e2efff;
+}
+
+tbody tr.is-active td {
+  background: #eef5ff;
+}
+
+tbody tr.is-active td.line {
+  box-shadow: inset 0 0 0 1px #c9ddf7;
+}
+
+tbody tr.is-active .timestamp {
+  color: #1f3d5c;
+  font-weight: 700;
+}
+
+tbody tr.is-active .line span {
+  box-shadow: 0 0 0 1px rgba(47, 111, 180, 0.25);
 }
 
 td {

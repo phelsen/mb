@@ -6,6 +6,101 @@
     <title>Dossier Portaal</title>
     <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/index.css" />
+    <style>
+      .date-sort-btn {
+        border: none;
+        background: transparent;
+        padding: 0;
+        margin: 0;
+        font: inherit;
+        color: inherit;
+        text-transform: inherit;
+        letter-spacing: inherit;
+        cursor: pointer;
+      }
+
+      .date-sort-btn:hover {
+        text-decoration: underline;
+      }
+
+      .date-sort-btn:focus-visible {
+        outline: 2px solid var(--focus);
+        outline-offset: 2px;
+      }
+
+      .type-chip {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 22px;
+        height: 22px;
+        position: relative;
+        color: #3f4956;
+      }
+
+      .type-chip::after {
+        content: attr(data-type);
+        position: absolute;
+        left: calc(100% + 8px);
+        top: 50%;
+        transform: translateY(-50%);
+        background: #1f2937;
+        color: #ffffff;
+        font-size: 11px;
+        line-height: 1;
+        padding: 5px 7px;
+        border-radius: 6px;
+        white-space: nowrap;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.12s ease;
+        z-index: 20;
+      }
+
+      .type-chip:hover::after,
+      .type-chip:focus-visible::after {
+        opacity: 1;
+      }
+
+      .type-chip:focus-visible {
+        outline: 2px solid var(--focus);
+        outline-offset: 2px;
+        border-radius: 6px;
+      }
+
+      .type-icon {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px 16px;
+      }
+
+      .type-mail .type-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233f4956' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='5' width='18' height='14' rx='2'/%3E%3Cpath d='m4 7 8 6 8-6'/%3E%3C/svg%3E");
+      }
+
+      .type-document .type-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233f4956' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z'/%3E%3Cpath d='M14 3v6h6'/%3E%3Cpath d='M9 13h6M9 17h6'/%3E%3C/svg%3E");
+      }
+
+      .type-transcript .type-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233f4956' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 11a8 8 0 0 1-8 8H8l-5 3 2-5a8 8 0 1 1 16-6z'/%3E%3C/svg%3E");
+      }
+
+      tr.row-mail td {
+        background: #eef7ff;
+      }
+
+      tr.row-document td {
+        background: #eefaf4;
+      }
+
+      tr.row-transcript td {
+        background: #fff6ec;
+      }
+    </style>
   </head>
   <body>
     <main class="wrap">
@@ -28,29 +123,35 @@
             <p class="search-shortcut-hint">Resultaten openen op een aparte pagina.</p>
           </section>
 
-          <section class="catalog-block" aria-labelledby="mails-heading">
-            <h1 id="mails-heading" class="catalog-title">mails</h1>
-            <p class="catalog-note">NOOT : alle samenvattingen door AI, klik op mail lijn voor volledige mail</p>
+          <section class="catalog-block" aria-labelledby="overzicht-heading">
+            <h1 id="overzicht-heading" class="catalog-title">overzicht</h1>
+            <p class="catalog-note">Eén chronologische tabel voor mails, documenten en transcripties. Klik op Datum om te sorteren (oplopend/aflopend).</p>
+            <p class="catalog-note">Snelle link: <a href="ai_overview.html">AI overzicht (tabellen op 1 pagina)</a></p>
 
             <div class="mail-table-wrap">
-              <table class="mail-table">
+              <table class="mail-table" id="overview-table">
                 <thead>
                   <tr>
-                    <th>Datum</th>
-                    <th>Mail</th>
+                    <th aria-sort="ascending">
+                      <button class="date-sort-btn" type="button" id="sort-date-btn" aria-label="Sorteer op datum">
+                        Datum ↑
+                      </button>
+                    </th>
+                    <th>Type</th>
+                    <th>Benaming</th>
+                    <th>Links</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
+                  <tr data-sort-date="2023-08-22" class="row-mail">
                     <td>22 aug 2023</td>
-                    <td>
-                      <div class="mail-entry">
-                        <a href="mails/mail0.html">Mail mieke bbq </a>
-                      </div>
-                    </td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td><a href="mails/mail0.html">Mail mieke bbq</a></td>
+                    <td><a href="mails/mail0.html">html</a></td>
                   </tr>
-                  <tr>
+                  <tr data-sort-date="2023-10-19" class="row-mail">
                     <td>19 okt 2023</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
                     <td>
                       <div class="mail-entry">
                         <a href="mails/mail_rik.html">Mail Dr. Rik Sebrechts</a>
@@ -60,9 +161,45 @@
                         </details>
                       </div>
                     </td>
+                    <td><a href="mails/mail_rik.html">html</a></td>
                   </tr>
-                  <tr>
+                  <tr data-sort-date="2023-10-29" class="row-mail">
+                    <td>29 okt 2023</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td><a href="mails/anke_over_gesprek_ros.html">Anke over gesprek met Rossenbacker</a></td>
+                    <td><a href="mails/anke_over_gesprek_ros.html">html</a></td>
+                  </tr>
+                  <tr data-sort-date="2023-10-30" class="row-mail">
+                    <td>30 okt 2023</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td><a href="mails/brief_simon_ag_nalatigheid_ros.html">Simon over mogelijke nalatigheid Rossenbacker</a></td>
+                    <td><a href="mails/brief_simon_ag_nalatigheid_ros.html">html</a></td>
+                  </tr>
+                  <tr data-sort-date="2023-10-30" class="row-mail">
+                    <td>30 okt 2023</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td><a href="mails/simon_over_2e_bloedafame.html">Simon over tweede bloedafname</a></td>
+                    <td><a href="mails/simon_over_2e_bloedafame.html">html</a></td>
+                  </tr>
+                  <tr data-sort-date="2023-11-01" class="row-document">
+                    <td>nov 2023</td>
+                    <td><span class="type-chip type-document" data-type="Document" aria-label="Document" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td><a href="documents/aanzet_klachtenbrief_imelda_peter.html">Aanzet klachtenbrief Imelda (Peter)</a></td>
+                    <td><a href="documents/aanzet_klachtenbrief_imelda_peter.html">html</a></td>
+                  </tr>
+                  <tr data-sort-date="2024-08-29" class="row-document">
+                    <td>29 aug 2024</td>
+                    <td><span class="type-chip type-document" data-type="Document" aria-label="Document" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td><a href="documents/medische_geschiedenis_van_bragt.html">Medische geschiedenis Van Bragt (OCR p30-31)</a></td>
+                    <td>
+                      <a href="documents/medische_geschiedenis_van_bragt.html">html</a>
+                      <span aria-hidden="true"> | </span>
+                      <a href="documents/medische_geschiedenis_van_bragt.pdf">pdf</a>
+                    </td>
+                  </tr>
+                  <tr data-sort-date="2023-11-08" class="row-mail">
                     <td>08 nov 2023</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
                     <td>
                       <div class="mail-entry">
                         <a href="mails/mail_rossenbacker.html">Mail Tom Rossenbacker</a>
@@ -72,9 +209,11 @@
                         </details>
                       </div>
                     </td>
+                    <td><a href="mails/mail_rossenbacker.html">html</a></td>
                   </tr>
-                  <tr>
+                  <tr data-sort-date="2023-11-12" class="row-mail">
                     <td>12 nov 2023</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
                     <td>
                       <div class="mail-entry">
                         <a href="mails/vraag_imalda.html">Vraag aan Imelda over overlijden</a>
@@ -84,9 +223,11 @@
                         </details>
                       </div>
                     </td>
+                    <td><a href="mails/vraag_imalda.html">html</a></td>
                   </tr>
-                  <tr>
+                  <tr data-sort-date="2023-12-18" class="row-mail">
                     <td>18 dec 2023</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
                     <td>
                       <div class="mail-entry">
                         <a href="mails/antwoord_imalda.html">Antwoord Ombudsdienst Imelda</a>
@@ -96,9 +237,21 @@
                         </details>
                       </div>
                     </td>
+                    <td><a href="mails/antwoord_imalda.html">html</a></td>
                   </tr>
-                  <tr>
+                  <tr data-sort-date="2026-01-23" class="row-document">
+                    <td>23 jan 2026</td>
+                    <td><span class="type-chip type-document" data-type="Document" aria-label="Document" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td>Voorlopig deskundig verslag (Ref FMO 202411N002)</td>
+                    <td>
+                      <a href="documents/voorlopig_deskundig_verslag.html">html</a>
+                      <span aria-hidden="true"> | </span>
+                      <a href="documents/voorlopig_deskundig_verslag.pdf">pdf</a>
+                    </td>
+                  </tr>
+                  <tr data-sort-date="2026-02-06" class="row-mail">
                     <td>06 feb 2026</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
                     <td>
                       <div class="mail-entry">
                         <a href="mails/reactie_hoorzitting_simon.html">Reactie hoorzitting Simon Daenen</a>
@@ -108,9 +261,11 @@
                         </details>
                       </div>
                     </td>
+                    <td><a href="mails/reactie_hoorzitting_simon.html">html</a></td>
                   </tr>
-                  <tr>
+                  <tr data-sort-date="2026-02-10" class="row-mail">
                     <td>10 feb 2026</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
                     <td>
                       <div class="mail-entry">
                         <a href="mails/anke_vier_vragen_tendentieuze_verslaggving.html">Reactie hoorzitting (4 vragen/ motie wantrouwen) Anke Helsen)</a>
@@ -120,9 +275,11 @@
                         </details>
                       </div>
                     </td>
+                    <td><a href="mails/anke_vier_vragen_tendentieuze_verslaggving.html">html</a></td>
                   </tr>
-                  <tr>
+                  <tr data-sort-date="2026-02-17" class="row-mail">
                     <td>17 feb 2026</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
                     <td>
                       <div class="mail-entry">
                         <a href="mails/fmo_uitbreiding.html">FMO: uitbreiding expertise met bijkomende zorgverleners</a>
@@ -132,93 +289,79 @@
                         </details>
                       </div>
                     </td>
+                    <td><a href="mails/fmo_uitbreiding.html">html</a></td>
                   </tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
-
-          <section class="catalog-block" aria-labelledby="documenten-heading">
-            <h1 id="documenten-heading" class="catalog-title">documenten</h1>
-
-            <div class="mail-table-wrap">
-              <table class="mail-table">
-                <thead>
-                  <tr>
-                    <th>Datum</th>
-                    <th>Document</th>
-                    <th>Links</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>23 jan 2026</td>
-                    <td>Voorlopig deskundig verslag (Ref FMO 202411N002)</td>
-                    <td>
-                      <a class="document-html-link" href="documents/voorlopig_deskundig_verslag.html">html</a>
-                      <span aria-hidden="true"> | </span>
-                      <a href="documents/voorlopig_deskundig_verslag.pdf">pdf</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>16 jun 2026</td>
-                    <td>202411N002 TSE overlijden opdracht Dr. Dubois</td>
-                    <td>
-                      <a class="document-html-link" href="documents/202411n002_tse_overlijden_opdracht_dr_dubois.html">html</a>
-                      <span aria-hidden="true"> | </span>
-                      <a href="documents/202411n002_tse_overlijden_opdracht_dr_dubois.pdf">pdf</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>22 feb 2026</td>
-                    <td>Afspraak spoedgevallen</td>
-                    <td>
-                      <a class="document-html-link" href="documents/afspraak_spoedgevallen.html">html</a>
-                      <span aria-hidden="true"> | </span>
-                      <a href="documents/afspraak_spoedgevallen.pdf">pdf</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>22 feb 2026</td>
-                    <td>Aanvraag IV datum omschrijving schade</td>
-                    <td>
-                      <a class="document-html-link" href="documents/aanvraag_iv_datum_omschrijving_schade.html">html</a>
-                      <span aria-hidden="true"> | </span>
-                      <a href="documents/aanvraag_iv_datum_omschrijving_schade.pdf">pdf</a>
-                    </td>
-                  </tr>
-                  <tr>
+                  <tr data-sort-date="2026-02-20" class="row-document">
                     <td>20 feb 2026</td>
+                    <td><span class="type-chip type-document" data-type="Document" aria-label="Document" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
                     <td>Advocaten rossenbacker :  brief aan FMO</td>
                     <td>
-                      <a class="document-html-link" href="documents/ros_brief_aan_fmo.html">html</a>
+                      <a href="documents/ros_brief_aan_fmo.html">html</a>
                       <span aria-hidden="true"> | </span>
                       <a href="documents/ros_brief_aan_fmo.pdf">pdf</a>
                     </td>
                   </tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
-
-          <section class="catalog-block" aria-labelledby="transcripts-heading">
-            <h1 id="transcripts-heading" class="catalog-title">transcripts</h1>
-            <div class="mail-table-wrap">
-              <table class="mail-table">
-                <thead>
-                  <tr>
-                    <th>Datum</th>
-                    <th>Transcript</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
+                  <tr data-sort-date="2026-02-20" class="row-transcript">
                     <td>20 feb 2026</td>
+                    <td><span class="type-chip type-transcript" data-type="Transcriptie" aria-label="Transcriptie" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
                     <td><a href="transcript_call_peter_duscart.html">Telefoongesprek dussart</a></td>
+                    <td><a href="transcript_call_peter_duscart.html">html</a></td>
                   </tr>
-                  <tr>
+                  <tr data-sort-date="2026-02-22" class="row-document">
                     <td>22 feb 2026</td>
+                    <td><span class="type-chip type-document" data-type="Document" aria-label="Document" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td>Afspraak spoedgevallen</td>
+                    <td>
+                      <a href="documents/afspraak_spoedgevallen.html">html</a>
+                      <span aria-hidden="true"> | </span>
+                      <a href="documents/afspraak_spoedgevallen.pdf">pdf</a>
+                    </td>
+                  </tr>
+                  <tr data-sort-date="2026-02-22" class="row-document">
+                    <td>22 feb 2026</td>
+                    <td><span class="type-chip type-document" data-type="Document" aria-label="Document" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td>Aanvraag IV datum omschrijving schade</td>
+                    <td>
+                      <a href="documents/aanvraag_iv_datum_omschrijving_schade.html">html</a>
+                      <span aria-hidden="true"> | </span>
+                      <a href="documents/aanvraag_iv_datum_omschrijving_schade.pdf">pdf</a>
+                    </td>
+                  </tr>
+                  <tr data-sort-date="2026-02-22" class="row-transcript">
+                    <td>22 feb 2026</td>
+                    <td><span class="type-chip type-transcript" data-type="Transcriptie" aria-label="Transcriptie" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
                     <td><a href="transcript_meeting_imelda_rossenbacker.html">Gesprek Imelda Rossenbacker</a></td>
+                    <td><a href="transcript_meeting_imelda_rossenbacker.html">html</a></td>
+                  </tr>
+                  <tr data-sort-date="2026-02-27" class="row-mail">
+                    <td>27 feb 2026</td>
+                    <td><span class="type-chip type-mail" data-type="Mail" aria-label="Mail" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td>
+                      <div class="mail-entry">
+                        <a href="mails/mail_aan_ros_wel_nieuwe_vragen.html">Antwoord advocaat Helsen aan advocaat Rossenbacker a.g. uitbreiding onderzoek</a>
+                        <details class="mail-summary">
+                          <summary>Samenvatting</summary>
+                          <p>Melissa Vande Reyde stelt dat het FMO zelf beslist over de uitbreiding van de expertise en dat extra vragen aan dr. Rossenbacker dus nog kunnen volgen op een nieuwe hoorzitting. Ze vindt dat toestemming van de advocaat van de arts daarvoor niet vereist is. In de mail worden opnieuw inhoudelijke bezwaren herhaald over het laattijdig of ontbrekend spoedverslag en over het uitblijven van een consultatie ondanks klachten. Ze besluit dat de nieuwe zitting zal worden afgewacht om de argumenten opnieuw op tafel te leggen.</p>
+                        </details>
+                      </div>
+                    </td>
+                    <td><a href="mails/mail_aan_ros_wel_nieuwe_vragen.html">html</a></td>
+                  </tr>
+                  <tr data-sort-date="2026-02-27" class="row-document">
+                    <td>27 feb 2026</td>
+                    <td><span class="type-chip type-document" data-type="Document" aria-label="Document" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td><a href="ai_overview.html">AI overzicht (tabellen op 1 pagina)</a></td>
+                    <td><a href="ai_overview.html">html</a></td>
+                  </tr>
+                  <tr data-sort-date="2026-06-16" class="row-document">
+                    <td>16 jun 2026</td>
+                    <td><span class="type-chip type-document" data-type="Document" aria-label="Document" tabindex="0"><span class="type-icon" aria-hidden="true"></span></span></td>
+                    <td>202411N002 TSE overlijden opdracht Dr. Dubois</td>
+                    <td>
+                      <a href="documents/202411n002_tse_overlijden_opdracht_dr_dubois.html">html</a>
+                      <span aria-hidden="true"> | </span>
+                      <a href="documents/202411n002_tse_overlijden_opdracht_dr_dubois.pdf">pdf</a>
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -227,5 +370,35 @@
         </div>
       </section>
     </main>
+    <script>
+      (function () {
+        const table = document.getElementById("overview-table");
+        const button = document.getElementById("sort-date-btn");
+        if (!table || !button) return;
+
+        const tbody = table.tBodies[0];
+        const headerCell = table.tHead.rows[0].cells[0];
+        let ascending = true;
+
+        function sortRows() {
+          const rows = Array.from(tbody.rows);
+          rows.sort((a, b) => {
+            const dateA = a.getAttribute("data-sort-date") || "";
+            const dateB = b.getAttribute("data-sort-date") || "";
+            return ascending ? dateA.localeCompare(dateB) : dateB.localeCompare(dateA);
+          });
+          rows.forEach((row) => tbody.appendChild(row));
+          button.textContent = ascending ? "Datum ↑" : "Datum ↓";
+          headerCell.setAttribute("aria-sort", ascending ? "ascending" : "descending");
+        }
+
+        button.addEventListener("click", () => {
+          ascending = !ascending;
+          sortRows();
+        });
+
+        sortRows();
+      })();
+    </script>
   </body>
 </html>
