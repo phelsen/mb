@@ -87,7 +87,17 @@ print {$out} <<'HTML_HEAD';
             <a class="page-link" href="index.html">Portaal</a>
           </div>
           <h1 class="title">Transcript Gesprek Imelda</h1>
-          <p class="subtitle">Kleurcode: Dr. Rossenbacker (grijsblauw), Peter (blauw), Anke (groen), Simon (grijs), Greet (bruin), opmerkingen (neutraal)</p>
+          <ul class="legend" aria-label="Legenda transcript">
+            <li class="legend-item"><span class="legend-chip rossenbacker">Dr. Rossenbacker</span></li>
+            <li class="legend-item"><span class="legend-chip peter">Peter</span></li>
+            <li class="legend-item"><span class="legend-chip anke">Anke</span></li>
+            <li class="legend-item"><span class="legend-chip simon">Simon</span></li>
+            <li class="legend-item"><span class="legend-chip greet">Greet</span></li>
+            <li class="legend-item"><span class="legend-chip note">Opmerking</span></li>
+            <li class="legend-item">
+              <span class="legend-unclear"><span class="legend-unclear-icon" aria-hidden="true">[?]</span>Onduidelijk</span>
+            </li>
+          </ul>
         </header>
         <div class="audio-panel">
           <p class="audio-label">Audio-opname</p>
@@ -95,7 +105,7 @@ print {$out} <<'HTML_HEAD';
             <source src="meeting_imelda_rossenbacker.mp3" type="audio/mpeg" />
             Je browser ondersteunt het audio-element niet.
           </audio>
-          <p class="audio-hint">Klik op een tijdstempel om te starten. Klik elders op het scherm om te pauzeren.</p>
+          <p class="audio-hint">Klik op een tijdstempel om te starten. Klik elders op het scherm om te pauzeren of te hervatten vanaf hetzelfde punt.</p>
         </div>
         <div class="table-wrap">
           <table>
@@ -149,6 +159,25 @@ print {$out} <<'HTML_TAIL';
           audio.play().catch(function () {});
         };
 
+        const speakerLabelEntries = [
+          ["rossenbacker", "Dr. Rossenbacker"],
+          ["peter", "Peter"],
+          ["valerie", "Valerie Discart"],
+          ["anke", "Anke"],
+          ["simon", "Simon"],
+          ["greet", "Greet"],
+          ["note", "Opmerking"]
+        ];
+
+        document.querySelectorAll("td.line span").forEach((segment) => {
+          for (const [className, label] of speakerLabelEntries) {
+            if (!segment.classList.contains(className)) continue;
+            segment.setAttribute("title", "Spreker: " + label);
+            segment.setAttribute("aria-label", "Spreker: " + label);
+            break;
+          }
+        });
+
         document.querySelectorAll("td.timestamp").forEach((cell) => {
           const rawLabel = cell.textContent.trim();
           const seconds = parseTimestamp(rawLabel);
@@ -174,6 +203,10 @@ print {$out} <<'HTML_TAIL';
         document.addEventListener("click", (event) => {
           if (event.target.closest("td.timestamp.is-seekable")) return;
           if (event.target.closest("#call-audio")) return;
+          if (audio.paused) {
+            audio.play().catch(function () {});
+            return;
+          }
           audio.pause();
         });
       })();

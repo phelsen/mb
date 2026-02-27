@@ -103,16 +103,34 @@
       });
     }
 
-    const transcriptSection = portal.querySelector('[aria-labelledby="transcript-heading"]');
+    const transcriptSection = portal.querySelector(
+      '[aria-labelledby="transcripts-heading"], [aria-labelledby="transcript-heading"]'
+    );
     if (transcriptSection) {
-      transcriptSection.querySelectorAll("a[href]").forEach((link) => {
-        docs.push({
-          title: link.textContent.trim(),
-          url: link.getAttribute("href"),
-          type: "transcript",
-          date: "",
+      const transcriptRows = transcriptSection.querySelectorAll(".mail-table tbody tr");
+      if (transcriptRows.length) {
+        transcriptRows.forEach((row) => {
+          const cells = row.querySelectorAll("td");
+          const date = cells[0] ? cells[0].textContent.trim() : "";
+          const link = row.querySelector("a[href]");
+          if (!link) return;
+          docs.push({
+            title: link.textContent.trim(),
+            url: link.getAttribute("href"),
+            type: "transcript",
+            date,
+          });
         });
-      });
+      } else {
+        transcriptSection.querySelectorAll("a[href]").forEach((link) => {
+          docs.push({
+            title: link.textContent.trim(),
+            url: link.getAttribute("href"),
+            type: "transcript",
+            date: "",
+          });
+        });
+      }
     }
 
     return dedupeByUrl(docs);
