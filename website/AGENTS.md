@@ -24,6 +24,12 @@ Deze instructies gelden voor de volledige map `/home/peter/Documents/keerbergen/
   - voegt automatisch een rij toe in de `documenten`-sectie van `index.html` met links `html | pdf`
 - OCR gebruikt `tesseract` (talen `nld+eng`) via het script.
 
+## Vaste workflow voor transcript (`transcriptfr.org`)
+- Bronbestand: `../transcriptfr.org`.
+- Gegenereerde pagina: `transcript_meeting_imelda_rossenbacker.html`.
+- Bij wijzigingen aan `transcriptfr.org`: regenereer altijd via `bash scripts/render_transcriptfr.sh`.
+- Pas `transcript_meeting_imelda_rossenbacker.html` niet handmatig aan; dat bestand is output van het script.
+
 ## Portaal (`index.html`)
 - Hou de sectie `zoeken` met zoekveld (form naar `search.html` met queryparameter `q`).
 - Hou de sectie `mails` als tabel met kolommen `Datum` en `Mail`.

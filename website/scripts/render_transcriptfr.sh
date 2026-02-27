@@ -48,6 +48,26 @@ sub markup_to_html {
 
 open my $in, '<:encoding(UTF-8)', $input_path or die "Cannot read $input_path: $!\n";
 my @rows;
+my $current_timestamp;
+my $current_body = '';
+
+sub flush_current_row {
+  my ($rows_ref, $timestamp_ref, $body_ref) = @_;
+  return if !defined $$timestamp_ref;
+
+  my $body = $$body_ref // '';
+  $body =~ s/^\s+//;
+  $body =~ s/\s+$//;
+  if ($body ne '') {
+    push @{$rows_ref}, {
+      timestamp => $$timestamp_ref,
+      body_html => markup_to_html($body),
+    };
+  }
+
+  $$timestamp_ref = undef;
+  $$body_ref = '';
+}
 
 while (my $line = <$in>) {
   chomp $line;
@@ -55,17 +75,26 @@ while (my $line = <$in>) {
   next if $line =~ /^\s*$/;
 
   if ($line =~ /^\s*(\d{1,2}:\d{2})(?::)?\s*(.*)$/) {
-    my ($timestamp, $body) = ($1, $2 // '');
-    $body =~ s/\s+$//;
-    next if $body eq '';
+    flush_current_row(\@rows, \$current_timestamp, \$current_body);
+    $current_timestamp = $1;
+    $current_body = $2 // '';
+    next;
+  }
 
-    push @rows, {
-      timestamp => $timestamp,
-      body_html => markup_to_html($body),
-    };
+  next if !defined $current_timestamp;
+  my $continuation = $line;
+  $continuation =~ s/^\s+//;
+  $continuation =~ s/\s+$//;
+  next if $continuation eq '';
+
+  if ($current_body eq '') {
+    $current_body = $continuation;
+  } else {
+    $current_body .= " $continuation";
   }
 }
 
+flush_current_row(\@rows, \$current_timestamp, \$current_body);
 close $in;
 open my $out, '>:encoding(UTF-8)', $output_path or die "Cannot write $output_path: $!\n";
 
