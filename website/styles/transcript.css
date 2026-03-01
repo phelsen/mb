@@ -4,6 +4,24 @@
   background: #ffffff;
 }
 
+.audio-panel-spacer {
+  display: none;
+}
+
+.audio-panel-spacer.is-active {
+  display: block;
+}
+
+.audio-panel.is-floating {
+  position: fixed;
+  top: 0;
+  z-index: 80;
+  border: 1px solid var(--line);
+  border-top: 0;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.16);
+}
+
 .legend {
   margin: 8px 0 0;
   padding: 0;

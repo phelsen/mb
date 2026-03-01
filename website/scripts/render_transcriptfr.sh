@@ -164,6 +164,53 @@ print {$out} <<'HTML_TAIL';
       (function () {
         const audio = document.getElementById("call-audio");
         if (!audio) return;
+        const audioPanel = document.querySelector(".audio-panel");
+        const card = audioPanel ? audioPanel.closest(".card") : null;
+        const audioPanelSpacer = document.createElement("div");
+        if (audioPanel && card) {
+          audioPanelSpacer.className = "audio-panel-spacer";
+          audioPanel.insertAdjacentElement("afterend", audioPanelSpacer);
+        }
+
+        let floatingPanelRaf = null;
+        const syncFloatingAudioPanel = () => {
+          if (!audioPanel || !card) return;
+
+          const panelHeight = audioPanel.offsetHeight || 0;
+          const cardRect = card.getBoundingClientRect();
+          const shouldFloat = cardRect.top < 0 && cardRect.bottom > panelHeight + 12;
+
+          if (!shouldFloat) {
+            audioPanel.classList.remove("is-floating");
+            audioPanelSpacer.classList.remove("is-active");
+            audioPanelSpacer.style.height = "";
+            audioPanel.style.left = "";
+            audioPanel.style.width = "";
+            return;
+          }
+
+          const left = Math.max(cardRect.left, 0);
+          const maxWidth = Math.max(window.innerWidth - left, 0);
+          audioPanel.classList.add("is-floating");
+          audioPanelSpacer.classList.add("is-active");
+          audioPanelSpacer.style.height = panelHeight + "px";
+          audioPanel.style.left = left + "px";
+          audioPanel.style.width = Math.min(cardRect.width, maxWidth) + "px";
+        };
+
+        const scheduleFloatingAudioPanelSync = () => {
+          if (floatingPanelRaf !== null) return;
+          floatingPanelRaf = window.requestAnimationFrame(() => {
+            floatingPanelRaf = null;
+            syncFloatingAudioPanel();
+          });
+        };
+
+        if (audioPanel && card) {
+          window.addEventListener("scroll", scheduleFloatingAudioPanelSync, { passive: true });
+          window.addEventListener("resize", scheduleFloatingAudioPanelSync);
+          scheduleFloatingAudioPanelSync();
+        }
 
         const parseTimestamp = (label) => {
           const parts = label.trim().split(":").map(Number);
@@ -240,20 +287,12 @@ print {$out} <<'HTML_TAIL';
         });
 
         let activeRow = null;
-        let lastAutoScrollMs = 0;
 
         const setActiveRow = (nextRow) => {
           if (activeRow === nextRow) return;
           if (activeRow) activeRow.classList.remove("is-active");
           activeRow = nextRow;
           if (activeRow) activeRow.classList.add("is-active");
-        };
-
-        const rowInView = (row) => {
-          const rect = row.getBoundingClientRect();
-          const topBound = 90;
-          const bottomBound = window.innerHeight - 48;
-          return rect.top >= topBound && rect.bottom <= bottomBound;
         };
 
         const findActiveRow = (currentSeconds) => {
@@ -273,7 +312,7 @@ print {$out} <<'HTML_TAIL';
           return candidate ? candidate.row : null;
         };
 
-        const syncTranscriptWithAudio = (allowScroll) => {
+        const syncTranscriptWithAudio = () => {
           if (!timestampRows.length) return;
           const nextRow = findActiveRow(audio.currentTime || 0);
           if (!audio.paused) {
@@ -281,19 +320,11 @@ print {$out} <<'HTML_TAIL';
           } else {
             setActiveRow(null);
           }
-
-          if (!allowScroll || audio.paused || !nextRow) return;
-          if (rowInView(nextRow)) return;
-
-          const now = Date.now();
-          if (now - lastAutoScrollMs < 450) return;
-          lastAutoScrollMs = now;
-          nextRow.scrollIntoView({ behavior: "smooth", block: "center" });
         };
 
-        audio.addEventListener("timeupdate", () => syncTranscriptWithAudio(true));
-        audio.addEventListener("play", () => syncTranscriptWithAudio(true));
-        audio.addEventListener("seeked", () => syncTranscriptWithAudio(true));
+        audio.addEventListener("timeupdate", syncTranscriptWithAudio);
+        audio.addEventListener("play", syncTranscriptWithAudio);
+        audio.addEventListener("seeked", syncTranscriptWithAudio);
         audio.addEventListener("pause", () => setActiveRow(null));
         audio.addEventListener("ended", () => setActiveRow(null));
 
