@@ -13,6 +13,9 @@
     ready: false,
   };
 
+  const MAX_HITS_PER_DOC = 3;
+  const MIN_HIT_DISTANCE = 120;
+
   const toQuery = () => new URLSearchParams(window.location.search);
 
   const normalize = (text) => text.toLowerCase();
@@ -47,6 +50,61 @@
 
   const escapeRegExp = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+  const isNumericTerm = (term) => /^[0-9]+$/.test(term);
+
+  const buildNumericTermPattern = (term, flags) =>
+    new RegExp("(^|[^0-9])(" + escapeRegExp(term) + ")(?=$|[^0-9])", flags);
+
+  const collectTermPositions = (haystack, term) => {
+    if (!term) return [];
+    if (isNumericTerm(term)) {
+      const positions = [];
+      const pattern = buildNumericTermPattern(term, "g");
+      let match;
+      while ((match = pattern.exec(haystack)) !== null) {
+        positions.push(match.index + match[1].length);
+      }
+      return positions;
+    }
+
+    const positions = [];
+    let offset = 0;
+    while (true) {
+      const pos = haystack.indexOf(term, offset);
+      if (pos === -1) break;
+      positions.push(pos);
+      offset = pos + term.length;
+    }
+    return positions;
+  };
+
+  const findTermPosition = (haystack, term) => {
+    const positions = collectTermPositions(haystack, term);
+    return positions.length ? positions[0] : -1;
+  };
+
+  const hasTerm = (haystack, term) => findTermPosition(haystack, term) !== -1;
+
+  const collectHitPositions = (haystack, terms) => {
+    const rawPositions = [];
+    terms.forEach((term) => {
+      rawPositions.push(...collectTermPositions(haystack, term));
+    });
+
+    if (!rawPositions.length) return [];
+
+    rawPositions.sort((a, b) => a - b);
+
+    const merged = [];
+    rawPositions.forEach((pos) => {
+      if (!merged.length || pos - merged[merged.length - 1] >= MIN_HIT_DISTANCE) {
+        merged.push(pos);
+      }
+    });
+
+    return merged;
+  };
+
   const dedupeByUrl = (items) => {
     const seen = new Set();
     return items.filter((item) => {
@@ -57,16 +115,7 @@
   };
 
   const countOccurrences = (haystack, needle) => {
-    if (!needle) return 0;
-    let count = 0;
-    let offset = 0;
-    while (true) {
-      const pos = haystack.indexOf(needle, offset);
-      if (pos === -1) break;
-      count += 1;
-      offset = pos + needle.length;
-    }
-    return count;
+    return collectTermPositions(haystack, needle).length;
   };
 
   const extractText = (html) => {
@@ -234,14 +283,16 @@
     status.textContent = "Index klaar (" + state.docs.length + " bronnen). Zoek op trefwoord.";
   };
 
-  const makeSnippet = (doc, terms) => {
-    let firstHit = -1;
-    terms.forEach((term) => {
-      const pos = doc.normalizedText.indexOf(term);
-      if (pos !== -1 && (firstHit === -1 || pos < firstHit)) {
-        firstHit = pos;
-      }
-    });
+  const makeSnippet = (doc, terms, focusPos) => {
+    let firstHit = Number.isInteger(focusPos) && focusPos >= 0 ? focusPos : -1;
+    if (firstHit === -1) {
+      terms.forEach((term) => {
+        const pos = findTermPosition(doc.normalizedText, term);
+        if (pos !== -1 && (firstHit === -1 || pos < firstHit)) {
+          firstHit = pos;
+        }
+      });
+    }
 
     if (firstHit === -1) {
       firstHit = 0;
@@ -256,8 +307,13 @@
 
     let safe = escapeHtml(snippet);
     terms.forEach((term) => {
-      const re = new RegExp("(" + escapeRegExp(term) + ")", "gi");
-      safe = safe.replace(re, "<mark>$1</mark>");
+      if (isNumericTerm(term)) {
+        const re = buildNumericTermPattern(term, "gi");
+        safe = safe.replace(re, "$1<mark>$2</mark>");
+      } else {
+        const re = new RegExp("(" + escapeRegExp(term) + ")", "gi");
+        safe = safe.replace(re, "<mark>$1</mark>");
+      }
     });
 
     return safe;
@@ -295,9 +351,7 @@
           "</span>" +
           dateChip +
           "</div>" +
-          '<p class="search-result-snippet">' +
-          makeSnippet(result, result._terms) +
-          "</p>" +
+          '<p class="search-result-snippet">' + result._snippet + "</p>" +
           "</li>"
         );
       })
@@ -321,23 +375,35 @@
     }
 
     const results = state.docs
-      .map((doc) => {
-        const hasAllTerms = terms.every((term) => doc.normalizedText.includes(term));
-        if (!hasAllTerms) return null;
+      .flatMap((doc) => {
+        const hasAllTerms = terms.every((term) => hasTerm(doc.normalizedText, term));
+        if (!hasAllTerms) return [];
 
         const score = terms.reduce(
           (sum, term) => sum + countOccurrences(doc.normalizedText, term),
           0
         );
 
-        return {
+        const hitPositions = collectHitPositions(doc.normalizedText, terms);
+        const limitedHits = (hitPositions.length ? hitPositions : [-1]).slice(0, MAX_HITS_PER_DOC);
+
+        return limitedHits.map((hitPos, hitIndex) => ({
           ...doc,
           _terms: terms,
           _score: score,
-        };
+          _hitIndex: hitIndex,
+          _hitPos: hitPos,
+          _snippet: makeSnippet(doc, terms, hitPos),
+        }));
       })
-      .filter(Boolean)
-      .sort((a, b) => b._score - a._score || a.title.localeCompare(b.title));
+      .sort(
+        (a, b) =>
+          b._score - a._score ||
+          a.title.localeCompare(b.title) ||
+          a.url.localeCompare(b.url) ||
+          a._hitPos - b._hitPos ||
+          a._hitIndex - b._hitIndex
+      );
 
     renderResults(query, results);
   };

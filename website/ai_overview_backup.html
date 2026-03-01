@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Overzicht Dossier Brasseur</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <style>
+      .wrap {
+        max-width: 1700px;
+      }
+      .overview-wrap {
+        padding: 22px;
+        display: grid;
+        gap: 24px;
+      }
+      .overview-intro {
+        margin: 0;
+        padding: 12px 14px;
+        font-size: 13px;
+        color: #526272;
+        border-bottom: 1px solid #edf2f7;
+        background: #fdfefe;
+      }
+      .section-subtitle {
+        margin: 0;
+        padding: 10px 14px;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #5d6d7e;
+        border-bottom: 1px solid #edf2f7;
+        background: #fdfefe;
+      }
+      .subblock {
+        border-top: 1px solid #edf2f7;
+      }
+      .subblock h3 {
+        margin: 0;
+        padding: 10px 14px;
+        font-size: 13px;
+        font-weight: 650;
+        color: var(--text);
+        background: #fcfdff;
+        border-bottom: 1px solid #edf2f7;
+      }
+      .wide-table .mail-table {
+        min-width: 0;
+        table-layout: fixed;
+      }
+      .wide-table th,
+      .wide-table td {
+        white-space: normal;
+        word-break: break-word;
+      }
+      .wide-table th:nth-child(1),
+      .wide-table td:nth-child(1) {
+        width: 12%;
+      }
+      .wide-table th:nth-child(2),
+      .wide-table td:nth-child(2) {
+        width: 16%;
+      }
+      .wide-table th:nth-child(3),
+      .wide-table td:nth-child(3) {
+        width: 19%;
+      }
+      .wide-table th:nth-child(4),
+      .wide-table td:nth-child(4) {
+        width: 19%;
+      }
+      .wide-table th:nth-child(5),
+      .wide-table td:nth-child(5) {
+        width: 8%;
+      }
+      .wide-table th:nth-child(6),
+      .wide-table td:nth-child(6) {
+        width: 10%;
+      }
+      .wide-table th:nth-child(7),
+      .wide-table td:nth-child(7) {
+        width: 16%;
+      }
+      code {
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 0.92em;
+      }
+      .bullets {
+        margin: 0;
+        padding: 10px 14px 14px 30px;
+      }
+      .bullets li {
+        margin: 6px 0;
+      }
+      @media (max-width: 760px) {
+        .overview-wrap {
+          padding: 12px;
+          gap: 14px;
+        }
+      }
+      @media (max-width: 1400px) {
+        .wide-table .mail-table {
+          min-width: 1200px;
+          table-layout: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <div class="overview-wrap">
+          <section class="catalog-block" aria-labelledby="overview-main">
+            <h1 id="overview-main" class="catalog-title">AI overzicht dossier Brasseur</h1>
+            <p class="overview-intro">Alle overzichten in HTML-tabellen op een pagina.</p>
+          </section>
+
+          <section class="catalog-block" aria-labelledby="chrono-heading">
+            <h2 id="chrono-heading" class="catalog-title">Overzicht 1 - Chronologische tabel</h2>
+            <p class="section-subtitle">Status: voorlopig, op basis van dossierstukken in deze map (geen nieuw medisch onderzoek).</p>
+            <div class="mail-table-wrap">
+              <table class="mail-table">
+                <thead>
+                  <tr>
+                    <th>Datum</th>
+                    <th>Feit (dossier)</th>
+                    <th>Bron</th>
+                    <th>Betwist?</th>
+                    <th>Mogelijke impact</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>31-07-2023</td>
+                    <td>Ablatie (isolatie 4 pulmonale venen) uitgevoerd door dr. Rossenbacker.</td>
+                    <td><code>website/documents/voorlopig_deskundig_verslag.html:79</code></td>
+                    <td>Nee</td>
+                    <td>Startpunt risico-periode na ingreep.</td>
+                  </tr>
+                  <tr>
+                    <td>15-08-2023</td>
+                    <td>Spoedconsult: thoracale pijn, CRP 9.7; advies: herhaal bloedname na 2 dagen + dringende cardiologie-afspraak.</td>
+                    <td><code>website/documents/voorlopig_deskundig_verslag.html:82-83</code>, <code>website/documents/afspraak_spoedgevallen.html:44</code></td>
+                    <td>De feiten niet, interpretatie wel</td>
+                    <td>Hoog: eerste beslismoment.</td>
+                  </tr>
+                  <tr>
+                    <td>18-08-2023</td>
+                    <td>Tweede bloedname (Somedi) op vraag opvolging via huisarts.</td>
+                    <td><code>website/documents/voorlopig_deskundig_verslag.html:84</code></td>
+                    <td>Nee</td>
+                    <td>Hoog: trend in inflammatie had kunnen worden geactiveerd.</td>
+                  </tr>
+                  <tr>
+                    <td>19-08-2023</td>
+                    <td>Wachtpost noteert malaise; labo staal 18/08 met CRP 84.</td>
+                    <td><code>website/documents/voorlopig_deskundig_verslag.html:85</code></td>
+                    <td>Nee</td>
+                    <td>Hoog: verslechtering zichtbaar in tijd.</td>
+                  </tr>
+                  <tr>
+                    <td>21-08-2023</td>
+                    <td>Contactverslag huisarts (thoracale pijn).</td>
+                    <td><code>website/documents/voorlopig_deskundig_verslag.html:86-87</code></td>
+                    <td>Nee</td>
+                    <td>Middel: opvolging loopt, maar zonder duidelijke escalatie.</td>
+                  </tr>
+                  <tr>
+                    <td>22-08-2023</td>
+                    <td>Telefonisch contact met cardioloog; inhoud van wat gezegd/bekeken werd is tegenstrijdig tussen partijen.</td>
+                    <td><code>website/documents/voorlopig_deskundig_verslag.html:90</code>, <code>:106</code>, <code>website/mails/mail0.txt:12</code></td>
+                    <td>Ja</td>
+                    <td>Zeer hoog: mogelijke gemiste kans op snellere beoordeling.</td>
+                  </tr>
+                  <tr>
+                    <td>22-08-2023 (18:01)</td>
+                    <td>Mail van Mieke: beschrijft moeilijk bereikbare zorg, "infectie"-boodschap, en geen dringende afspraak.</td>
+                    <td><code>website/mails/mail0.txt:10-12</code></td>
+                    <td>De mail zelf niet; interpretatie wel</td>
+                    <td>Hoog als contemporane getuigenis van klachten/vertraging.</td>
+                  </tr>
+                  <tr>
+                    <td>27-08-2023</td>
+                    <td>Opname via spoed; CRP 130, snelle neurologische achteruitgang.</td>
+                    <td><code>website/documents/voorlopig_deskundig_verslag.html:93</code>, <code>:98</code></td>
+                    <td>Nee</td>
+                    <td>Eindfase start; prognose snel slecht.</td>
+                  </tr>
+                  <tr>
+                    <td>29-08-2023</td>
+                    <td>Respiratoir arrest, intubatie, transfer intensieve zorgen.</td>
+                    <td><code>website/documents/voorlopig_deskundig_verslag.html:98</code></td>
+                    <td>Nee</td>
+                    <td>Zeer ernstig, vrijwel terminale fase.</td>
+                  </tr>
+                  <tr>
+                    <td>30-08-2023</td>
+                    <td>Overlijden in bijzijn familie.</td>
+                    <td><code>website/documents/voorlopig_deskundig_verslag.html:98</code></td>
+                    <td>Nee</td>
+                    <td>Eindpunt.</td>
+                  </tr>
+                  <tr>
+                    <td>21-11-2023</td>
+                    <td>Validatiedatum spoedverslag van 15/08 (documentmetadata).</td>
+                    <td><code>website/documents/afspraak_spoedgevallen.html:43-44</code></td>
+                    <td>Nee (datum), wel discussie over betekenis</td>
+                    <td>Middel: belangrijk voor reconstructie en vertrouwen in dossiervorming.</td>
+                  </tr>
+                  <tr>
+                    <td>23-01-2026 (voorlopig)</td>
+                    <td>Voorlopige expertise: geen causaal verband met ablatie en geen onzorgvuldig handelen door dr. Rossenbacker.</td>
+                    <td><code>website/documents/voorlopig_deskundig_verslag.html:100</code>, <code>:118</code></td>
+                    <td>Ja (door familie)</td>
+                    <td>Juridisch/procedureel zwaar, maar niet definitief.</td>
+                  </tr>
+                  <tr>
+                    <td>17-02-2026</td>
+                    <td>FMO breidt expertise uit naar spoedartsen en huisartsen; nieuwe zitting nodig.</td>
+                    <td><code>website/mails/fmo_uitbreiding.txt:24</code>, <code>:36</code>, <code>:42</code></td>
+                    <td>Nee</td>
+                    <td>Zeer hoog: verantwoordelijkheid nog open onderzocht.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="catalog-block" aria-labelledby="actor-heading">
+            <h2 id="actor-heading" class="catalog-title">Overzicht 2 - Per actor</h2>
+            <p class="section-subtitle">Status: voorlopig, op basis van dossierstukken in deze map.</p>
+
+            <div class="subblock">
+              <h3>Spoed (Imelda)</h3>
+              <div class="mail-table-wrap">
+                <table class="mail-table">
+                  <thead>
+                    <tr>
+                      <th>Datum</th>
+                      <th>Feit</th>
+                      <th>Bron</th>
+                      <th>Betwist?</th>
+                      <th>Impact</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>15-08-2023</td>
+                      <td>Spoedconsult met CRP 9.7; advies: controle bloed na 2 dagen + dringende cardiologie-afspraak.</td>
+                      <td><code>website/documents/voorlopig_deskundig_verslag.html:81-83</code>, <code>website/documents/afspraak_spoedgevallen.html:44</code></td>
+                      <td>Nee (kernfeit)</td>
+                      <td>Eerste kritieke beslismoment.</td>
+                    </tr>
+                    <tr>
+                      <td>27-08-2023</td>
+                      <td>Opname via spoed met zware inflammatie en snelle neurologische achteruitgang.</td>
+                      <td><code>website/documents/voorlopig_deskundig_verslag.html:93</code>, <code>:98</code></td>
+                      <td>Nee</td>
+                      <td>Eindfase ziekte.</td>
+                    </tr>
+                    <tr>
+                      <td>2026-procedure</td>
+                      <td>FMO breidt onderzoek uit met spoedartsen (De Lausnay, Gillis).</td>
+                      <td><code>website/mails/fmo_uitbreiding.txt:30-31</code>, <code>:36</code></td>
+                      <td>Nee</td>
+                      <td>Verantwoordelijkheid spoed nog open.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="subblock">
+              <h3>Huisarts(en) en wachtpost</h3>
+              <div class="mail-table-wrap">
+                <table class="mail-table">
+                  <thead>
+                    <tr>
+                      <th>Datum</th>
+                      <th>Feit</th>
+                      <th>Bron</th>
+                      <th>Betwist?</th>
+                      <th>Impact</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>18-08-2023</td>
+                      <td>Tweede bloedname (Somedi).</td>
+                      <td><code>website/documents/voorlopig_deskundig_verslag.html:84</code></td>
+                      <td>Nee</td>
+                      <td>Cruciale trendmeting.</td>
+                    </tr>
+                    <tr>
+                      <td>19-08-2023</td>
+                      <td>Wachtpost noteert malaise; CRP 84 op staal 18/08.</td>
+                      <td><code>website/documents/voorlopig_deskundig_verslag.html:85</code></td>
+                      <td>Nee</td>
+                      <td>Duidelijke verslechtering.</td>
+                    </tr>
+                    <tr>
+                      <td>2026-procedure</td>
+                      <td>FMO breidt uit naar De Greef en Discart.</td>
+                      <td><code>website/mails/fmo_uitbreiding.txt:32-33</code>, <code>:36</code></td>
+                      <td>Nee</td>
+                      <td>Eerstelijnsopvolging nog open onderzocht.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="subblock">
+              <h3>Cardiologie (dr. Rossenbacker)</h3>
+              <div class="mail-table-wrap">
+                <table class="mail-table">
+                  <thead>
+                    <tr>
+                      <th>Datum</th>
+                      <th>Feit</th>
+                      <th>Bron</th>
+                      <th>Betwist?</th>
+                      <th>Impact</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>22-08-2023</td>
+                      <td>Telefonisch contact met patiënt.</td>
+                      <td><code>website/documents/voorlopig_deskundig_verslag.html:90</code></td>
+                      <td>Nee</td>
+                      <td>Beslismoment rond urgentie.</td>
+                    </tr>
+                    <tr>
+                      <td>22-08-2023</td>
+                      <td>Inhoud van gesprek tegenstrijdig (wel/niet dringend zien).</td>
+                      <td><code>website/documents/voorlopig_deskundig_verslag.html:106</code>, <code>website/mails/mail0.txt:12</code></td>
+                      <td>Ja</td>
+                      <td>Mogelijke gemiste kans op snellere evaluatie.</td>
+                    </tr>
+                    <tr>
+                      <td>08-11-2023</td>
+                      <td>Arts benoemt bereikbaarheidsproblemen en kondigt structurele aanpassingen aan.</td>
+                      <td><code>website/mails/mail_rossenbacker.txt:13</code>, <code>:15</code></td>
+                      <td>Nee</td>
+                      <td>Wijst op systeemdruk; niet automatisch op individuele fout.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="subblock">
+              <h3>Systeem en dossiervorming</h3>
+              <div class="mail-table-wrap">
+                <table class="mail-table">
+                  <thead>
+                    <tr>
+                      <th>Datum</th>
+                      <th>Feit</th>
+                      <th>Bron</th>
+                      <th>Betwist?</th>
+                      <th>Impact</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>15-08 -&gt; 21-11-2023</td>
+                      <td>Spoedverslag toont validatie op 21-11-2023.</td>
+                      <td><code>website/documents/afspraak_spoedgevallen.html:43-44</code></td>
+                      <td>Datum niet; betekenis wel</td>
+                      <td>Belangrijk voor reconstructie en vertrouwen.</td>
+                    </tr>
+                    <tr>
+                      <td>Na overlijden</td>
+                      <td>Discussie over zichtbaarheid van "ongevalideerd verslag" buiten ziekenhuis.</td>
+                      <td><code>website/transcript_call_peter_duscart.html:257</code>, <code>:481</code></td>
+                      <td>Ja (detailniveau)</td>
+                      <td>Kan communicatieketen verzwakt hebben.</td>
+                    </tr>
+                    <tr>
+                      <td>17-02-2026</td>
+                      <td>FMO beslist tot uitbreiding en nieuwe zitting.</td>
+                      <td><code>website/mails/fmo_uitbreiding.txt:24</code>, <code>:42</code></td>
+                      <td>Nee</td>
+                      <td>Aansprakelijkheid nog niet finaal beoordeeld.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          <section class="catalog-block" aria-labelledby="matrix-heading">
+            <h2 id="matrix-heading" class="catalog-title">Overzicht 3 - Verantwoordelijkheidsmatrix</h2>
+            <p class="section-subtitle">Doel: per schakel structureren wat mogelijk verwijtbaar lijkt, hoe sterk het bewijs is, en wat nog ontbreekt voor een definitieve conclusie.</p>
+            <div class="mail-table-wrap wide-table">
+              <table class="mail-table">
+                <thead>
+                  <tr>
+                    <th>Schakel/actor</th>
+                    <th>Mogelijke tekortkoming</th>
+                    <th>Ondersteuning in dossier</th>
+                    <th>Tegenindicaties / alternatieve lezing</th>
+                    <th>Bewijssterkte</th>
+                    <th>Procedurestatus</th>
+                    <th>Wat ontbreekt nog</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Spoed 15-08 (ontslag met opdracht aan patiënt)</td>
+                    <td>Mogelijk onvoldoende actieve overdracht naar cardiologie bij "dringende" aanbeveling.</td>
+                    <td>Spoedadvies vermeldt dringende cardiologie-afspraak en bloedcontrole na 2 dagen. (<code>website/documents/afspraak_spoedgevallen.html:44</code>)</td>
+                    <td>Deskundigen stellen dat afspraak regelen niet de opdracht/mogelijkheid van spoedarts was. (<code>website/documents/voorlopig_deskundig_verslag.html:102</code>)</td>
+                    <td>Middel</td>
+                    <td>Open (uitbreiding FMO)</td>
+                    <td>Lokale protocolteksten 2023; getuigenis spoedartsen over concrete workflow op 15-08.</td>
+                  </tr>
+                  <tr>
+                    <td>Opvolging 2e bloedname (huisarts/wachtpost)</td>
+                    <td>Mogelijk onvoldoende escalatie na stijging inflammatie (CRP 84).</td>
+                    <td>CRP 84 op 19-08 (staal 18-08) in context recente ingreep en malaise. (<code>website/documents/voorlopig_deskundig_verslag.html:85</code>)</td>
+                    <td>Klinisch beeld was initieel niet eenduidig sepsis; veel telefonische triage.</td>
+                    <td>Middel</td>
+                    <td>Open (uitbreiding FMO)</td>
+                    <td>Exacte beslisdocumentatie (wie zag resultaat wanneer, welke acties exact).</td>
+                  </tr>
+                  <tr>
+                    <td>Communicatie huisarts -&gt; cardioloog</td>
+                    <td>Mogelijke vertraging of informatieverlies in ketenoverdracht.</td>
+                    <td>Transcripten en mails beschrijven fragmentaire overdracht en onduidelijkheid over wie wat zag. (<code>website/transcript_call_peter_duscart.html:269-281</code>, <code>:489-499</code>)</td>
+                    <td>Deel van dit materiaal is reconstructie achteraf; niet alles objectief gelogd.</td>
+                    <td>Laag tot middel</td>
+                    <td>Open</td>
+                    <td>Call logs, EMD-audittrail, tijdstempels van dossierinzage.</td>
+                  </tr>
+                  <tr>
+                    <td>Telefonische beoordeling cardiologie op 22-08</td>
+                    <td>Mogelijk onvoldoende urgentie-inschatting / geen fysieke herbeoordeling.</td>
+                    <td>Familieversie: gerustgesteld, geen dringende afspraak; arts erkent dat gesprek onduidelijk herinnerd wordt. (<code>website/mails/mail0.txt:12</code>, <code>website/documents/voorlopig_deskundig_verslag.html:106</code>, <code>website/transcriptfr.org:285-296</code>)</td>
+                    <td>Inhoud gesprek is expliciet betwist; geen contemporaan consultverslag van dat telefoongesprek.</td>
+                    <td>Middel</td>
+                    <td>Nog betwist in dossier; niet finaal</td>
+                    <td>Objectief gesprekslog of onmiddellijke notitie ontbreekt.</td>
+                  </tr>
+                  <tr>
+                    <td>Dossiervorming/zichtbaarheid spoedverslag</td>
+                    <td>Mogelijke systeemfout in tijdige beschikbaarheid van relevante info.</td>
+                    <td>Validatie spoedverslag op 21-11-2023; discussie over "ongevalideerd verslag". (<code>website/documents/afspraak_spoedgevallen.html:43</code>, <code>website/mails/mail_rossenbacker.txt:11</code>, <code>website/transcript_call_peter_duscart.html:257</code>)</td>
+                    <td>Validatie op latere datum bewijst op zich niet dat inhoud fout is; kan administratieve flow zijn.</td>
+                    <td>Middel</td>
+                    <td>Open</td>
+                    <td>Formele uitleg EPD-beheer: creatiedatum, validatiedatum, zichtbaarheid per actor op datum X.</td>
+                  </tr>
+                  <tr>
+                    <td>Ablatie zelf (31-07)</td>
+                    <td>Technische fout tijdens ingreep.</td>
+                    <td>Voorlopige expertise noemt indicatie en uitvoering lege artis. (<code>website/documents/voorlopig_deskundig_verslag.html:100</code>, <code>:116</code>)</td>
+                    <td>Geen autopsie; sommige hypotheses (bv. fistel) blijven theoretisch mogelijk maar onbewezen. (<code>website/mails/mail_rossenbacker.txt:19</code>)</td>
+                    <td>Middel tot hoog tegen verwijtbaarheid</td>
+                    <td>Voorlopig ontlastend, niet definitief eindverslag</td>
+                    <td>Definitieve expertiseronde en eventuele bijkomende domeindeskundige input.</td>
+                  </tr>
+                  <tr>
+                    <td>Causaal verband "zorgfout -&gt; overlijden"</td>
+                    <td>Juridisch/medisch vereiste causaliteit blijft onzeker.</td>
+                    <td>Overlijden aan sepsis, etiologie niet met zekerheid vastgesteld; geen autopsie. (<code>website/documents/voorlopig_deskundig_verslag.html:109</code>, <code>:118</code>)</td>
+                    <td>Tijdens opname wel sterk vermoeden van S. mitis endocarditis met embolisatie. (<code>website/documents/voorlopig_deskundig_verslag.html:97-98</code>)</td>
+                    <td>Middel (onzekerheid centraal)</td>
+                    <td>Niet finaal; FMO heeft uitgebreid</td>
+                    <td>Definitieve synthese van alle schakels + contra-expertise na nieuwe zitting.</td>
+                  </tr>
+                  <tr>
+                    <td>Ziekenhuisorganisatie (bereikbaarheid/urgent slots)</td>
+                    <td>Structurele toegankelijkheidsproblemen kunnen vertraging versterkt hebben.</td>
+                    <td>Arts benoemt expliciet knelpunt en kondigt systeemaanpassingen aan. (<code>website/mails/mail_rossenbacker.txt:13</code>, <code>:15</code>)</td>
+                    <td>Verbetermaatregelen achteraf zijn geen rechtstreeks bewijs van fout in dit individuele dossier.</td>
+                    <td>Laag tot middel</td>
+                    <td>Relevant contextueel element</td>
+                    <td>Objectieve cijfers wachttijden/beschikbaarheid in augustus 2023.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="catalog-block" aria-labelledby="samenvatting-heading">
+            <h2 id="samenvatting-heading" class="catalog-title">Korte samenvatting</h2>
+            <div class="mail-table-wrap">
+              <table class="mail-table">
+                <thead>
+                  <tr>
+                    <th>Punt</th>
+                    <th>Inhoud</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Definitieve schuldtoewijzing</td>
+                    <td>Momenteel niet definitief vastgesteld.</td>
+                  </tr>
+                  <tr>
+                    <td>Waarschijnlijke kernproblematiek</td>
+                    <td>Mogelijke keten-/systeemproblematiek tussen 15 en 22 augustus 2023.</td>
+                  </tr>
+                  <tr>
+                    <td>Procedurele toestand</td>
+                    <td>FMO heeft op 17-02-2026 de expertise uitgebreid en nieuwe zitting aangekondigd.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>Bronkern</h3>
+            <ul class="bullets">
+              <li><code>website/documents/voorlopig_deskundig_verslag.html</code></li>
+              <li><code>website/documents/afspraak_spoedgevallen.html</code></li>
+              <li><code>website/mails/mail0.txt</code></li>
+              <li><code>website/mails/mail_rossenbacker.txt</code></li>
+              <li><code>website/mails/fmo_uitbreiding.txt</code></li>
+              <li><code>website/transcript_call_peter_duscart.html</code></li>
+              <li><code>website/transcriptfr.org</code></li>
+            </ul>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
