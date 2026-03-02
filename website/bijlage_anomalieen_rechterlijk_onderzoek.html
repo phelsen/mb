@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Procesbijlage - Anomalieen Dossier Brasseur</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/mail.css" />
+    <style>
+      .wrap {
+        max-width: none;
+        margin: 18px auto;
+        padding: 0 14px 24px;
+      }
+      .mail-body ul {
+        margin: 0 0 14px 20px;
+        padding: 0;
+      }
+      .mail-body li {
+        margin-bottom: 8px;
+        line-height: 1.55;
+      }
+      .mail-table-wrap {
+        overflow-x: auto;
+        margin: 14px 0 20px;
+      }
+      .mail-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .mail-table th,
+      .mail-table td {
+        border: 1px solid var(--line);
+        padding: 10px 11px;
+        text-align: left;
+        vertical-align: top;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .mail-table th {
+        background: #f7fafd;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+      }
+      .level-high {
+        color: #8a1f1f;
+        font-weight: 650;
+      }
+      .level-med {
+        color: #8a4d15;
+        font-weight: 650;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .small {
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <header class="header">
+          <div class="page-links">
+            <a class="page-link" href="index.html">Portaal</a>
+          </div>
+          <h1 class="title">Procesbijlage: anomalieen en tegenstrijdigheden (dossier Brasseur)</h1>
+          <p class="subtitle">Werkversie voor juridisch gebruik - opgemaakt op 02 mrt 2026</p>
+        </header>
+
+        <dl class="mail-meta">
+          <div class="mail-row">
+            <dt>Type</dt>
+            <dd>Analytische procesbijlage (HTML)</dd>
+          </div>
+          <div class="mail-row">
+            <dt>Doel</dt>
+            <dd>Objectiveren van anomalieen met controleerbare bronverwijzingen</dd>
+          </div>
+          <div class="mail-row">
+            <dt>Afbakening</dt>
+            <dd>Enkel stukken aanwezig in deze website-map; geen externe bronnen</dd>
+          </div>
+          <div class="mail-row">
+            <dt>Opmerking</dt>
+            <dd>Deze bijlage duidt inconsistenties aan en neemt geen finale juridische kwalificatie over schuld of causaliteit.</dd>
+          </div>
+        </dl>
+
+        <article class="mail-body">
+          <h2>1. Bewijsmatrix anomalieen</h2>
+          <div class="mail-table-wrap">
+            <table class="mail-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Feitelijke tegenstelling</th>
+                  <th>Bron A</th>
+                  <th>Bron B</th>
+                  <th>Juridische relevantie</th>
+                  <th>Bewijskracht</th>
+                  <th>Op te vragen verificatie</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>A1</td>
+                  <td>Spoedverslag 15/08 vermeldt expliciet <em>kopie aan dr. H. De Greef</em>, terwijl De Greef later meldt dat dossier geen spoedverslag bevat.</td>
+                  <td><a href="documents/afspraak_spoedgevallen.html">documents/afspraak_spoedgevallen.html</a> (kopie aan De Greef + validatie)</td>
+                  <td><a href="mails/antwoord_degreef.html">mails/antwoord_degreef.html</a> / <a href="mails/antwoord_degreef.txt">mails/antwoord_degreef.txt</a></td>
+                  <td>Mogelijke breuk in dossierdoorstroming, inzagebeheer of dossierintegriteit.</td>
+                  <td><span class="level-high">Hoog</span></td>
+                  <td>EPD-audittrail: wie ontving wat, wanneer; verzendingen/outbox van spoedbrief 15/08.</td>
+                </tr>
+                <tr>
+                  <td>A2</td>
+                  <td>Tijdens gesprek 27/10: <em>geen verslag zichtbaar</em>; op 08/11: <em>verslag is er wel, ongevalideerd</em>.</td>
+                  <td><a href="transcript_meeting_imelda_rossenbacker.html">transcript_meeting_imelda_rossenbacker.html</a> (passages 27:55-28:51)</td>
+                  <td><a href="mails/mail_rossenbacker.txt">mails/mail_rossenbacker.txt</a> (mail dd 08/11/2023)</td>
+                  <td>Relevant voor betrouwbaarheid van retroactieve reconstructie en zichtbaarheid op beslissingsmoment.</td>
+                  <td><span class="level-high">Hoog</span></td>
+                  <td>Versiehistoriek van spoedverslag (create/update/validate/view events).</td>
+                </tr>
+                <tr>
+                  <td>A3</td>
+                  <td>Rapportdatum 15/08 tegenover validatie op 21/11/2023 20:17 (na familiegesprek en na escalatie).</td>
+                  <td><a href="documents/afspraak_spoedgevallen.html">documents/afspraak_spoedgevallen.html</a></td>
+                  <td><a href="mails/vraag_imalda.txt">mails/vraag_imalda.txt</a> (escalatie dd 12/11/2023)</td>
+                  <td>Mogelijke impact op tijdige zorgcontinuiteit, dossierbeschikbaarheid en forensische betrouwbaarheid.</td>
+                  <td><span class="level-high">Hoog</span></td>
+                  <td>Tijdstempelketen in bronsysteem + technische verklaring voor laattijdige validatie.</td>
+                </tr>
+                <tr>
+                  <td>A4</td>
+                  <td>Discarts verklaring: bij consult geen verslagen beschikbaar, ondanks verwijzing naar eerdere spoed.</td>
+                  <td><a href="transcript_call_peter_duscart.html">transcript_call_peter_duscart.html</a> (o.a. 1:33 en 5:17)</td>
+                  <td><a href="documents/afspraak_spoedgevallen.html">documents/afspraak_spoedgevallen.html</a> (kopie aan huisarts)</td>
+                  <td>Wijst op informatiediscontinuiteit tussen spoed, huisarts en vervangende huisarts.</td>
+                  <td><span class="level-med">Middel-hoog</span></td>
+                  <td>Interoperabiliteitslogs (hub/metahub, export naar huisartssoftware), toegangsrechtenmatrix.</td>
+                </tr>
+                <tr>
+                  <td>A5</td>
+                  <td>Deskundig verslag: spoedarts heeft geen mogelijkheid/opdracht om afspraak te regelen. Rossenbacker: spoedartsen kunnen online afspraak maken.</td>
+                  <td><a href="documents/voorlopig_deskundig_verslag.html">documents/voorlopig_deskundig_verslag.html</a> (stelling deskundigen)</td>
+                  <td><a href="mails/mail_rossenbacker.txt">mails/mail_rossenbacker.txt</a> (operationele beschrijving)</td>
+                  <td>Essentieel voor normschending: wat was feitelijk mogelijk binnen het systeem in augustus 2023?</td>
+                  <td><span class="level-high">Hoog</span></td>
+                  <td>Lokale procedure/werkafspraak spoed-cardiologie 2023 + getuigenis planning/secretariaat.</td>
+                </tr>
+                <tr>
+                  <td>A6</td>
+                  <td>Tegenstrijdige reconstructie van telefonisch contact 22/08: enerzijds “ik zei blijkbaar nee”, anderzijds in deskundig verslag samengevat als “zou gezegd hebben dat patiënte gezien moest worden”.</td>
+                  <td><a href="transcript_meeting_imelda_rossenbacker.html">transcript_meeting_imelda_rossenbacker.html</a> (39:23-40:34)</td>
+                  <td><a href="documents/voorlopig_deskundig_verslag.html">documents/voorlopig_deskundig_verslag.html</a> (samenvatting standpunten)</td>
+                  <td>Kernvraag rond gemiste kans op urgent klinisch nazicht.</td>
+                  <td><span class="level-high">Hoog</span></td>
+                  <td>Telefoonmetadata + eventuele interne notities + agenda/triageboek cardiologie 22/08.</td>
+                </tr>
+                <tr>
+                  <td>A7</td>
+                  <td>15/08-verslag noteert “geen algemene malaise”; 19/08-contact noteert “malaise voelt zich algemeen niet goed”.</td>
+                  <td><a href="documents/afspraak_spoedgevallen.html">documents/afspraak_spoedgevallen.html</a> (klinische beschrijving)</td>
+                  <td><a href="documents/voorlopig_deskundig_verslag.html">documents/voorlopig_deskundig_verslag.html</a> (19/08-nota)</td>
+                  <td>Relevant voor ernstinschatting en temporele evolutie van klachten in de risicoperiode.</td>
+                  <td><span class="level-med">Middel</span></td>
+                  <td>Originele triage- en anamnesevelden op 15/08 + telefonische intake op 19/08.</td>
+                </tr>
+                <tr>
+                  <td>A8</td>
+                  <td>Beslissend telefoongesprek 22/08 zonder systematische notulering, terwijl urgentievraag centraal staat.</td>
+                  <td><a href="mails/mail_rossenbacker.txt">mails/mail_rossenbacker.txt</a> (geen systematische nota’s)</td>
+                  <td><a href="transcript_meeting_imelda_rossenbacker.html">transcript_meeting_imelda_rossenbacker.html</a> (bespreking urgentievraag)</td>
+                  <td>Mogelijk dossiervormingsgebrek met bewijsnadeel over inhoud van medisch advies.</td>
+                  <td><span class="level-med">Middel-hoog</span></td>
+                  <td>Interne policy telefonische adviezen + documentatieplicht + nalevingsaudit.</td>
+                </tr>
+                <tr>
+                  <td>A9</td>
+                  <td>In transcript: mogelijk geen zicht op bloedwaarden 15/08 of CRP-evolutie bij telefonische triage 22/08.</td>
+                  <td><a href="transcript_meeting_imelda_rossenbacker.html">transcript_meeting_imelda_rossenbacker.html</a> (41:30-41:45)</td>
+                  <td><a href="mails/mail_rossenbacker.txt">mails/mail_rossenbacker.txt</a> (later inhoudelijke duiding van verslag)</td>
+                  <td>Relevant voor vraag of triagebeslissing steunde op volledige klinische context.</td>
+                  <td><span class="level-med">Middel</span></td>
+                  <td>Beschikbaarheidsmatrix van gegevens op 22/08 per gebruikersprofiel.</td>
+                </tr>
+                <tr>
+                  <td>A10</td>
+                  <td>FMO-tekst bevat mogelijk datum-/overnamefout: controle 18/08 “zoals gevraagd op spoed op 26/03”.</td>
+                  <td><a href="documents/voorlopig_deskundig_verslag.html">documents/voorlopig_deskundig_verslag.html</a> (passage 18/08)</td>
+                  <td><a href="documents/afspraak_spoedgevallen.html">documents/afspraak_spoedgevallen.html</a> (advies op 15/08: controle na 2 dagen)</td>
+                  <td>Kan wijzen op onnauwkeurigheid in synthese van cruciale tijdslijn.</td>
+                  <td><span class="level-med">Middel</span></td>
+                  <td>Terugkoppeling deskundigen over bron van datum 26/03 in die passage.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h2>2. Vijf sterkste punten (pleitklaar)</h2>
+          <ol>
+            <li>
+              <strong>Dossierbeschikbaarheid is intern tegenstrijdig.</strong>
+              Het spoedverslag van 15/08 noemt expliciet “kopie aan dr. De Greef”, maar een jaar later bevestigt De Greef schriftelijk dat het dossier geen spoedverslag van 15/8 bevat.
+            </li>
+            <li>
+              <strong>Het verslag was op beslissingsmomenten niet betrouwbaar beschikbaar.</strong>
+              Tijdens het familiegesprek werd gezegd “ik zie geen verslag”; later werd dat hernomen als “het is er wel, ongevalideerd”, met formele validatie pas op 21/11/2023.
+            </li>
+            <li>
+              <strong>De procedurele norm rond dringende afspraak is incoherent weergegeven.</strong>
+              Het deskundig verslag stelt dat spoedarts geen mogelijkheid had, terwijl de cardioloog beschrijft dat spoedartsen online konden inboeken als er plaatsen waren.
+            </li>
+            <li>
+              <strong>De reconstructie van het telefoongesprek 22/08 is niet stabiel.</strong>
+              In transcript wordt erkend dat op vraag tot dringende consultatie “blijkbaar nee” is gezegd; elders wordt dit anders samengevat.
+            </li>
+            <li>
+              <strong>Dossiervorming rond cruciale telefonische triage lijkt ontoereikend.</strong>
+              Er wordt expliciet gemeld dat telefoongesprekken niet systematisch genoteerd werden, ondanks potentieel hoog-risico context na spoedadvies.
+            </li>
+          </ol>
+
+          <h2>3. Kernvragen voor opvraging in een gerechtelijk onderzoek</h2>
+          <ul>
+            <li>Volledige EPD-log van het spoedverslag 15/08: aanmaak, wijzigingen, validatie, zichtbaarheid per gebruiker, print/export-events.</li>
+            <li>Bewijs van effectieve verzending “kopie aan dr. H. De Greef” en eventuele foutmeldingen.</li>
+            <li>Lokale instructies/protocollen augustus 2023: spoed naar cardiologie bij “dringende raadpleging”.</li>
+            <li>Telefoonmetadata 18-22/08 tussen patiënte, huisarts, secretariaat cardiologie, cardioloog, wachtpost.</li>
+            <li>Interne policy voor documenteren van telefonische medische adviezen en naleving daarvan in dit dossier.</li>
+          </ul>
+
+          <p class="muted small">
+            Bijlage opgesteld als feitelijke inconsistentiematrix. Finale medische/juridische causaliteit en aansprakelijkheid vergen aanvullend deskundig onderzoek.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
