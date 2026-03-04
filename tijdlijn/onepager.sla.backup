@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCRIBUSUTF8NEW Version="1.5.8">
+    <DOCUMENT ANZPAGES="1" PAGEWIDTH="841.8888" PAGEHEIGHT="1190.5488" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" PRESET="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" ORIENTATION="0" PAGESIZE="A3" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="11" UNITS="2" DFONT="DejaVu Sans Book" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" TextDistLeft="0" TextDistRight="0" TextDistBottom="0" TextDistTop="0" FirstLineOffset="1" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="100" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="13" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPPr="ISO Coated v2 300% (basICColor)" DPIn="sRGB display profile (ICC v2.2)" DPInCMYK="ISO Coated v2 300% (basICColor)" DPIn2="sRGB display profile (ICC v2.2)" DPIn3="ISO Coated v2 300% (basICColor)" DISc="1" DIIm="0" ALAYER="0" LANGUAGE="en_US" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="0" SnapToGuides="0" SnapToGrid="0" SnapToElement="0" MINGRID="20" MAJGRID="100" SHOWGRID="0" SHOWGUIDES="0" showcolborders="0" SHOWFRAME="1" SHOWControl="0" SHOWLAYERM="0" SHOWMARGIN="0" SHOWBASE="0" SHOWPICT="1" SHOWLINK="0" rulerMode="0" showrulers="0" showBleed="0" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.5" POLYR="0" POLYIR="0" POLYCUR="0" POLYOCUR="0" POLYS="0" arcStartAngle="30" arcSweepAngle="300" spiralStartAngle="0" spiralEndAngle="1080" spiralFactor="1.2" AutoSave="1" AutoSaveTime="600000" AutoSaveCount="1" AutoSaveKeep="0" AUtoSaveInDocDir="1" AutoSaveDir="" ScratchBottom="20" ScratchLeft="100" ScratchRight="100" ScratchTop="20" GapHorizontal="0" GapVertical="40" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" CPICT="None" PICTSHADE="100" CSPICT="None" PICTSSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="10" dispY="10" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" renderStack="2 0 4 1 3" GridType="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PDF 1.4" calligraphicPenFillColor="Black" calligraphicPenLineColor="Black" calligraphicPenFillColorShade="100" calligraphicPenLineColorShade="100" calligraphicPenLineWidth="1" calligraphicPenAngle="0" calligraphicPenWidth="10" calligraphicPenStyle="1">
+        <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF 1.6" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-1a" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="1" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="1" checkFontNotEmbedded="1" checkFontIsOpenType="1" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PDF/X-4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="1" checkFontNotEmbedded="1" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <CheckProfile Name="PostScript" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkPartFilledImageFrames="0" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkNotCMYKOrSpot="0" checkDeviceColorsAndOutputIntent="0" checkFontNotEmbedded="0" checkFontIsOpenType="0" checkAppliedMasterDifferentSide="1" checkEmptyTextFrames="1"/>
+        <COLOR NAME="Black" SPACE="CMYK" C="0" M="0" Y="0" K="100"/>
+        <COLOR NAME="Blue" SPACE="RGB" R="0" G="0" B="255"/>
+        <COLOR NAME="Cool Black" SPACE="CMYK" C="60" M="0" Y="0" K="100"/>
+        <COLOR NAME="Cyan" SPACE="CMYK" C="100" M="0" Y="0" K="0"/>
+        <COLOR NAME="Green" SPACE="RGB" R="0" G="255" B="0"/>
+        <COLOR NAME="Magenta" SPACE="CMYK" C="0" M="100" Y="0" K="0"/>
+        <COLOR NAME="Red" SPACE="RGB" R="255" G="0" B="0"/>
+        <COLOR NAME="Registration" SPACE="CMYK" C="100" M="100" Y="100" K="100" Register="1"/>
+        <COLOR NAME="Rich Black" SPACE="CMYK" C="60" M="40" Y="40" K="100"/>
+        <COLOR NAME="Warm Black" SPACE="CMYK" C="0" M="60" Y="29.8039215686275" K="100"/>
+        <COLOR NAME="White" SPACE="CMYK" C="0" M="0" Y="0" K="0"/>
+        <COLOR NAME="Yellow" SPACE="CMYK" C="0" M="0" Y="100" K="0"/>
+        <HYPHEN/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="DejaVu Sans Book" FONTSIZE="12" FONTFEATURES="" FEATURES="inherit" FCOLOR="Black" FSHADE="100" HyphenWordMin="3" SCOLOR="Black" BGCOLOR="None" BGSHADE="100" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="en_US"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" DIRECTION="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" ParagraphEffectOffset="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0" HyphenConsecutiveLines="2" BCOLOR="None" BSHADE="100"/>
+        <TableStyle NAME="Default Table Style" DefaultStyle="1" FillColor="None" FillShade="100">
+            <TableBorderLeft>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderLeft>
+            <TableBorderRight>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderRight>
+            <TableBorderTop>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderTop>
+            <TableBorderBottom>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderBottom>
+        </TableStyle>
+        <CellStyle NAME="Default Cell Style" DefaultStyle="1" FillColor="None" FillShade="100" LeftPadding="1" RightPadding="1" TopPadding="1" BottomPadding="1">
+            <TableBorderLeft>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderLeft>
+            <TableBorderRight>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderRight>
+            <TableBorderTop>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderTop>
+            <TableBorderBottom>
+                <TableBorderLine Width="1" PenStyle="1" Color="Black" Shade="100"/>
+            </TableBorderBottom>
+        </CellStyle>
+        <LAYERS NUMMER="0" LEVEL="0" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="1" useColor="1" mirrorH="0" mirrorV="0" useICC="0" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PrintEngine="3" markLength="20" markOffset="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="All" printerCommand=""/>
+        <PDF firstUse="1" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" FontEmbedding="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB display profile (ICC v2.2)" ImageP="sRGB display profile (ICC v2.2)" PrintP="ISO Coated v2 300% (basICColor)" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markLength="20" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
+            <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
+            <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
+            <LPI Color="Yellow" Frequency="133" Angle="90" SpotFunction="3"/>
+        </PDF>
+        <DocItemAttributes/>
+        <TablesOfContents/>
+        <NotesStyles>
+            <notesStyle Name="Default" Start="1" Endnotes="0" Type="Type_1_2_3" Range="0" Prefix="" Suffix=")" AutoHeight="1" AutoWidth="1" AutoRemove="1" AutoWeld="1" SuperNote="1" SuperMaster="1" MarksStyle="" NotesStyle=""/>
+        </NotesStyles>
+        <PageSets>
+            <Set Name="Single Page" FirstPage="0" Rows="1" Columns="1"/>
+            <Set Name="Facing Pages" FirstPage="1" Rows="1" Columns="2">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="3-Fold" FirstPage="0" Rows="1" Columns="3">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="4-Fold" FirstPage="0" Rows="1" Columns="4">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle Left"/>
+                <PageNames Name="Middle Right"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+        </PageSets>
+        <Sections>
+            <Section Number="0" Name="0" From="0" To="0" Type="Type_1_2_3" Start="1" Reversed="0" Active="1" FillChar="0" FieldWidth="0"/>
+        </Sections>
+        <MASTERPAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="841.8888" PAGEHEIGHT="1190.5488" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="Normal" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="841.8888" PAGEHEIGHT="1190.5488" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="" MNAM="Normal" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+        <PAGEOBJECT XPOS="304.128249751423" YPOS="1136.78571114744" OwnPage="0" ItemID="2050921950" PTYPE="5" WIDTH="135.268387256468" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="359.810279569175" PWIDTH="1" SHADE="0" PCOLOR2="Black" PLINEART="1" path="" gXpos="304.128249751423" gYpos="1136.78571114744" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="233.690839694656" YPOS="188.217557251908" OwnPage="0" ItemID="2050774830" PTYPE="6" WIDTH="478.664122137405" HEIGHT="184.519083969466" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="M0 0 L478.664 0 L478.664 184.519 L0 184.519 L0 0 Z" copath="M0 0 L478.664 0 L478.664 184.519 L0 184.519 L0 0 Z" gXpos="233.690839694656" gYpos="188.217557251908" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="214" YPOS="430.187639917341" OwnPage="0" ItemID="2050993422" PTYPE="12" WIDTH="503.451838945908" HEIGHT="211.661817952746" FRTYPE="0" CLIPEDIT="0" ANNAME="Group17" groupWidth="503.451838945908" groupHeight="211.661817952746" groupClips="1" path="M0 0 L503.452 0 L503.452 211.662 L0 211.662 L0 0 Z" copath="M0 0 L503.452 0 L503.452 211.662 L0 211.662 L0 0 Z" gXpos="214" gYpos="430.187639917341" gWidth="0" gHeight="0" LAYER="0">
+            <PAGEOBJECT XPOS="234.321789306189" YPOS="471.217557251908" OwnPage="0" ItemID="2051195902" PTYPE="6" WIDTH="482.630049639719" HEIGHT="170.131900618179" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="M0 0 L482.63 0 L482.63 170.132 L0 170.132 L0 0 Z" copath="M0 0 L482.63 0 L482.63 170.132 L0 170.132 L0 0 Z" gXpos="20.3217893061894" gYpos="41.029917334567" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0"/>
+            <PAGEOBJECT XPOS="214" YPOS="453.943460190392" OwnPage="0" ItemID="2056158846" PTYPE="2" WIDTH="46.6133870288022" HEIGHT="43.984381935169" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.121169096240135" LOCALSCY="0.121169096240135" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Huisartsenpost.png" IRENDER="0" EMBEDDED="0" path="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" copath="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" gXpos="0" gYpos="23.7558202730514" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="267.374045801527" YPOS="496.145038167939" OwnPage="0" ItemID="2050777310" PTYPE="2" WIDTH="30.2290076335878" HEIGHT="30.8549618320611" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0482891495744214" LOCALSCY="0.0482891495744214" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="crt.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" copath="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" gXpos="53.374045801527" gYpos="65.957398250598" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="302.076335877863" YPOS="504.592356433314" OwnPage="0" ItemID="2050919310" PTYPE="4" WIDTH="144.646727356108" HEIGHT="14.781689368213" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L144.647 0 L144.647 14.7817 L0 14.7817 L0 0 Z" copath="M0 0 L144.647 0 L144.647 14.7817 L0 14.7817 L0 0 Z" gXpos="88.0763358778629" gYpos="74.4047165159727" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="12" CH="9mg"/>
+                    <ITEXT CH=" =&gt; 84mg !!         "/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="642.796338876063" YPOS="430.187639917341" OwnPage="0" ItemID="2050636558" PTYPE="2" WIDTH="50.5362999999972" HEIGHT="48.7912974785213" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822365852355" PLINEART="1" LOCALSCX="0.180041688112625" LOCALSCY="0.180041688112625" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="discart.png" IRENDER="0" EMBEDDED="0" path="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" copath="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" gXpos="428.796338876063" gYpos="0" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="648.051637827222" YPOS="480.294693892966" OwnPage="0" ItemID="2056451646" PTYPE="4" WIDTH="43.5153984263818" HEIGHT="10.0080460243759" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822365852355" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L43.5154 0 L43.5154 10.008 L0 10.008 L0 0 Z" copath="M0 0 L43.5154 0 L43.5154 10.008 L0 10.008 L0 0 Z" gXpos="434.051637827222" gYpos="50.1070539756248" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="7.7" CH="V. Discard"/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="302.263592532365" YPOS="546.997549995559" OwnPage="0" ItemID="2050765758" PTYPE="4" WIDTH="346.231424238365" HEIGHT="83.7584428623212" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L346.231 0 L346.231 83.7584 L0 83.7584 L0 0 Z" copath="M0 0 L346.231 0 L346.231 83.7584 L0 83.7584 L0 0 Z" gXpos="88.2635925323655" gYpos="116.809910078218" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT CH="- Ik vond geen verslagen"/>
+                    <para/>
+                    <ITEXT CH="- Bloedwaarden redelijk hoog =&gt; naar Mieke gebeld"/>
+                    <para/>
+                    <ITEXT CH="- Ik was zelf beetje ongerust "/>
+                    <para/>
+                    <ITEXT CH="- Naar De Greef gebeld : hoog crt, volg jij op ?"/>
+                    <para/>
+                    <ITEXT CH="- Denk ik toch... kan nakijken in telefoonlijsten"/>
+                    <para/>
+                    <ITEXT CH=" "/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="270.395895443514" YPOS="547.337215170523" OwnPage="0" ItemID="2050895438" PTYPE="2" WIDTH="22.5347015188287" HEIGHT="25.5347015188288" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0440130889039623" LOCALSCY="0.0440130889039623" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="tekstballon.png" IRENDER="0" EMBEDDED="0" path="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" copath="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" gXpos="56.3958954435138" gYpos="117.149575253182" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="233.690839694656" YPOS="188.217557251908" OwnPage="0" ItemID="2050783886" PTYPE="6" WIDTH="478.664122137405" HEIGHT="184.519083969466" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="M0 0 L478.664 0 L478.664 184.519 L0 184.519 L0 0 Z" copath="M0 0 L478.664 0 L478.664 184.519 L0 184.519 L0 0 Z" gXpos="233.690839694656" gYpos="188.217557251908" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="247.595419847328" YPOS="1104" OwnPage="0" ItemID="2050927422" PTYPE="2" WIDTH="56.8142382306467" HEIGHT="74.5043028208877" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.128539000521825" LOCALSCY="0.128539000521825" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="ros.png" IRENDER="0" EMBEDDED="0" path="M0 0 L56.8142 0 L56.8142 74.5043 L0 74.5043 L0 0 Z" copath="M0 0 L56.8142 0 L56.8142 74.5043 L0 74.5043 L0 0 Z" gXpos="-1" gYpos="33.0232000630388" gWidth="197.002251114504" gHeight="121.12243670426" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="304.597670961832" YPOS="1055.97679993696" OwnPage="0" ItemID="2050614510" PTYPE="4" WIDTH="100" HEIGHT="42.1881677419354" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L100 0 L100 42.1882 L0 42.1882 L0 0 Z" copath="M0 0 L100 0 L100 42.1882 L0 42.1882 L0 0 Z" gXpos="56.002251114504" gYpos="-15" gWidth="197.002251114504" gHeight="121.12243670426" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="12" CH="Je moet niet ongerust zijn"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="284.972439477958" YPOS="1105.16511013051" OwnPage="0" ItemID="2053366622" PTYPE="5" WIDTH="27.5858862505975" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="309.207203504968" PWIDTH="1.00000000000001" SHADE="0" PCOLOR2="Black" PLINEART="1" path="" gXpos="36.3770196306331" gYpos="34.1883101935484" gWidth="197.002251114504" gHeight="121.12243670426" LAYER="0"/>
+        <PAGEOBJECT XPOS="164.282442748092" YPOS="27.0381679389313" OwnPage="0" ItemID="2050843038" PTYPE="12" WIDTH="147.030534351145" HEIGHT="29.6793893129771" FRTYPE="0" CLIPEDIT="0" ANNAME="Group2" groupWidth="147.030534351145" groupHeight="29.6793893129771" groupClips="1" path="M0 0 L147.031 0 L147.031 29.6794 L0 29.6794 L0 0 Z" copath="M0 0 L147.031 0 L147.031 29.6794 L0 29.6794 L0 0 Z" gXpos="164.282442748092" gYpos="27.0381679389313" gWidth="0" gHeight="0" LAYER="0">
+            <PAGEOBJECT XPOS="196.992366412214" YPOS="109.595419847328" OwnPage="0" ItemID="2050675102" PTYPE="4" WIDTH="114.320610687023" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L114.321 0 L114.321 14 L0 14 L0 0 Z" copath="M0 0 L114.321 0 L114.321 14 L0 14 L0 0 Z" gXpos="32.7099236641221" gYpos="7.55725190839695" gWidth="147.030534351145" gHeight="29.6793893129771" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT CH="15 aug, dinsdag"/>
+                    <para/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="164.282442748092" YPOS="102.038167938931" OwnPage="0" ItemID="2050809454" PTYPE="2" WIDTH="30.7786259541984" HEIGHT="29.6793893129771" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.113574265513647" LOCALSCY="0.113574265513647" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="calendar.png" IRENDER="0" EMBEDDED="0" path="M0 0 L30.7786 0 L30.7786 29.6794 L0 29.6794 L0 0 Z" copath="M0 0 L30.7786 0 L30.7786 29.6794 L0 29.6794 L0 0 Z" gXpos="0" gYpos="0" gWidth="147.030534351145" gHeight="29.6793893129771" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="223.381679389313" YPOS="168.068929336067" OwnPage="0" ItemID="2050641150" PTYPE="2" WIDTH="46.2824427480915" HEIGHT="46.3432844043909" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.210374739764052" LOCALSCY="0.210374739764052" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="imelda.png" IRENDER="0" EMBEDDED="0" path="M0 0 L46.2824 0 L46.2824 46.3433 L0 46.3433 L0 0 Z" copath="M0 0 L46.2824 0 L46.2824 46.3433 L0 46.3433 L0 0 Z" gXpos="223.381679389313" gYpos="168.068929336067" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="272.374045801527" YPOS="209.145038167939" OwnPage="0" ItemID="2050569518" PTYPE="12" WIDTH="69.8778625954199" HEIGHT="30.8549618320611" FRTYPE="0" CLIPEDIT="1" ANNAME="Group6" groupWidth="69.8778625954199" groupHeight="30.8549618320611" groupClips="1" path="M0 0 L69.8779 0 L69.8779 30.855 L0 30.855 L0 0 Z" copath="M0 0 L69.8779 0 L69.8779 30.855 L0 30.855 L0 0 Z" gXpos="272.374045801527" gYpos="209.145038167939" gWidth="0" gHeight="0" LAYER="0">
+            <PAGEOBJECT XPOS="272.374045801527" YPOS="209.145038167939" OwnPage="0" ItemID="2050665918" PTYPE="2" WIDTH="30.2290076335878" HEIGHT="30.8549618320611" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0482891495744214" LOCALSCY="0.0482891495744214" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="crt.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" copath="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" gXpos="0" gYpos="0" gWidth="69.8778625954199" gHeight="30.8549618320611" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="307.076335877863" YPOS="218.083969465649" OwnPage="0" ItemID="2050720990" PTYPE="4" WIDTH="35.175572519084" HEIGHT="14.2900763358779" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L35.1756 0 L35.1756 14.2901 L0 14.2901 L0 0 Z" copath="M0 0 L35.1756 0 L35.1756 14.2901 L0 14.2901 L0 0 Z" gXpos="34.7022900763359" gYpos="8.93893129770993" gWidth="69.8778625954199" gHeight="30.8549618320611" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT CH="9mg"/>
+                    <para/>
+                </StoryText>
+            </PAGEOBJECT>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="271.679389312977" YPOS="242.931297709924" OwnPage="0" ItemID="2050656974" PTYPE="4" WIDTH="353.885496183206" HEIGHT="98.3816793893129" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L353.885 0 L353.885 98.3817 L0 98.3817 L0 0 Z" copath="M0 0 L353.885 0 L353.885 98.3817 L0 98.3817 L0 0 Z" gXpos="271.679389312977" gYpos="242.931297709924" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="ONTSLAGBRIEF "/>
+                <breakline/>
+                <breakline/>
+                <ITEXT CH="1. Opnieuw meten na 2 dagen om stijgen na te gaan!"/>
+                <para/>
+                <para/>
+                <ITEXT CH="2. Dringende afspraak!  Tussen nemen!"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="580.407692387097" YPOS="339.874796304755" OwnPage="0" ItemID="2052569326" PTYPE="4" WIDTH="130.603561290322" HEIGHT="34.1936243404062" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L130.604 0 L130.604 34.1936 L0 34.1936 L0 0 Z" copath="M0 0 L130.604 0 L130.604 34.1936 L0 34.1936 L0 0 Z" gXpos="580.407692387097" gYpos="339.874796304755" gWidth="130.603561290322" gHeight="34.1936243404062" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="9" CH="Validatie op 21 november ??"/>
+                <para/>
+                <ITEXT FONTSIZE="9" CH="Kopie De Greef ??"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="198.870313534067" YPOS="409.195422568561" OwnPage="0" ItemID="2051269470" PTYPE="4" WIDTH="113.443129214025" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.00000316702145" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L113.443 0 L113.443 14 L0 14 L0 0 Z" copath="M0 0 L113.443 0 L113.443 14 L0 14 L0 0 Z" gXpos="33.5877671929461" gYpos="7.55725190839695" gWidth="147.030534351145" gHeight="29.6793893129771" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="12" CH="18 aug, "/>
+                <ITEXT CH="vrijdag"/>
+                <para/>
+                <para/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="165.282442748092" YPOS="401.638167938931" OwnPage="0" ItemID="2052344542" PTYPE="2" WIDTH="30.7787234307669" HEIGHT="29.6794000000002" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.00000316702145" PLINEART="1" LOCALSCX="0.113574625205782" LOCALSCY="0.113574625205782" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="calendar.png" IRENDER="0" EMBEDDED="0" path="M0 0 L30.7787 0 L30.7787 29.6794 L0 29.6794 L0 0 Z" copath="M0 0 L30.7787 0 L30.7787 29.6794 L0 29.6794 L0 0 Z" gXpos="0" gYpos="0" gWidth="147.030534351145" gHeight="29.6793893129771" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="544.270557419355" YPOS="339.192868645161" OwnPage="0" ItemID="2051242654" PTYPE="2" WIDTH="29.7508190967742" HEIGHT="30.5023260924193" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.0581070685483871" LOCALSCY="0.0581070685483871" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="q.png" IRENDER="0" EMBEDDED="0" path="M0 0 L29.7508 0 L29.7508 30.5023 L0 30.5023 L0 0 Z" copath="M0 0 L29.7508 0 L29.7508 30.5023 L0 30.5023 L0 0 Z" gXpos="544.270557419355" gYpos="339.192868645161" gWidth="29.7508190967742" gHeight="30.5023260924193" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="577.05164247222" YPOS="146.420388953893" OwnPage="0" ItemID="2051081070" PTYPE="12" WIDTH="58.4898953733015" HEIGHT="60.8823690676843" FRTYPE="0" CLIPEDIT="0" ANNAME="Group14" groupWidth="58.4898953733015" groupHeight="60.8823690676843" groupClips="1" path="M0 0 L58.4899 0 L58.4899 60.8824 L0 60.8824 L0 0 Z" copath="M0 0 L58.4899 0 L58.4899 60.8824 L0 60.8824 L0 0 Z" gXpos="577.05164247222" gYpos="146.420388953893" gWidth="0" gHeight="0" LAYER="0">
+            <PAGEOBJECT XPOS="578.269092019711" YPOS="146.420388953893" OwnPage="0" ItemID="2052034478" PTYPE="2" WIDTH="48.5183196969422" HEIGHT="51.9967499064348" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822659385441" PLINEART="1" LOCALSCX="0.43330624922029" LOCALSCY="0.43330624922029" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="dr_v.png" IRENDER="0" EMBEDDED="0" path="M0 0 L48.5183 0 L48.5183 51.9967 L0 51.9967 L0 0 Z" copath="M0 0 L48.5183 0 L48.5183 51.9967 L0 51.9967 L0 0 Z" gXpos="1.2174495474909" gYpos="0" gWidth="58.4898953733015" gHeight="60.8823690676843" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="577.05164247222" YPOS="197.294708768337" OwnPage="0" ItemID="2050871710" PTYPE="4" WIDTH="58.4898953733015" HEIGHT="10.0080492532398" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822659385441" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L58.4899 0 L58.4899 10.008 L0 10.008 L0 0 Z" copath="M0 0 L58.4899 0 L58.4899 10.008 L0 10.008 L0 0 Z" gXpos="0" gYpos="50.8743198144444" gWidth="58.4898953733015" gHeight="60.8823690676843" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="7.7" CH="L. De Lausnay"/>
+                    <para/>
+                </StoryText>
+            </PAGEOBJECT>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="642.796338876063" YPOS="151.387639917341" OwnPage="0" ItemID="2050706558" PTYPE="12" WIDTH="50.5363446674887" HEIGHT="55.9151181042363" FRTYPE="0" CLIPEDIT="0" ANNAME="Group20" groupWidth="50.5363446674887" groupHeight="55.9151181042363" groupClips="1" path="M0 0 L50.5363 0 L50.5363 55.9151 L0 55.9151 L0 0 Z" copath="M0 0 L50.5363 0 L50.5363 55.9151 L0 55.9151 L0 0 Z" gXpos="642.796338876063" gYpos="151.387639917341" gWidth="0" gHeight="0" LAYER="0">
+            <PAGEOBJECT XPOS="642.796338876063" YPOS="151.387639917341" OwnPage="0" ItemID="2050712046" PTYPE="2" WIDTH="50.5363446674887" HEIGHT="48.7913132199019" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822659385441" PLINEART="1" LOCALSCX="0.487913132199019" LOCALSCY="0.487913132199019" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="dr_m.png" IRENDER="0" EMBEDDED="0" path="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" copath="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" gXpos="0" gYpos="0" gWidth="50.5363446674887" gHeight="55.9151181042363" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="648.05164247222" YPOS="197.294708768337" OwnPage="0" ItemID="2053203406" PTYPE="4" WIDTH="32.6307509527114" HEIGHT="10.0080492532398" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822659385441" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L32.6308 0 L32.6308 10.008 L0 10.008 L0 0 Z" copath="M0 0 L32.6308 0 L32.6308 10.008 L0 10.008 L0 0 Z" gXpos="5.2553035961572" gYpos="45.9070688509964" gWidth="50.5363446674887" gHeight="55.9151181042363" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="7.7" CH="M. Gillis"/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="214" YPOS="430.187639917341" OwnPage="0" ItemID="2051450862" PTYPE="12" WIDTH="503.451838945908" HEIGHT="211.661817952746" FRTYPE="0" CLIPEDIT="0" ANNAME="Copy of Group17" groupWidth="503.451838945908" groupHeight="211.661817952746" groupClips="1" path="M0 0 L503.452 0 L503.452 211.662 L0 211.662 L0 0 Z" copath="M0 0 L503.452 0 L503.452 211.662 L0 211.662 L0 0 Z" gXpos="214" gYpos="430.187639917341" gWidth="0" gHeight="0" LAYER="0">
+            <PAGEOBJECT XPOS="234.321789306189" YPOS="471.217557251908" OwnPage="0" ItemID="2051456222" PTYPE="6" WIDTH="482.630049639719" HEIGHT="170.131900618179" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="M0 0 L482.63 0 L482.63 170.132 L0 170.132 L0 0 Z" copath="M0 0 L482.63 0 L482.63 170.132 L0 170.132 L0 0 Z" gXpos="20.3217893061894" gYpos="41.029917334567" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0"/>
+            <PAGEOBJECT XPOS="214" YPOS="453.943460190392" OwnPage="0" ItemID="2051685726" PTYPE="2" WIDTH="46.6133870288022" HEIGHT="43.984381935169" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.121169096240135" LOCALSCY="0.121169096240135" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Huisartsenpost.png" IRENDER="0" EMBEDDED="0" path="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" copath="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" gXpos="0" gYpos="23.7558202730514" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="267.374045801527" YPOS="496.145038167939" OwnPage="0" ItemID="2053263694" PTYPE="2" WIDTH="30.2290076335878" HEIGHT="30.8549618320611" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0482891495744214" LOCALSCY="0.0482891495744214" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="crt.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" copath="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" gXpos="53.374045801527" gYpos="65.957398250598" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="302.076335877863" YPOS="504.592356433314" OwnPage="0" ItemID="2051353886" PTYPE="4" WIDTH="144.646727356108" HEIGHT="14.781689368213" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L144.647 0 L144.647 14.7817 L0 14.7817 L0 0 Z" copath="M0 0 L144.647 0 L144.647 14.7817 L0 14.7817 L0 0 Z" gXpos="88.0763358778629" gYpos="74.4047165159727" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="12" CH="9mg"/>
+                    <ITEXT CH=" =&gt; 84mg !!         "/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="642.796338876063" YPOS="430.187639917341" OwnPage="0" ItemID="2051851454" PTYPE="2" WIDTH="50.5362999999972" HEIGHT="48.7912974785213" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822365852355" PLINEART="1" LOCALSCX="0.180041688112625" LOCALSCY="0.180041688112625" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="discart.png" IRENDER="0" EMBEDDED="0" path="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" copath="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" gXpos="428.796338876063" gYpos="0" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="648.051637827222" YPOS="480.294693892966" OwnPage="0" ItemID="2051863470" PTYPE="4" WIDTH="43.5153984263818" HEIGHT="10.0080460243759" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822365852355" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L43.5154 0 L43.5154 10.008 L0 10.008 L0 0 Z" copath="M0 0 L43.5154 0 L43.5154 10.008 L0 10.008 L0 0 Z" gXpos="434.051637827222" gYpos="50.1070539756248" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="7.7" CH="V. Discard"/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="302.263592532365" YPOS="546.997549995559" OwnPage="0" ItemID="2051029710" PTYPE="4" WIDTH="346.231424238365" HEIGHT="83.7584428623212" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L346.231 0 L346.231 83.7584 L0 83.7584 L0 0 Z" copath="M0 0 L346.231 0 L346.231 83.7584 L0 83.7584 L0 0 Z" gXpos="88.2635925323655" gYpos="116.809910078218" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT CH="- Ik vond geen verslagen"/>
+                    <para/>
+                    <ITEXT CH="- Bloedwaarden redelijk hoog =&gt; naar Mieke gebeld"/>
+                    <para/>
+                    <ITEXT CH="- Ik was zelf beetje ongerust "/>
+                    <para/>
+                    <ITEXT CH="- Naar De Greef gebeld : hoog crt, volg jij op ?"/>
+                    <para/>
+                    <ITEXT CH="- Denk ik toch... kan nakijken in telefoonlijsten"/>
+                    <para/>
+                    <ITEXT CH=" "/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="270.395895443514" YPOS="547.337215170523" OwnPage="0" ItemID="2051061806" PTYPE="2" WIDTH="22.5347015188287" HEIGHT="25.5347015188288" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0440130889039623" LOCALSCY="0.0440130889039623" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="tekstballon.png" IRENDER="0" EMBEDDED="0" path="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" copath="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" gXpos="56.3958954435138" gYpos="117.149575253182" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="247.29880069616" YPOS="696.778875101723" OwnPage="0" ItemID="2051035998" PTYPE="2" WIDTH="51.9862373655391" HEIGHT="68.0817289576086" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0656391885928524" LOCALSCY="0.0656391885928524" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Moeder Peter_TR.png" PRFILE="Embedded sRGB" IRENDER="0" EPROF="Embedded sRGB" path="M0 0 L51.9862 0 L51.9862 68.0817 L0 68.0817 L0 0 Z" copath="M0 0 L51.9862 0 L51.9862 68.0817 L0 68.0817 L0 0 Z" gXpos="247.29880069616" gYpos="696.778875101723" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="229.004580152672" YPOS="63.8091603053435" OwnPage="0" ItemID="2057514590" PTYPE="12" WIDTH="229.977099236641" HEIGHT="82.4885496183206" FRTYPE="0" CLIPEDIT="0" ANNAME="Group5" groupWidth="229.977099236641" groupHeight="82.4885496183206" groupClips="1" path="M0 0 L229.977 0 L229.977 82.4885 L0 82.4885 L0 0 Z" copath="M0 0 L229.977 0 L229.977 82.4885 L0 82.4885 L0 0 Z" gXpos="229.004580152672" gYpos="63.8091603053435" gWidth="0" gHeight="0" LAYER="0">
+            <PAGEOBJECT XPOS="229.004580152672" YPOS="63.8091603053435" OwnPage="0" ItemID="2057619582" PTYPE="12" WIDTH="93.7938931297707" HEIGHT="82.4885496183206" FRTYPE="0" CLIPEDIT="0" ANNAME="Group3" groupWidth="93.7938931297707" groupHeight="82.4885496183206" groupClips="1" path="M0 0 L93.7939 0 L93.7939 82.4885 L0 82.4885 L0 0 Z" copath="M0 0 L93.7939 0 L93.7939 82.4885 L0 82.4885 L0 0 Z" gXpos="0" gYpos="0" gWidth="229.977099236641" gHeight="82.4885496183206" LAYER="0">
+                <PAGEOBJECT XPOS="229.004580152672" YPOS="92.175572519084" OwnPage="0" ItemID="2051496542" PTYPE="2" WIDTH="51.6717557251906" HEIGHT="54.1221374045801" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0557960179428661" LOCALSCY="0.0557960179428661" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Moeder Peter_TR.png" PRFILE="Embedded sRGB" IRENDER="0" EPROF="Embedded sRGB" path="M0 0 L51.6718 0 L51.6718 54.1221 L0 54.1221 L0 0 Z" copath="M0 0 L51.6718 0 L51.6718 54.1221 L0 54.1221 L0 0 Z" gXpos="0" gYpos="28.3664122137405" gWidth="93.7938931297707" gHeight="82.4885496183206" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+                <PAGEOBJECT XPOS="280.370992366412" YPOS="63.8091603053435" OwnPage="0" ItemID="2053212590" PTYPE="2" WIDTH="42.4274809160305" HEIGHT="27.6870229007633" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0540762166030533" LOCALSCY="0.0540762166030533" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="sick.png" IRENDER="0" EMBEDDED="0" path="M0 0 L42.4275 0 L42.4275 27.687 L0 27.687 L0 0 Z" copath="M0 0 L42.4275 0 L42.4275 27.687 L0 27.687 L0 0 Z" gXpos="51.3664122137402" gYpos="0" gWidth="93.7938931297707" gHeight="82.4885496183206" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+                <PAGEOBJECT XPOS="262.615267175573" YPOS="105.320610687023" OwnPage="0" ItemID="2053152254" PTYPE="5" WIDTH="24.0893389932581" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="325.222168633636" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="" gXpos="33.6106870229005" gYpos="41.5114503816794" gWidth="93.7938931297707" gHeight="82.4885496183206" LAYER="0"/>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="343.806106870229" YPOS="67.7480916030535" OwnPage="0" ItemID="2053160910" PTYPE="12" WIDTH="115.175572519084" HEIGHT="77.6946564885496" FRTYPE="0" CLIPEDIT="0" ANNAME="Group4" groupWidth="115.175572519084" groupHeight="77.6946564885496" groupClips="1" path="M0 0 L115.176 0 L115.176 77.6947 L0 77.6947 L0 0 Z" copath="M0 0 L115.176 0 L115.176 77.6947 L0 77.6947 L0 0 Z" gXpos="114.801526717557" gYpos="3.93893129770993" gWidth="229.977099236641" gHeight="82.4885496183206" LAYER="0">
+                <PAGEOBJECT XPOS="407.225954198473" YPOS="92.7480916030535" OwnPage="0" ItemID="2053233262" PTYPE="2" WIDTH="51.7557251908397" HEIGHT="52.6946564885496" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.104552889858233" LOCALSCY="0.104552889858233" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="rik.png" IRENDER="0" EMBEDDED="0" path="M0 0 L51.7557 0 L51.7557 52.6947 L0 52.6947 L0 0 Z" copath="M0 0 L51.7557 0 L51.7557 52.6947 L0 52.6947 L0 0 Z" gXpos="63.4198473282443" gYpos="25" gWidth="115.175572519084" gHeight="77.6946564885496" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+                <PAGEOBJECT XPOS="343.806106870229" YPOS="67.7480916030535" OwnPage="0" ItemID="2053171774" PTYPE="4" WIDTH="100" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L100 0 L100 14 L0 14 L0 0 Z" copath="M0 0 L100 0 L100 14 L0 14 L0 0 Z" gXpos="0" gYpos="0" gWidth="115.175572519084" gHeight="77.6946564885496" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                    <StoryText>
+                        <DefaultStyle/>
+                        <ITEXT CH="Spoed!"/>
+                        <trail/>
+                    </StoryText>
+                </PAGEOBJECT>
+                <PAGEOBJECT XPOS="391.432061068702" YPOS="84.3282442748092" OwnPage="0" ItemID="2051026622" PTYPE="5" WIDTH="17.1177653156125" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="42.3974377975003" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="" gXpos="47.6259541984732" gYpos="16.5801526717557" gWidth="115.175572519084" gHeight="77.6946564885496" LAYER="0"/>
+            </PAGEOBJECT>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="197.870313534068" YPOS="664.195422568561" OwnPage="0" ItemID="2053298398" PTYPE="4" WIDTH="142.538331253976" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.00000316702145" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L142.538 0 L142.538 14 L0 14 L0 0 Z" copath="M0 0 L142.538 0 L142.538 14 L0 14 L0 0 Z" gXpos="32.5877671929461" gYpos="262.557251908397" gWidth="147.030534351145" gHeight="29.6793893129771" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="12" CH="1"/>
+                <ITEXT CH="9-20 aug, weekend"/>
+                <para/>
+                <ITEXT FONTSIZE="12" CH=" aug, "/>
+                <ITEXT CH="vrijdag"/>
+                <para/>
+                <para/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="164.282442748092" YPOS="656.638167938931" OwnPage="0" ItemID="2053115630" PTYPE="2" WIDTH="30.7787234307669" HEIGHT="29.6794000000002" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.00000316702145" PLINEART="1" LOCALSCX="0.113574625205782" LOCALSCY="0.113574625205782" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="calendar.png" IRENDER="0" EMBEDDED="0" path="M0 0 L30.7787 0 L30.7787 29.6794 L0 29.6794 L0 0 Z" copath="M0 0 L30.7787 0 L30.7787 29.6794 L0 29.6794 L0 0 Z" gXpos="-1" gYpos="255" gWidth="147.030534351145" gHeight="29.6793893129771" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="309.996260894124" YPOS="696.494003480799" OwnPage="0" ItemID="2056524974" PTYPE="4" WIDTH="281.390236356994" HEIGHT="68.0817289576087" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L281.39 0 L281.39 68.0817 L0 68.0817 L0 0 Z" copath="M0 0 L281.39 0 L281.39 68.0817 L0 68.0817 L0 0 Z" gXpos="309.996260894124" gYpos="696.494003480799" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="- 6 keer gebeld : niemand bereikbaar, alleen dokter geeft afspraken, niet te bereiken "/>
+                <para/>
+                <ITEXT CH="- hartkloppingen, pols 42 "/>
+                <para/>
+                <ITEXT CH="- paniek -&gt; belt naar wachtdienst"/>
+                <para/>
+                <para/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="274.576227800978" YPOS="771.888436867457" OwnPage="0" ItemID="2060892190" PTYPE="5" WIDTH="51.8416804554774" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="90" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="" gXpos="274.576227800978" gYpos="771.888436867457" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="274.566446388251" YPOS="823.699339164752" OwnPage="0" ItemID="2060864910" PTYPE="5" WIDTH="210.963778546274" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="" gXpos="274.566446388251" gYpos="823.699339164752" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="288.899441958274" YPOS="120.934650122068" OwnPage="0" ItemID="2060854542" PTYPE="5" WIDTH="107.945372886735" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" SHADE="0" PCOLOR2="Black" PLINEART="1" path="" gXpos="288.899441958274" gYpos="120.934650122068" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="329.069992903011" YPOS="105.383146098984" OwnPage="0" ItemID="2056546974" PTYPE="2" WIDTH="30.9055216978618" HEIGHT="36.2803950366205" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0883014905653194" LOCALSCY="0.0883014905653194" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="phone.jpg" IRENDER="0" EMBEDDED="0" path="M0 0 L30.9055 0 L30.9055 36.2804 L0 36.2804 L0 0 Z" copath="M0 0 L30.9055 0 L30.9055 36.2804 L0 36.2804 L0 0 Z" gXpos="329.069992903011" gYpos="105.383146098984" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="359.069992903011" YPOS="804.383146098984" OwnPage="0" ItemID="2056521278" PTYPE="2" WIDTH="30.9055216978618" HEIGHT="36.2803950366205" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0883014905653194" LOCALSCY="0.0883014905653194" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="phone.jpg" IRENDER="0" EMBEDDED="0" path="M0 0 L30.9055 0 L30.9055 36.2804 L0 36.2804 L0 0 Z" copath="M0 0 L30.9055 0 L30.9055 36.2804 L0 36.2804 L0 0 Z" gXpos="359.069992903011" gYpos="804.383146098984" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="234.321789306189" YPOS="471.217557251908" OwnPage="0" ItemID="2060183598" PTYPE="6" WIDTH="482.630049639719" HEIGHT="170.131900618179" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="M0 0 L482.63 0 L482.63 170.132 L0 170.132 L0 0 Z" copath="M0 0 L482.63 0 L482.63 170.132 L0 170.132 L0 0 Z" gXpos="20.3217893061894" gYpos="41.029917334567" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0"/>
+        <PAGEOBJECT XPOS="214" YPOS="453.943460190392" OwnPage="0" ItemID="2057707950" PTYPE="2" WIDTH="46.6133870288022" HEIGHT="43.984381935169" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.121169096240135" LOCALSCY="0.121169096240135" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Huisartsenpost.png" IRENDER="0" EMBEDDED="0" path="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" copath="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" gXpos="0" gYpos="23.7558202730514" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="267.374045801527" YPOS="496.145038167939" OwnPage="0" ItemID="2060869950" PTYPE="2" WIDTH="30.2290076335878" HEIGHT="30.8549618320611" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0482891495744214" LOCALSCY="0.0482891495744214" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="crt.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" copath="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" gXpos="53.374045801527" gYpos="65.957398250598" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="302.076335877863" YPOS="504.592356433314" OwnPage="0" ItemID="2057826590" PTYPE="4" WIDTH="203.161757965444" HEIGHT="14.781689368213" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L203.162 0 L203.162 14.7817 L0 14.7817 L0 0 Z" copath="M0 0 L203.162 0 L203.162 14.7817 L0 14.7817 L0 0 Z" gXpos="88.0763358778629" gYpos="74.4047165159727" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="12" CH="9mg =&gt; 84mg !!       (somedi)  "/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="642.796338876063" YPOS="430.187639917341" OwnPage="0" ItemID="2057769582" PTYPE="2" WIDTH="50.5362999999972" HEIGHT="48.7912974785213" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822365852355" PLINEART="1" LOCALSCX="0.180041688112625" LOCALSCY="0.180041688112625" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="discart.png" IRENDER="0" EMBEDDED="0" path="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" copath="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" gXpos="428.796338876063" gYpos="0" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="648.051637827222" YPOS="480.294693892966" OwnPage="0" ItemID="2057777038" PTYPE="4" WIDTH="43.5153984263818" HEIGHT="10.0080460243759" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822365852355" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L43.5154 0 L43.5154 10.008 L0 10.008 L0 0 Z" copath="M0 0 L43.5154 0 L43.5154 10.008 L0 10.008 L0 0 Z" gXpos="434.051637827222" gYpos="50.1070539756248" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="7.7" CH="V. Discard"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="302.263592532365" YPOS="546.997549995559" OwnPage="0" ItemID="2057883214" PTYPE="4" WIDTH="346.231424238365" HEIGHT="83.7584428623212" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L346.231 0 L346.231 83.7584 L0 83.7584 L0 0 Z" copath="M0 0 L346.231 0 L346.231 83.7584 L0 83.7584 L0 0 Z" gXpos="88.2635925323655" gYpos="116.809910078218" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="12" CH="- Ik vond geen verslagen"/>
+                <para/>
+                <ITEXT FONTSIZE="12" CH="- Bloedwaarden redelijk hoog =&gt; naar Mieke gebeld"/>
+                <para/>
+                <ITEXT FONTSIZE="12" CH="- Ik was zelf beetje ongerust "/>
+                <para/>
+                <ITEXT FONTSIZE="12" CH="- Naar De Greef gebeld : hoog crt, volg jij op ?"/>
+                <para/>
+                <ITEXT FONTSIZE="12" CH="- Denk ik toch... kan nakijken in telefoonlijsten"/>
+                <para/>
+                <ITEXT FONTSIZE="12" CH=" "/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="270.395895443514" YPOS="547.337215170523" OwnPage="0" ItemID="2057784638" PTYPE="2" WIDTH="22.5347015188287" HEIGHT="25.5347015188288" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0440130889039623" LOCALSCY="0.0440130889039623" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="tekstballon.png" IRENDER="0" EMBEDDED="0" path="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" copath="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" gXpos="56.3958954435138" gYpos="117.149575253182" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="468" YPOS="798.943460190392" OwnPage="0" ItemID="2057793118" PTYPE="2" WIDTH="46.6133870288022" HEIGHT="43.984381935169" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.121169096240135" LOCALSCY="0.121169096240135" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Huisartsenpost.png" IRENDER="0" EMBEDDED="0" path="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" copath="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" gXpos="254" gYpos="368.755820273051" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="457.302430431307" YPOS="842.531828089809" OwnPage="0" ItemID="2064456990" PTYPE="4" WIDTH="74.8003206310569" HEIGHT="16.572526127839" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L74.8003 0 L74.8003 16.5725 L0 16.5725 L0 0 Z" copath="M0 0 L74.8003 0 L74.8003 16.5725 L0 16.5725 L0 0 Z" gXpos="457.302430431307" gYpos="842.531828089809" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="wachtdienst"/>
+                <para/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="514.644122186134" YPOS="813.397498598798" OwnPage="0" ItemID="2057478430" PTYPE="5" WIDTH="85.7655413047703" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="343.931299168534" PWIDTH="1" SHADE="0" PCOLOR2="Black" PLINEART="1" path="" gXpos="514.644122186134" gYpos="813.397498598798" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="597.374045801527" YPOS="770.145038167939" OwnPage="0" ItemID="2057374446" PTYPE="2" WIDTH="30.2290076335878" HEIGHT="30.8549618320611" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0482891495744214" LOCALSCY="0.0482891495744214" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="crt.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" copath="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" gXpos="383.374045801527" gYpos="339.957398250598" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="542.72526127839" YPOS="785.541537564545" OwnPage="0" ItemID="2064549054" PTYPE="2" WIDTH="38.9678317059997" HEIGHT="28.4584624354551" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0465007556134887" LOCALSCY="0.0465007556134887" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="eye.jpg" IRENDER="0" EMBEDDED="0" path="M0 0 L38.9678 0 L38.9678 28.4585 L0 28.4585 L0 0 Z" copath="M0 0 L38.9678 0 L38.9678 28.4585 L0 28.4585 L0 0 Z" gXpos="542.72526127839" gYpos="785.541537564545" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="630.787147861949" YPOS="776.117103562178" OwnPage="0" ItemID="2057385278" PTYPE="4" WIDTH="108.393278998298" HEIGHT="16.572526127839" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L108.393 0 L108.393 16.5725 L0 16.5725 L0 0 Z" copath="M0 0 L108.393 0 L108.393 16.5725 L0 16.5725 L0 0 Z" gXpos="630.787147861949" gYpos="776.117103562178" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="84 mg (somedi)"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="627.787147861949" YPOS="838.117103562178" OwnPage="0" ItemID="2060094558" PTYPE="4" WIDTH="151.923927357401" HEIGHT="51.4244340023669" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L151.924 0 L151.924 51.4244 L0 51.4244 L0 0 Z" copath="M0 0 L151.924 0 L151.924 51.4244 L0 51.4244 L0 0 Z" gXpos="627.787147861949" gYpos="838.117103562178" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="Bel huissdokter voor dringende afspraak met Rossenbacker!! "/>
+                <para/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="558.395895443514" YPOS="831.337215170523" OwnPage="0" ItemID="2060067230" PTYPE="2" WIDTH="22.5347015188287" HEIGHT="25.5347015188288" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0440130889039623" LOCALSCY="0.0440130889039623" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="tekstballon.png" IRENDER="0" EMBEDDED="0" path="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" copath="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" gXpos="344.395895443514" gYpos="401.149575253182" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="515.092028297697" YPOS="829.970024726637" OwnPage="0" ItemID="2060072206" PTYPE="5" WIDTH="40.7963547893563" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="8.84181456019165" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="" gXpos="515.092028297697" gYpos="829.970024726637" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="583.092028297697" YPOS="839.970024726637" OwnPage="0" ItemID="2060178094" PTYPE="5" WIDTH="40.7963547893563" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="8.84181456019165" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="" gXpos="583.092028297697" gYpos="839.970024726637" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="219.870313534068" YPOS="909.195422568561" OwnPage="0" ItemID="2060081918" PTYPE="4" WIDTH="113.443129214025" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.00000316702145" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L113.443 0 L113.443 14 L0 14 L0 0 Z" copath="M0 0 L113.443 0 L113.443 14 L0 14 L0 0 Z" gXpos="54.5877671929461" gYpos="507.557251908397" gWidth="147.030534351145" gHeight="29.6793893129771" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="12" CH="21 aug, "/>
+                <ITEXT CH="maandag"/>
+                <para/>
+                <para/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="186.282442748092" YPOS="901.638167938931" OwnPage="0" ItemID="2059905438" PTYPE="2" WIDTH="30.7787234307669" HEIGHT="29.6794000000002" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.00000316702145" PLINEART="1" LOCALSCX="0.113574625205782" LOCALSCY="0.113574625205782" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="calendar.png" IRENDER="0" EMBEDDED="0" path="M0 0 L30.7787 0 L30.7787 29.6794 L0 29.6794 L0 0 Z" copath="M0 0 L30.7787 0 L30.7787 29.6794 L0 29.6794 L0 0 Z" gXpos="21" gYpos="500" gWidth="147.030534351145" gHeight="29.6793893129771" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="225.870313534068" YPOS="1029.19542256856" OwnPage="0" ItemID="2059952910" PTYPE="4" WIDTH="113.443129214025" HEIGHT="14" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.00000316702145" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L113.443 0 L113.443 14 L0 14 L0 0 Z" copath="M0 0 L113.443 0 L113.443 14 L0 14 L0 0 Z" gXpos="60.5877671929461" gYpos="627.557251908397" gWidth="147.030534351145" gHeight="29.6793893129771" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="12" CH="22 aug,"/>
+                <ITEXT CH=" dinsdag "/>
+                <para/>
+                <para/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="192.282442748092" YPOS="1021.63816793893" OwnPage="0" ItemID="2060260398" PTYPE="2" WIDTH="30.7787234307669" HEIGHT="29.6794000000002" FRTYPE="0" CLIPEDIT="0" PWIDTH="1.00000316702145" PLINEART="1" LOCALSCX="0.113574625205782" LOCALSCY="0.113574625205782" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="calendar.png" IRENDER="0" EMBEDDED="0" path="M0 0 L30.7787 0 L30.7787 29.6794 L0 29.6794 L0 0 Z" copath="M0 0 L30.7787 0 L30.7787 29.6794 L0 29.6794 L0 0 Z" gXpos="27" gYpos="620" gWidth="147.030534351145" gHeight="29.6793893129771" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="248.29880069616" YPOS="937.778875101723" OwnPage="0" ItemID="2060373022" PTYPE="2" WIDTH="51.9862373655391" HEIGHT="68.0817289576086" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0656391885928524" LOCALSCY="0.0656391885928524" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Moeder Peter_TR.png" PRFILE="Embedded sRGB" IRENDER="0" EPROF="Embedded sRGB" path="M0 0 L51.9862 0 L51.9862 68.0817 L0 68.0817 L0 0 Z" copath="M0 0 L51.9862 0 L51.9862 68.0817 L0 68.0817 L0 0 Z" gXpos="248.29880069616" gYpos="937.778875101723" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="300.545000858917" YPOS="968.820919311234" OwnPage="0" ItemID="2059967502" PTYPE="5" WIDTH="137.510094174072" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="0.373257126871326" PWIDTH="1" SHADE="0" PCOLOR2="Black" PLINEART="1" path="" gXpos="300.545000858917" gYpos="968.820919311234" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="359.069992903011" YPOS="948.383146098984" OwnPage="0" ItemID="2059975086" PTYPE="2" WIDTH="30.9055216978618" HEIGHT="36.2803950366205" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0883014905653194" LOCALSCY="0.0883014905653194" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="phone.jpg" IRENDER="0" EMBEDDED="0" path="M0 0 L30.9055 0 L30.9055 36.2804 L0 36.2804 L0 0 Z" copath="M0 0 L30.9055 0 L30.9055 36.2804 L0 36.2804 L0 0 Z" gXpos="359.069992903011" gYpos="948.383146098984" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="440.796338876063" YPOS="940.387639917341" OwnPage="0" ItemID="2060342238" PTYPE="12" WIDTH="60.0076114901411" HEIGHT="58.9151000000011" FRTYPE="0" CLIPEDIT="0" ANNAME="Group22" groupWidth="60.0076114901411" groupHeight="58.9151000000011" groupClips="1" path="M0 0 L60.0076 0 L60.0076 58.9151 L0 58.9151 L0 0 Z" copath="M0 0 L60.0076 0 L60.0076 58.9151 L0 58.9151 L0 0 Z" gXpos="440.796338876063" gYpos="940.387639917341" gWidth="0" gHeight="0" LAYER="0">
+            <PAGEOBJECT XPOS="437.796338876063" YPOS="937.387639917341" OwnPage="0" ItemID="2060451406" PTYPE="2" WIDTH="50.5363000000001" HEIGHT="48.7912974222172" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.90982236480244" PLINEART="1" LOCALSCX="0.487912974222172" LOCALSCY="0.487912974222172" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="dr_m.png" IRENDER="0" EMBEDDED="0" path="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" copath="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" gXpos="0" gYpos="0" gWidth="60.0076114901411" gHeight="58.9151000000011" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="443.051637827222" YPOS="986.294693904515" OwnPage="0" ItemID="2060406270" PTYPE="4" WIDTH="54.7523125389818" HEIGHT="10.0080460128268" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.90982236480244" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L54.7523 0 L54.7523 10.008 L0 10.008 L0 0 Z" copath="M0 0 L54.7523 0 L54.7523 10.008 L0 10.008 L0 0 Z" gXpos="5.25529895115932" gYpos="48.9070539871743" gWidth="60.0076114901411" gHeight="58.9151000000011" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="7.7" CH="H. Degreef"/>
+                    <para/>
+                </StoryText>
+            </PAGEOBJECT>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="486.426037157651" YPOS="950.008862625579" OwnPage="0" ItemID="2060537150" PTYPE="5" WIDTH="38.5355470586519" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="340.30137862542" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="" gXpos="486.426037157651" gYpos="950.008862625579" gWidth="0" gHeight="0" LAYER="0"/>
+        <PAGEOBJECT XPOS="534.799897206479" YPOS="924.478214266476" OwnPage="0" ItemID="2060545630" PTYPE="4" WIDTH="108.841185109861" HEIGHT="50.16548449508" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L108.841 0 L108.841 50.1655 L0 50.1655 L0 0 Z" copath="M0 0 L108.841 0 L108.841 50.1655 L0 50.1655 L0 0 Z" gXpos="534.799897206479" gYpos="924.478214266476" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT CH="Ok, ik zorg voor die dringende afspraak."/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="440.29880069616" YPOS="1109.77887510172" OwnPage="0" ItemID="2060335230" PTYPE="2" WIDTH="51.9862373655391" HEIGHT="68.0817289576086" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0656391885928524" LOCALSCY="0.0656391885928524" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Moeder Peter_TR.png" PRFILE="Embedded sRGB" IRENDER="0" EPROF="Embedded sRGB" path="M0 0 L51.9862 0 L51.9862 68.0817 L0 68.0817 L0 0 Z" copath="M0 0 L51.9862 0 L51.9862 68.0817 L0 68.0817 L0 0 Z" gXpos="440.29880069616" gYpos="1109.77887510172" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="359.069992903011" YPOS="1119.38314609898" OwnPage="0" ItemID="2060439022" PTYPE="2" WIDTH="30.9055216978618" HEIGHT="36.2803950366205" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0883014905653194" LOCALSCY="0.0883014905653194" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="phone.jpg" IRENDER="0" EMBEDDED="0" path="M0 0 L30.9055 0 L30.9055 36.2804 L0 36.2804 L0 0 Z" copath="M0 0 L30.9055 0 L30.9055 36.2804 L0 36.2804 L0 0 Z" gXpos="359.069992903011" gYpos="1119.38314609898" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="497.597670961832" YPOS="1073.97679993696" OwnPage="0" ItemID="2060478798" PTYPE="4" WIDTH="46.639409591543" HEIGHT="16.7894922610085" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L46.6394 0 L46.6394 16.7895 L0 16.7895 L0 0 Z" copath="M0 0 L46.6394 0 L46.6394 16.7895 L0 16.7895 L0 0 Z" gXpos="249.002251114504" gYpos="3" gWidth="197.002251114504" gHeight="121.12243670426" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="12" CH=" ??? "/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="481.972439477958" YPOS="1109.16511013051" OwnPage="0" ItemID="2060397310" PTYPE="5" WIDTH="27.5858862505975" HEIGHT="1" FRTYPE="0" CLIPEDIT="0" ROT="309.207203504968" PWIDTH="1.00000000000001" SHADE="0" PCOLOR2="Black" PLINEART="1" path="" gXpos="233.377019630633" gYpos="38.1883101935484" gWidth="197.002251114504" gHeight="121.12243670426" LAYER="0"/>
+        <PAGEOBJECT XPOS="601.407692387097" YPOS="1069.87479630475" OwnPage="0" ItemID="2060577486" PTYPE="4" WIDTH="234.833017901425" HEIGHT="137.232174358109" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L234.833 0 L234.833 137.232 L0 137.232 L0 0 Z" copath="M0 0 L234.834 0 L234.834 137.232 L0 137.232 L0 0 Z" gXpos="601.407692387097" gYpos="1069.87479630475" gWidth="130.603561290322" gHeight="34.1936243404062" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONTSIZE="9" CH="Bekijkt geen enkele bloedafname"/>
+                <breakline/>
+                <ITEXT FONTSIZE="9" CH="Intern verslag Imelda niet tot beschikking "/>
+                <para/>
+                <ITEXT FONTSIZE="9" CH="Luistert zeker niet naar patient "/>
+                <breakline/>
+                <ITEXT FONTSIZE="9" CH="Minstens 1 van deze 3 : "/>
+                <breakline/>
+                <ITEXT FONTSIZE="9" CH="- De Greef geen weet van geen infectie "/>
+                <breakline/>
+                <ITEXT FONTSIZE="9" CH="- De Greef gaf geen infectie door "/>
+                <breakline/>
+                <ITEXT FONTSIZE="9" CH="- Rossenbacker luisterde ook niet naar De Greef"/>
+                <breakline/>
+                <breakline/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="565.270557419355" YPOS="1069.19286864516" OwnPage="0" ItemID="2060495214" PTYPE="2" WIDTH="29.7508190967742" HEIGHT="30.5023260924193" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="0.0581070685483871" LOCALSCY="0.0581070685483871" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="q.png" IRENDER="0" EMBEDDED="0" path="M0 0 L29.7508 0 L29.7508 30.5023 L0 30.5023 L0 0 Z" copath="M0 0 L29.7508 0 L29.7508 30.5023 L0 30.5023 L0 0 Z" gXpos="565.270557419355" gYpos="1069.19286864516" gWidth="29.7508190967742" gHeight="30.5023260924193" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        <PAGEOBJECT XPOS="214" YPOS="430.187639917341" OwnPage="0" ItemID="2060468894" PTYPE="12" WIDTH="503.451838945908" HEIGHT="211.661817952746" FRTYPE="0" CLIPEDIT="0" ANNAME="Copy of Group17 (2)" groupWidth="503.451838945908" groupHeight="211.661817952746" groupClips="1" path="M0 0 L503.452 0 L503.452 211.662 L0 211.662 L0 0 Z" copath="M0 0 L503.452 0 L503.452 211.662 L0 211.662 L0 0 Z" gXpos="214" gYpos="430.187639917341" gWidth="0" gHeight="0" LAYER="0">
+            <PAGEOBJECT XPOS="334.321789306189" YPOS="491.217557251908" OwnPage="0" ItemID="2067526942" PTYPE="6" WIDTH="482.630049639719" HEIGHT="170.131900618179" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="M0 0 L482.63 0 L482.63 170.132 L0 170.132 L0 0 Z" copath="M0 0 L482.63 0 L482.63 170.132 L0 170.132 L0 0 Z" gXpos="20.3217893061894" gYpos="41.029917334567" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0"/>
+            <PAGEOBJECT XPOS="314" YPOS="473.943460190392" OwnPage="0" ItemID="2067488206" PTYPE="2" WIDTH="46.6133870288022" HEIGHT="43.984381935169" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.121169096240135" LOCALSCY="0.121169096240135" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Huisartsenpost.png" IRENDER="0" EMBEDDED="0" path="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" copath="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" gXpos="0" gYpos="23.7558202730514" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="367.374045801527" YPOS="516.145038167939" OwnPage="0" ItemID="2067316542" PTYPE="2" WIDTH="30.2290076335878" HEIGHT="30.8549618320611" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0482891495744214" LOCALSCY="0.0482891495744214" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="crt.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" copath="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" gXpos="53.374045801527" gYpos="65.957398250598" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="402.076335877863" YPOS="524.592356433314" OwnPage="0" ItemID="2067509758" PTYPE="4" WIDTH="144.646727356108" HEIGHT="14.781689368213" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L144.647 0 L144.647 14.7817 L0 14.7817 L0 0 Z" copath="M0 0 L144.647 0 L144.647 14.7817 L0 14.7817 L0 0 Z" gXpos="88.0763358778629" gYpos="74.4047165159727" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="12" CH="9mg"/>
+                    <ITEXT CH=" =&gt; 84mg !!         "/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="742.796338876063" YPOS="450.187639917341" OwnPage="0" ItemID="2075512894" PTYPE="2" WIDTH="50.5362999999972" HEIGHT="48.7912974785213" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822365852355" PLINEART="1" LOCALSCX="0.180041688112625" LOCALSCY="0.180041688112625" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="discart.png" IRENDER="0" EMBEDDED="0" path="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" copath="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" gXpos="428.796338876063" gYpos="0" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="748.051637827222" YPOS="500.294693892966" OwnPage="0" ItemID="2075508206" PTYPE="4" WIDTH="43.5153984263818" HEIGHT="10.0080460243759" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822365852355" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L43.5154 0 L43.5154 10.008 L0 10.008 L0 0 Z" copath="M0 0 L43.5154 0 L43.5154 10.008 L0 10.008 L0 0 Z" gXpos="434.051637827222" gYpos="50.1070539756248" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="7.7" CH="V. Discard"/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="402.263592532365" YPOS="566.997549995559" OwnPage="0" ItemID="2075471390" PTYPE="4" WIDTH="346.231424238365" HEIGHT="83.7584428623212" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L346.231 0 L346.231 83.7584 L0 83.7584 L0 0 Z" copath="M0 0 L346.231 0 L346.231 83.7584 L0 83.7584 L0 0 Z" gXpos="88.2635925323655" gYpos="116.809910078218" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT CH="- Ik vond geen verslagen"/>
+                    <para/>
+                    <ITEXT CH="- Bloedwaarden redelijk hoog =&gt; naar Mieke gebeld"/>
+                    <para/>
+                    <ITEXT CH="- Ik was zelf beetje ongerust "/>
+                    <para/>
+                    <ITEXT CH="- Naar De Greef gebeld : hoog crt, volg jij op ?"/>
+                    <para/>
+                    <ITEXT CH="- Denk ik toch... kan nakijken in telefoonlijsten"/>
+                    <para/>
+                    <ITEXT CH=" "/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="370.395895443514" YPOS="567.337215170523" OwnPage="0" ItemID="2075586174" PTYPE="2" WIDTH="22.5347015188287" HEIGHT="25.5347015188288" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0440130889039623" LOCALSCY="0.0440130889039623" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="tekstballon.png" IRENDER="0" EMBEDDED="0" path="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" copath="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" gXpos="56.3958954435138" gYpos="117.149575253182" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="214" YPOS="430.187639917341" OwnPage="0" ItemID="2067318654" PTYPE="12" WIDTH="503.451838945908" HEIGHT="211.661817952746" FRTYPE="0" CLIPEDIT="0" ANNAME="Copy of Group17 (3)" groupWidth="503.451838945908" groupHeight="211.661817952746" groupClips="1" path="M0 0 L503.452 0 L503.452 211.662 L0 211.662 L0 0 Z" copath="M0 0 L503.452 0 L503.452 211.662 L0 211.662 L0 0 Z" gXpos="214" gYpos="430.187639917341" gWidth="0" gHeight="0" LAYER="0">
+            <PAGEOBJECT XPOS="434.321789306189" YPOS="511.217557251908" OwnPage="0" ItemID="2067325934" PTYPE="6" WIDTH="482.630049639719" HEIGHT="170.131900618179" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR2="Black" PLINEART="1" path="M0 0 L482.63 0 L482.63 170.132 L0 170.132 L0 0 Z" copath="M0 0 L482.63 0 L482.63 170.132 L0 170.132 L0 0 Z" gXpos="20.3217893061894" gYpos="41.029917334567" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0"/>
+            <PAGEOBJECT XPOS="414" YPOS="493.943460190392" OwnPage="0" ItemID="2075560350" PTYPE="2" WIDTH="46.6133870288022" HEIGHT="43.984381935169" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.121169096240135" LOCALSCY="0.121169096240135" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="Huisartsenpost.png" IRENDER="0" EMBEDDED="0" path="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" copath="M0 0 L46.6134 0 L46.6134 43.9844 L0 43.9844 L0 0 Z" gXpos="0" gYpos="23.7558202730514" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="467.374045801527" YPOS="536.145038167939" OwnPage="0" ItemID="2075545662" PTYPE="2" WIDTH="30.2290076335878" HEIGHT="30.8549618320611" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0482891495744214" LOCALSCY="0.0482891495744214" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="crt.png" PRFILE="Embedded sRGB built-in" IRENDER="0" EPROF="Embedded sRGB built-in" path="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" copath="M0 0 L30.229 0 L30.229 30.855 L0 30.855 L0 0 Z" gXpos="53.374045801527" gYpos="65.957398250598" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="502.076335877863" YPOS="544.592356433314" OwnPage="0" ItemID="2077652334" PTYPE="4" WIDTH="144.646727356108" HEIGHT="14.781689368213" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L144.647 0 L144.647 14.7817 L0 14.7817 L0 0 Z" copath="M0 0 L144.647 0 L144.647 14.7817 L0 14.7817 L0 0 Z" gXpos="88.0763358778629" gYpos="74.4047165159727" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="12" CH="9mg"/>
+                    <ITEXT CH=" =&gt; 84mg !!         "/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="842.796338876063" YPOS="470.187639917341" OwnPage="0" ItemID="2077668622" PTYPE="2" WIDTH="50.5362999999972" HEIGHT="48.7912974785213" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822365852355" PLINEART="1" LOCALSCX="0.180041688112625" LOCALSCY="0.180041688112625" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="discart.png" IRENDER="0" EMBEDDED="0" path="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" copath="M0 0 L50.5363 0 L50.5363 48.7913 L0 48.7913 L0 0 Z" gXpos="428.796338876063" gYpos="0" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+            <PAGEOBJECT XPOS="848.051637827222" YPOS="520.294693892966" OwnPage="0" ItemID="2077647214" PTYPE="4" WIDTH="43.5153984263818" HEIGHT="10.0080460243759" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.909822365852355" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L43.5154 0 L43.5154 10.008 L0 10.008 L0 0 Z" copath="M0 0 L43.5154 0 L43.5154 10.008 L0 10.008 L0 0 Z" gXpos="434.051637827222" gYpos="50.1070539756248" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT FONTSIZE="7.7" CH="V. Discard"/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="502.263592532365" YPOS="586.997549995559" OwnPage="0" ItemID="2077629582" PTYPE="4" WIDTH="346.231424238365" HEIGHT="83.7584428623212" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L346.231 0 L346.231 83.7584 L0 83.7584 L0 0 Z" copath="M0 0 L346.231 0 L346.231 83.7584 L0 83.7584 L0 0 Z" gXpos="88.2635925323655" gYpos="116.809910078218" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+                <StoryText>
+                    <DefaultStyle/>
+                    <ITEXT CH="- Ik vond geen verslagen"/>
+                    <para/>
+                    <ITEXT CH="- Bloedwaarden redelijk hoog =&gt; naar Mieke gebeld"/>
+                    <para/>
+                    <ITEXT CH="- Ik was zelf beetje ongerust "/>
+                    <para/>
+                    <ITEXT CH="- Naar De Greef gebeld : hoog crt, volg jij op ?"/>
+                    <para/>
+                    <ITEXT CH="- Denk ik toch... kan nakijken in telefoonlijsten"/>
+                    <para/>
+                    <ITEXT CH=" "/>
+                    <trail/>
+                </StoryText>
+            </PAGEOBJECT>
+            <PAGEOBJECT XPOS="470.395895443514" YPOS="587.337215170523" OwnPage="0" ItemID="2077719262" PTYPE="2" WIDTH="22.5347015188287" HEIGHT="25.5347015188288" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="0.0440130889039623" LOCALSCY="0.0440130889039623" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="0" RATIO="1" Pagenumber="0" PFILE="tekstballon.png" IRENDER="0" EMBEDDED="0" path="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" copath="M0 0 L22.5347 0 L22.5347 25.5347 L0 25.5347 L0 0 Z" gXpos="56.3958954435138" gYpos="117.149575253182" gWidth="503.451838945908" gHeight="211.661817952746" LAYER="0" NEXTITEM="-1" BACKITEM="-1"/>
+        </PAGEOBJECT>
+    </DOCUMENT>
+</SCRIBUSUTF8NEW>
